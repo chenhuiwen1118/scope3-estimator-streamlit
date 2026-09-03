@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "title": "GHG Protocol Scope 3 十五類別完整對照表",
+    "description": "根據 GHG Protocol Corporate Value Chain (Scope 3) Standard 定義的 15 個類別",
+    "version": "1.0",
+    "last_updated": "2026-01-29",
+    "source": "GHG Protocol Scope 3 Standard",
+    "reference_url": "https://ghgprotocol.org/standards/scope-3-standard"
+  },
+
+  "upstream_categories": [
+    {
+      "category_number": 1,
+      "category_name_en": "Purchased goods and services",
+      "category_name_zh": "購買之商品及勞務",
+      "scope": "upstream",
+      "description": "採購或取得上游產品與服務（包括資本財以外）的生產所產生的排放",
+      "typical_items": [
+        "原物料採購",
+        "包裝材料",
+        "辦公用品、文具",
+        "運輸服務（非自有車輛）",
+        "專業服務（顧問、法律、會計）",
+        "清潔服務",
+        "餐飲服務",
+        "廣告行銷服務",
+        "維修保養服務",
+        "軟體訂閱（非永久授權）"
+      ],
+      "accounting_subjects": ["進貨", "原物料", "商品", "營業費用", "勞務費", "文具用品", "修繕費"],
+      "data_collection_methods": [
+        "供應商特定法（最佳）",
+        "混合法",
+        "平均資料法（使用排放係數）",
+        "花費基礎法（使用 EEIO）"
+      ],
+      "calculation_formula": "活動數據（重量、數量或金額）× 排放係數",
+      "tier_mapping": {
+        "tier1": "台灣本地商品與服務",
+        "tier2": "國際產品與服務",
+        "tier3": "無法取得特定係數時，使用 EEIO（花費基礎法）"
+      },
+      "notes": "此類別為 Scope 3 中最大的類別，通常佔企業 Scope 3 總排放的 50-80%"
+    },
+    {
+      "category_number": 2,
+      "category_name_en": "Capital goods",
+      "category_name_zh": "資本財",
+      "scope": "upstream",
+      "description": "採購或取得的資本財的生產所產生的排放",
+      "definition": "在財務會計中列為固定資產或 PP&E（不動產、廠房及設備）的項目",
+      "typical_items": [
+        "機械設備",
+        "運輸工具（車輛）",
+        "建築物、廠房",
+        "辦公設備（已資本化）",
+        "資訊設備（已資本化，如伺服器）",
+        "家具（整批採購）",
+        "土地改良物"
+      ],
+      "accounting_subjects": ["不動產、廠房及設備", "固定資產", "機械設備", "運輸設備", "建築物", "資本支出"],
+      "distinction_from_category1": {
+        "key_difference": "依據企業的財務會計程序判斷",
+        "rule": "若列為固定資產 → Category 2；若列為費用 → Category 1",
+        "examples": [
+          {"item": "電腦設備", "amount": 50000, "accounting": "資訊設備（固定資產）", "category": 2},
+          {"item": "電腦週邊", "amount": 5000, "accounting": "辦公用品（費用）", "category": 1}
+        ]
+      },
+      "data_collection_methods": [
+        "供應商特定法",
+        "混合法",
+        "平均資料法",
+        "花費基礎法"
+      ],
+      "calculation_formula": "活動數據（重量、數量或金額）× 排放係數",
+      "timing_note": "GHG Protocol 建議在購買年度一次性報告全部排放，而非隨折舊攤提",
+      "tier_mapping": {
+        "tier1": "台灣本地設備",
+        "tier2": "進口設備（歐美日）",
+        "tier3": "無法取得特定係數時使用 EEIO"
+      },
+      "notes": "資本財通常為高價值、長使用年限（> 2 年）的項目"
+    },
+    {
+      "category_number": 3,
+      "category_name_en": "Fuel- and energy-related activities (not included in Scope 1 or 2)",
+      "category_name_zh": "燃料及能源相關活動（未包含在範疇一或範疇二）",
+      "scope": "upstream",
+      "description": "Scope 1 & 2 使用的燃料與能源的上游排放（如開採、運輸、輸配損失）",
+      "typical_items": [
+        "購買電力的上游排放（如發電廠建設、輸配電損失）",
+        "購買燃料的上游排放（如石油開採、煉製、運輸）",
+        "T&D 損失"
+      ],
+      "accounting_subjects": ["水電瓦斯費", "燃料費"],
+      "calculation_formula": "Scope 1 & 2 的能源用量 × 上游排放係數",
+      "tier_mapping": {
+        "tier1": "台灣電網 T&D 損失係數",
+        "tier2": "國際燃料上游係數",
+        "tier3": "能源產業 EEIO 係數"
+      },
+      "notes": "此類別通常佔 Scope 3 的 5-15%"
+    },
+    {
+      "category_number": 4,
+      "category_name_en": "Upstream transportation and distribution",
+      "category_name_zh": "上游運輸與配送",
+      "scope": "upstream",
+      "description": "採購產品的運輸與配送（由供應商或第三方物流執行，非公司自有車輛）",
+      "typical_items": [
+        "原物料運輸（供應商到工廠）",
+        "產品運輸（工廠到倉庫）",
+        "第三方物流服務",
+        "海運、空運費",
+        "快遞服務"
+      ],
+      "accounting_subjects": ["運費", "物流費"],
+      "calculation_formula": "噸-公里 × 運輸排放係數 或 運輸支出 × 花費基礎係數",
+      "tier_mapping": {
+        "tier1": "台灣貨運排放係數（環境部）",
+        "tier2": "國際運輸係數（GLEC, DEFRA）",
+        "tier3": "運輸業 EEIO 係數"
+      },
+      "notes": "若使用公司自有車輛運輸，應列入 Scope 1，而非 Scope 3"
+    },
+    {
+      "category_number": 5,
+      "category_name_en": "Waste generated in operations",
+      "category_name_zh": "營運產生之廢棄物",
+      "scope": "upstream",
+      "description": "營運過程產生的廢棄物的處理與處置所產生的排放",
+      "typical_items": [
+        "一般事業廢棄物",
+        "有害廢棄物",
+        "廢水處理",
+        "回收處理"
+      ],
+      "accounting_subjects": ["廢棄物處理費", "環保費用"],
+      "calculation_formula": "廢棄物重量（噸）× 處理方法排放係數",
+      "tier_mapping": {
+        "tier1": "台灣廢棄物處理係數",
+        "tier2": "國際廢棄物處理係數",
+        "tier3": "廢棄物處理業 EEIO 係數"
+      },
+      "notes": "焚化、掩埋、回收等不同處理方法的排放係數差異很大"
+    },
+    {
+      "category_number": 6,
+      "category_name_en": "Business travel",
+      "category_name_zh": "商務旅行",
+      "scope": "upstream",
+      "description": "員工因公務旅行產生的排放（非通勤）",
+      "typical_items": [
+        "飛機差旅",
+        "高鐵、火車",
+        "計程車、Uber",
+        "租車",
+        "飯店住宿"
+      ],
+      "accounting_subjects": ["旅費", "交通費", "差旅費"],
+      "calculation_formula": "距離（公里）× 交通工具排放係數 或 支出金額 × 花費基礎係數",
+      "tier_mapping": {
+        "tier1": "台灣高鐵、台鐵係數",
+        "tier2": "國際航空、鐵路係數（DEFRA）",
+        "tier3": "運輸業 EEIO 係數"
+      },
+      "notes": "員工通勤不屬於此類別，應列入 Category 7"
+    },
+    {
+      "category_number": 7,
+      "category_name_en": "Employee commuting",
+      "category_name_zh": "員工通勤",
+      "scope": "upstream",
+      "description": "員工往返住家與工作地點的交通排放",
+      "typical_items": [
+        "員工開車通勤",
+        "員工搭乘大眾運輸",
+        "員工騎機車、自行車",
+        "遠距工作（家中用電）"
+      ],
+      "accounting_subjects": ["員工福利", "交通補助"],
+      "calculation_formula": "通勤距離 × 天數 × 交通工具排放係數",
+      "data_collection_methods": [
+        "員工問卷調查",
+        "公司提供的交通補助推估",
+        "平均通勤距離估算"
+      ],
+      "tier_mapping": {
+        "tier1": "台灣運輸工具排放係數",
+        "tier2": "國際運輸係數",
+        "tier3": "運輸業 EEIO 係數"
+      },
+      "notes": "此類別需要員工配合提供資料，通常採用抽樣推估"
+    },
+    {
+      "category_number": 8,
+      "category_name_en": "Upstream leased assets",
+      "category_name_zh": "上游租賃資產",
+      "scope": "upstream",
+      "description": "企業租賃（作為承租人）的資產的營運排放",
+      "typical_items": [
+        "租賃辦公室",
+        "租賃廠房",
+        "租賃車輛",
+        "租賃設備"
+      ],
+      "accounting_subjects": ["租金支出"],
+      "calculation_formula": "租賃面積 × 能源使用強度 × 排放係數",
+      "applicability": "若租賃資產的能源使用已列入 Scope 1 或 2，則此類別不適用",
+      "tier_mapping": {
+        "tier1": "台灣建築能源使用資料",
+        "tier2": "國際建築能源標準",
+        "tier3": "租賃業 EEIO 係數"
+      },
+      "notes": "IFRS 16 後，大部分租賃已認列為使用權資產，會計處理已改變"
+    }
+  ],
+
+  "downstream_categories": [
+    {
+      "category_number": 9,
+      "category_name_en": "Downstream transportation and distribution",
+      "category_name_zh": "下游運輸與配送",
+      "scope": "downstream",
+      "description": "產品銷售後的運輸與配送（由客戶或第三方執行）",
+      "typical_items": [
+        "產品配送給客戶",
+        "零售商配送",
+        "電商物流"
+      ],
+      "accounting_subjects": ["運費支出（代客戶支付）"],
+      "calculation_formula": "噸-公里 × 運輸排放係數",
+      "tier_mapping": {
+        "tier1": "台灣物流排放係數",
+        "tier2": "國際物流係數",
+        "tier3": "運輸業 EEIO 係數"
+      },
+      "notes": "若產品運輸由公司負責且已列入 Scope 1，則不列入此類別"
+    },
+    {
+      "category_number": 10,
+      "category_name_en": "Processing of sold products",
+      "category_name_zh": "售出產品之加工",
+      "scope": "downstream",
+      "description": "中間產品被下游企業進一步加工的排放",
+      "typical_items": [
+        "原物料供應商 → 下游製造商加工",
+        "零組件供應商 → 下游組裝廠加工"
+      ],
+      "applicability": "主要適用於中間產品供應商（非最終消費品）",
+      "calculation_formula": "產品數量 × 下游加工排放係數",
+      "tier_mapping": {
+        "tier1": "台灣製造業加工係數",
+        "tier2": "國際製造業係數",
+        "tier3": "製造業 EEIO 係數"
+      },
+      "notes": "大部分零售或服務業不適用此類別"
+    },
+    {
+      "category_number": 11,
+      "category_name_en": "Use of sold products",
+      "category_name_zh": "售出產品之使用",
+      "scope": "downstream",
+      "description": "產品在使用階段產生的排放",
+      "typical_items": [
+        "電器產品使用（耗電）",
+        "燃油車輛使用（耗油）",
+        "暖通空調設備使用"
+      ],
+      "applicability": "適用於使用階段會直接或間接產生排放的產品",
+      "calculation_formula": "產品數量 × 使用壽命 × 能源消耗率 × 排放係數",
+      "tier_mapping": {
+        "tier1": "台灣電網排放係數",
+        "tier2": "國際電網係數、產品能耗資料",
+        "tier3": "能源業 EEIO 係數"
+      },
+      "notes": "此類別對家電、汽車、設備製造商非常重要，可能佔 Scope 3 的 80% 以上"
+    },
+    {
+      "category_number": 12,
+      "category_name_en": "End-of-life treatment of sold products",
+      "category_name_zh": "售出產品之生命終期處理",
+      "scope": "downstream",
+      "description": "產品廢棄後的處理與處置排放",
+      "typical_items": [
+        "產品焚化",
+        "產品掩埋",
+        "產品回收"
+      ],
+      "calculation_formula": "產品重量 × 廢棄處理方法排放係數",
+      "tier_mapping": {
+        "tier1": "台灣廢棄物處理係數",
+        "tier2": "國際廢棄物處理係數",
+        "tier3": "廢棄物處理業 EEIO 係數"
+      },
+      "notes": "可回收設計可顯著降低此類別排放"
+    },
+    {
+      "category_number": 13,
+      "category_name_en": "Downstream leased assets",
+      "category_name_zh": "下游租賃資產",
+      "scope": "downstream",
+      "description": "企業擁有並出租給他人的資產的營運排放",
+      "typical_items": [
+        "出租辦公室",
+        "出租廠房",
+        "出租車輛"
+      ],
+      "applicability": "適用於資產所有人（出租方），若為承租方則為 Category 8",
+      "calculation_formula": "租賃面積 × 能源使用強度 × 排放係數",
+      "tier_mapping": {
+        "tier1": "台灣建築能源使用資料",
+        "tier2": "國際建築能源標準",
+        "tier3": "租賃業 EEIO 係數"
+      },
+      "notes": "若承租方已報告能源使用，出租方可不重複計算"
+    },
+    {
+      "category_number": 14,
+      "category_name_en": "Franchises",
+      "category_name_zh": "加盟",
+      "scope": "downstream",
+      "description": "加盟商營運產生的排放",
+      "typical_items": [
+        "連鎖餐飲加盟店",
+        "連鎖零售加盟店",
+        "連鎖服務業加盟店"
+      ],
+      "applicability": "適用於加盟主（非加盟商）",
+      "calculation_formula": "加盟店數 × 平均每店排放",
+      "data_collection_methods": [
+        "加盟商提供能源使用資料",
+        "平均值推估"
+      ],
+      "tier_mapping": {
+        "tier1": "台灣零售業排放資料",
+        "tier2": "國際零售業標準",
+        "tier3": "零售業 EEIO 係數"
+      },
+      "notes": "需要加盟商配合提供資料"
+    },
+    {
+      "category_number": 15,
+      "category_name_en": "Investments",
+      "category_name_zh": "投資",
+      "scope": "downstream",
+      "description": "投資活動相關的排放",
+      "typical_items": [
+        "股權投資",
+        "債務投資",
+        "專案融資",
+        "管理投資與客戶服務"
+      ],
+      "applicability": "主要適用於金融機構（銀行、保險、投資公司）",
+      "calculation_formula": "投資金額 × 被投資方排放強度 × 持股比例",
+      "tier_mapping": {
+        "tier1": "台灣上市公司排放資料",
+        "tier2": "國際企業排放資料",
+        "tier3": "產業平均排放強度"
+      },
+      "notes": "金融業的主要 Scope 3 排放來源"
+    }
+  ],
+
+  "category_applicability_guide": {
+    "description": "並非所有 15 個類別都適用於每個企業",
+    "decision_tree": {
+      "category_1": "必須報告（除非無採購）",
+      "category_2": "必須報告（除非無資本支出）",
+      "category_3": "必須報告（若有 Scope 1 或 2 排放）",
+      "category_4": "適用於大部分企業",
+      "category_5": "適用於產生廢棄物的企業",
+      "category_6": "適用於有商務旅行的企業",
+      "category_7": "適用於有員工的企業",
+      "category_8": "僅適用於租賃資產的企業",
+      "category_9": "適用於銷售實體產品的企業",
+      "category_10": "主要適用於中間產品供應商",
+      "category_11": "適用於產品使用階段消耗能源的企業",
+      "category_12": "適用於銷售實體產品的企業",
+      "category_13": "僅適用於出租資產的企業",
+      "category_14": "僅適用於加盟主",
+      "category_15": "僅適用於金融機構"
+    },
+    "typical_reporting_scope": {
+      "manufacturing": "通常報告 Category 1, 2, 3, 4, 5, 6, 7, 9, 11, 12",
+      "retail": "通常報告 Category 1, 2, 3, 4, 5, 6, 7, 9, 12",
+      "services": "通常報告 Category 1, 2, 3, 6, 7, 8",
+      "financial": "通常報告 Category 1, 2, 3, 6, 7, 15"
+    }
+  },
+
+  "reporting_requirements": {
+    "mandatory": "Category 1（購買商品）和 Category 2（資本財）為強制報告",
+    "optional_but_recommended": "其他類別視適用性報告",
+    "exclusion_justification": "若某類別不適用，需在報告中說明理由",
+    "data_quality": "每個類別需揭露資料品質（技術、時間、地理代表性）"
+  }
+}

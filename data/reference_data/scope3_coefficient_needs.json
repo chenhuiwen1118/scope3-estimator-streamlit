@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "name": "Scope 3 coefficient needs for Taiwan-focused matching",
+    "version": "2026-06-29",
+    "description": "Practical coefficient coverage map for Scope 3 matching and batch review."
+  },
+  "categories": [
+    {
+      "category": "類別 1",
+      "name": "購買商品與服務",
+      "priority": "最高",
+      "needed_factors": "原物料、包材、食品原料、化學品、辦公用品、外包服務",
+      "taiwan_sources": "環境部產品碳足跡、排放係數管理表、產業/法人 LCA 資料",
+      "keywords": "鋼鐵 鋁 塑膠 橡膠 紙 紙箱 化學品 溶劑 食品 包材 服務"
+    },
+    {
+      "category": "類別 2",
+      "name": "資本財",
+      "priority": "最高",
+      "needed_factors": "機械設備、電腦設備、伺服器、車輛、廠房與工程材料",
+      "taiwan_sources": "環境部產品碳足跡、公共工程/營建材料、EEIO 補充",
+      "keywords": "設備 機械 電腦 伺服器 車輛 工程 建材 固定資產"
+    },
+    {
+      "category": "類別 3",
+      "name": "燃料與能源相關活動",
+      "priority": "最高",
+      "needed_factors": "電力上游、燃料開採/生產/運輸、汽柴油、天然氣、LPG、燃料油",
+      "taiwan_sources": "排放係數管理表、經濟部能源署/台電年度電力係數",
+      "keywords": "電力 燃料 汽油 柴油 天然氣 液化石油氣 燃料油 上游排放"
+    },
+    {
+      "category": "類別 4",
+      "name": "上游運輸與配送",
+      "priority": "最高",
+      "needed_factors": "貨車、噸公里、海運、空運、鐵路、冷鏈、倉儲、快遞",
+      "taiwan_sources": "環境部產品碳足跡、排放係數管理表、交通/物流公開係數",
+      "keywords": "貨運 物流 配送 倉儲 海運 空運 鐵路 冷鏈 快遞"
+    },
+    {
+      "category": "類別 5",
+      "name": "營運產生廢棄物",
+      "priority": "最高",
+      "needed_factors": "一般事業廢棄物、廢塑膠、廢紙、廢金屬、污泥、焚化、掩埋、回收",
+      "taiwan_sources": "環境部產品碳足跡、排放係數管理表、廢棄物處理資料",
+      "keywords": "廢棄物 回收 焚化 掩埋 污泥 廢塑膠 廢紙 廢金屬"
+    },
+    {
+      "category": "類別 6",
+      "name": "商務旅行",
+      "priority": "中高",
+      "needed_factors": "航空、高鐵、台鐵、捷運、計程車、租車、住宿",
+      "taiwan_sources": "環境部產品碳足跡、運輸服務係數、住宿服務係數",
+      "keywords": "商旅 航空 高鐵 台鐵 捷運 計程車 租車 住宿"
+    },
+    {
+      "category": "類別 7",
+      "name": "員工通勤",
+      "priority": "中高",
+      "needed_factors": "機車、汽車、公車、捷運、台鐵、高鐵，人公里或車公里係數",
+      "taiwan_sources": "排放係數管理表、運輸服務係數、交通統計補充",
+      "keywords": "通勤 機車 汽車 公車 捷運 台鐵 高鐵 人公里 車公里"
+    },
+    {
+      "category": "類別 8",
+      "name": "上游租賃資產",
+      "priority": "中",
+      "needed_factors": "租賃辦公室、租用設備、租賃車輛、用電、用水、空調",
+      "taiwan_sources": "電力係數、用水係數、設備/建物係數、EEIO 補充",
+      "keywords": "租賃 辦公室 設備 車輛 用電 用水 空調"
+    },
+    {
+      "category": "類別 9",
+      "name": "下游運輸與配送",
+      "priority": "中高",
+      "needed_factors": "售出產品配送、宅配、零售物流、冷鏈配送",
+      "taiwan_sources": "環境部產品碳足跡、交通/物流公開係數",
+      "keywords": "下游配送 宅配 零售物流 冷鏈 出貨 配送"
+    },
+    {
+      "category": "類別 10",
+      "name": "銷售產品加工",
+      "priority": "視產業",
+      "needed_factors": "半成品加工、金屬加工、食品加工、塑膠成型、電子組裝",
+      "taiwan_sources": "產品碳足跡、產業/法人 LCA、EEIO 補充",
+      "keywords": "加工 半成品 金屬加工 食品加工 塑膠成型 電子組裝"
+    },
+    {
+      "category": "類別 11",
+      "name": "銷售產品使用",
+      "priority": "視產業",
+      "needed_factors": "產品使用階段用電、燃料、耗材、維護",
+      "taiwan_sources": "電力係數、燃料係數、產品規格/使用情境資料",
+      "keywords": "產品使用 用電 燃料 耗材 維護 使用階段"
+    },
+    {
+      "category": "類別 12",
+      "name": "銷售產品最終處理",
+      "priority": "視產業",
+      "needed_factors": "報廢、回收、焚化、掩埋、電子產品、包裝材、塑膠、金屬、紙類",
+      "taiwan_sources": "環境部產品碳足跡、廢棄物處理係數",
+      "keywords": "最終處理 報廢 回收 焚化 掩埋 包裝 電子產品"
+    },
+    {
+      "category": "類別 13",
+      "name": "下游租賃資產",
+      "priority": "視產業",
+      "needed_factors": "出租設備、出租建物使用階段能源",
+      "taiwan_sources": "電力係數、燃料係數、設備使用係數",
+      "keywords": "出租設備 出租建物 租賃資產 使用階段 能源"
+    },
+    {
+      "category": "類別 14",
+      "name": "加盟",
+      "priority": "視產業",
+      "needed_factors": "門市用電、燃氣、冷藏、物流、廢棄物",
+      "taiwan_sources": "電力係數、燃料係數、物流/廢棄物係數、門市活動資料",
+      "keywords": "加盟 門市 用電 燃氣 冷藏 物流 廢棄物"
+    },
+    {
+      "category": "類別 15",
+      "name": "投資",
+      "priority": "後續",
+      "needed_factors": "被投資公司排放、產業平均、融資排放",
+      "taiwan_sources": "公司永續報告書、公開資訊、EEIO 產業平均",
+      "keywords": "投資 融資 股權 債權 被投資公司 產業平均"
+    }
+  ]
+}

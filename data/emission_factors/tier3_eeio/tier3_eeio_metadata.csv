@@ -1,0 +1,1201 @@
+﻿source,country,country_name,product_id,product_name,product_code,emission_factor_per_meur,unit,base_year,tier
+EXIOBASE,TW,台灣,1,Paddy rice,C_PARI,1244970.550735908,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,2,Wheat,C_WHEA,487438.4436985925,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,3,Cereal grains nec,C_OCER,1720353.8437855018,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,4,"Vegetables, fruit, nuts",C_FVEG,48525.46011135288,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,5,Oil seeds,C_OILS,280512.4467336262,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,6,"Sugar cane, sugar beet",C_SUGB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,7,Plant-based fibers,C_FIBR,22.12174589816162,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,8,Crops nec,C_OTCR,12231.306724242302,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,9,Cattle,C_CATL,1487.4774945167378,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,10,Pigs,C_PIGS,665.1142802982164,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,11,Poultry,C_PLTR,557.4320662323007,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,12,Meat animals nec,C_OMEA,20.37466539318979,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,13,Animal products nec,C_OANP,3159.606672100468,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,14,Raw milk,C_MILK,1548.5867335281805,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,15,"Wool, silk-worm cocoons",C_WOOL,0.0824179624270074,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,18,"Products of forestry, logging and related services (02)",C_FORE,207646.41925635893,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,22686.324274268496,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,20,Anthracite,C_ANTH,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,21,Coking Coal,C_COKC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,22,Other Bituminous Coal,C_OTBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,23,Sub-Bituminous Coal,C_SUBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,24,Patent Fuel,C_PATF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,25,Lignite/Brown Coal,C_LIBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,26,BKB/Peat Briquettes,C_BKBP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,27,Peat,C_PEAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,9235.719722083457,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,475986.8825205647,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,30,Natural Gas Liquids,C_GASL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,31,Other Hydrocarbons,C_OGPL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,32,Uranium and thorium ores (12),C_ORAN,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,33,Iron ores,C_IRON,15.287698290821652,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,34,Copper ores and concentrates,C_COPO,189.8891312273272,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,35,Nickel ores and concentrates,C_NIKO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,36,Aluminium ores and concentrates,C_ALUO,1055.9513915920909,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,37,Precious metal ores and concentrates,C_PREO,1335.6994877568916,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,38,"Lead, zinc and tin ores and concentrates",C_LZTO,11849758.53742558,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,39,Other non-ferrous metal ores and concentrates,C_ONFO,53.495644770349536,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,40,Stone,C_STON,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,41,Sand and clay,C_SDCL,53139.5314105388,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,611843.3257591391,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,43,Products of meat cattle,C_PCAT,388663.9154377853,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,44,Products of meat pigs,C_PPIG,102089.26925425076,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,45,Products of meat poultry,C_PPLT,37850.557464675374,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,46,Meat products nec,C_POME,220016.2598415532,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,47,products of Vegetable oils and fats,C_VOIL,975.6938601995896,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,48,Dairy products,C_DAIR,3920.7066973947135,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,49,Processed rice,C_RICE,23842.235354715565,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,50,Sugar,C_SUGR,2108.629299213568,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,51,Food products nec,C_OFOD,2417.9537037111986,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,52,Beverages,C_BEVR,33279.38564088533,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,53,Fish products,C_FSHP,204368.15895962596,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,54,Tobacco products (16),C_TOBC,357755.5235283074,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,55,Textiles (17),C_TEXT,39933.582506470426,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,56,Wearing apparel; furs (18),C_GARM,21651.539939114464,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,57,Leather and leather products (19),C_LETH,16741.58284452025,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,20346.693839367163,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,60,Pulp,C_PULP,11636924.73434778,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,62,Paper and paper products,C_PAPE,126692.23684002925,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,63,Printed matter and recorded media (22),C_MDIA,14528.811247738928,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,64,Coke Oven Coke,C_COKE,2431436.3078447217,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,65,Gas Coke,C_GCOK,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,66,Coal Tar,C_COTA,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,67,Motor Gasoline,C_MGSL,179089.75156297232,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,68,Aviation Gasoline,C_AGSL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,70,Kerosene Type Jet Fuel,C_KJET,179089.75162505673,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,71,Kerosene,C_KERO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,72,Gas/Diesel Oil,C_DOIL,179089.75157934768,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,73,Heavy Fuel Oil,C_FOIL,179089.7516326503,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,74,Refinery Gas,C_RGAS,179089.75652439918,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,75,Liquefied Petroleum Gases (LPG),C_LPGA,179089.7517767791,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,76,Refinery Feedstocks,C_REFF,179089.75159072856,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,77,Ethane,C_ETHA,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,78,Naphtha,C_NAPT,179089.75148053237,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,79,White Spirit & SBP,C_WHSP,179089.75202284247,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,80,Lubricants,C_LUBR,179089.75263866942,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,81,Bitumen,C_BITU,179089.75233709702,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,82,Paraffin Waxes,C_PARW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,83,Petroleum Coke,C_PETC,179089.76318308598,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,84,Non-specified Petroleum Products,C_NSPP,179089.7526762628,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,85,Nuclear fuel,C_NUCF,177407.03267105934,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,86,"Plastics, basic",C_PLAS,400349.9639776565,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,88,N-fertiliser,C_NFER,130627.73586237316,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,89,P- and other fertiliser,C_PFER,333345.7045178623,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,90,Chemicals nec,C_CHEM,143606.796494447,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,91,Charcoal,C_CHAR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,92,Additives/Blending Components,C_ADDC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,93,Biogasoline,C_BIOG,143606.796748006,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,94,Biodiesels,C_BIOD,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,95,Other Liquid Biofuels,C_OBIO,143606.79682148818,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,96,Rubber and plastic products (25),C_RUBP,9282.93702456036,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,97,Glass and glass products,C_GLAS,170200.5137386832,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,99,Ceramic goods,C_CRMC,3686159.8818854815,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,9087360.213197997,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,101,"Cement, lime and plaster",C_CMNT,1013900.652276501,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,103,Other non-metallic mineral products,C_ONMM,315072.76040888694,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,65306.782692064,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,106,Precious metals,C_PREM,7171.22324354128,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,108,Aluminium and aluminium products,C_ALUM,34615.84213797003,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,110,"Lead, zinc and tin and products thereof",C_LZTP,88398.91099345442,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,112,Copper products,C_COPP,16975.351951565026,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,114,Other non-ferrous metal products,C_ONFM,11577.788338984485,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,116,Foundry work services,C_METC,534451.9525309836,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,9792.713972701738,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,118,Machinery and equipment n.e.c. (29),C_MACH,10469.125633660493,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,119,Office machinery and computers (30),C_OFMA,3424.270157804547,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,14552.739403375685,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,34802.20357430492,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,23984.637925031053,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,114585.46370943775,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,124,Other transport equipment (35),C_OTRE,74479.74701593454,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,7299.586192386459,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,126,Secondary raw materials,C_RYMS,509515.2852633023,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,128,Electricity by coal,C_POWC,12716140.91989594,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,129,Electricity by gas,C_POWG,8719771.956972973,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,130,Electricity by nuclear,C_POWN,19214.264979260293,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,131,Electricity by hydro,C_POWH,154549.66564673753,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,132,Electricity by wind,C_POWW,1588.3246260575525,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,133,Electricity by petroleum and other oil derivatives,C_POWP,6120597.830523032,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,134,Electricity by biomass and waste,C_POWB,367565.7263461614,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,135,Electricity by solar photovoltaic,C_POWS,60889.61256235942,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,136,Electricity by solar thermal,C_POWE,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,137,"Electricity by tide, wave, ocean",C_POWO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,138,Electricity by Geothermal,C_POWM,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,139,Electricity nec,C_POWZ,45.81524687441951,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,140,Transmission services of electricity,C_POWT,3102.430358381362,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,141,Distribution and trade services of electricity,C_POWD,70.75837018604484,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,142,Coke oven gas,C_COOG,10110847.646198666,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,143,Blast Furnace Gas,C_MBFG,10110847.518060436,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,144,Oxygen Steel Furnace Gas,C_MOSG,10110867.587474711,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,145,Gas Works Gas,C_MGWG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,146,Biogas,C_MBIO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,147,Distribution services of gaseous fuels through mains,C_GASD,10110847.452999704,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,148,Steam and hot water supply services,C_HWAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,149,"Collected and purified water, distribution services of water (41)",C_WATR,21658.649729443463,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,150,Construction work (45),C_CONS,5066.965929084876,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,6681.952403531361,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,153,Retail trade services of motor fuel,C_TDFU,57894.90543201378,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,6216.170686133469,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,6483.902263560558,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,156,Hotel and restaurant services (55),C_HORE,5206.648996375781,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,157,Railway transportation services,C_TRAI,97489.38580235362,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,158,Other land transportation services,C_TLND,8190.586260553749,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,159,Transportation services via pipelines,C_TPIP,688767.2790451782,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,160,Sea and coastal water transportation services,C_TWAS,19284716.915441163,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,161,Inland water transportation services,C_TWAI,12327401.021154718,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,162,Air transport services (62),C_TAIR,2846343.2283527968,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,146887.95910255256,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,164,Post and telecommunication services (64),C_PTEL,7031.982074876425,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,32200.063840841125,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,62716.40507306467,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,167,Services auxiliary to financial intermediation (67),C_FAUX,30219.996759919795,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,168,Real estate services (70),C_REAL,24629.88116828809,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,100250.48570411307,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,170,Computer and related services (72),C_COMP,11753.997286663014,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,171,Research and development services (73),C_RESD,74429.95594418551,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,172,Other business services (74),C_OBUS,12402.349473665376,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,173,Public administration and defence services; compulsory social security services (75),C_PADF,24369.561787194147,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,174,Education services (80),C_EDUC,6973.319403763144,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,175,Health and social work services (85),C_HEAL,37562.919934676975,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,176,Food waste for treatment: incineration,C_INCF,409058.9834630037,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,177,Paper waste for treatment: incineration,C_INCP,402085.23281377857,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,178,Plastic waste for treatment: incineration,C_INCL,24060548.085466266,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,179,Intert/metal waste for treatment: incineration,C_INCM,20601958.806824923,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,180,Textiles waste for treatment: incineration,C_INCT,27354059.99937829,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,181,Wood waste for treatment: incineration,C_INCW,421001.2381918674,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,182,Oil/hazardous waste for treatment: incineration,C_INCO,49192.09692990708,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,183,Food waste for treatment: biogasification and land application,C_BIOF,19020.057787488266,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,184,Paper waste for treatment: biogasification and land application,C_BIOP,15981.875117652457,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,11384.385282110316,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,186,Food waste for treatment: composting and land application,C_COMF,94245.07937332153,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,187,Paper and wood waste for treatment: composting and land application,C_COMW,17628.99263417352,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,188,Food waste for treatment: waste water treatment,C_WASF,120684.62867068515,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,189,Other waste for treatment: waste water treatment,C_WASO,108817.23635860064,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,190,Food waste for treatment: landfill,C_LANF,110746.1743950465,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,191,Paper for treatment: landfill,C_LANP,77937.49241199225,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,192,Plastic waste for treatment: landfill,C_LANL,90237.7744487076,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,66245.44753362518,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,194,Textiles waste for treatment: landfill,C_LANT,47798.70402094161,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,195,Wood waste for treatment: landfill,C_LANW,50402.22191169397,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,196,Membership organisation services n.e.c. (91),C_ORGA,21446.981852995625,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,197,"Recreational, cultural and sporting services (92)",C_RECR,6603.521091698754,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,198,Other services (93),C_OSER,5665.931990331172,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,199,Private households with employed persons (95),C_PRHH,11356.11126254056,kg CO2e/M.EUR,2022,3
+EXIOBASE,TW,台灣,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,1,Paddy rice,C_PARI,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,2,Wheat,C_WHEA,118045.4280959673,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,3,Cereal grains nec,C_OCER,127657.9380329392,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,4,"Vegetables, fruit, nuts",C_FVEG,9152.515762394836,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,5,Oil seeds,C_OILS,24203.97358381564,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,6,"Sugar cane, sugar beet",C_SUGB,7989.121120320164,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,7,Plant-based fibers,C_FIBR,633530.2177004713,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,8,Crops nec,C_OTCR,39596.40915016484,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,9,Cattle,C_CATL,61166.182291858975,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,10,Pigs,C_PIGS,133863.3017567099,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,11,Poultry,C_PLTR,47987.81556901739,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,12,Meat animals nec,C_OMEA,34382.87569908716,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,13,Animal products nec,C_OANP,53223.34311707779,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,14,Raw milk,C_MILK,12525.412028716844,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,15,"Wool, silk-worm cocoons",C_WOOL,53090274.97054368,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,18,"Products of forestry, logging and related services (02)",C_FORE,190590.19526461573,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,189158.37613410468,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,20,Anthracite,C_ANTH,37153.74525459624,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,21,Coking Coal,C_COKC,178632.52922411423,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,22,Other Bituminous Coal,C_OTBC,228345.3272139425,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,23,Sub-Bituminous Coal,C_SUBC,37153.74521525721,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,24,Patent Fuel,C_PATF,228345.39157689112,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,25,Lignite/Brown Coal,C_LIBC,37153.745264740646,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,26,BKB/Peat Briquettes,C_BKBP,37153.74508105949,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,27,Peat,C_PEAT,37153.74506378178,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,174982.9902735471,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,515626.0859797376,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,30,Natural Gas Liquids,C_GASL,515798.3100704522,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,31,Other Hydrocarbons,C_OGPL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,32,Uranium and thorium ores (12),C_ORAN,37153.745051781865,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,33,Iron ores,C_IRON,188464.25684575443,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,34,Copper ores and concentrates,C_COPO,37153.74506201405,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,35,Nickel ores and concentrates,C_NIKO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,36,Aluminium ores and concentrates,C_ALUO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,37,Precious metal ores and concentrates,C_PREO,49629385.69554269,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,38,"Lead, zinc and tin ores and concentrates",C_LZTO,385065.8601542514,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,39,Other non-ferrous metal ores and concentrates,C_ONFO,37156.81382808129,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,40,Stone,C_STON,45270.37102460591,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,41,Sand and clay,C_SDCL,45282.428126254286,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,34633.61582195246,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,43,Products of meat cattle,C_PCAT,58018.04335268883,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,44,Products of meat pigs,C_PPIG,48695.12455041956,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,45,Products of meat poultry,C_PPLT,33495.52563605247,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,46,Meat products nec,C_POME,29149.7250338326,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,47,products of Vegetable oils and fats,C_VOIL,80975.42244319891,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,48,Dairy products,C_DAIR,42526.32200912434,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,49,Processed rice,C_RICE,67685.20563182418,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,50,Sugar,C_SUGR,62145.35654298472,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,51,Food products nec,C_OFOD,35586.03749863896,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,52,Beverages,C_BEVR,72121.28673236111,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,53,Fish products,C_FSHP,106311.62556287264,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,54,Tobacco products (16),C_TOBC,32567.201618771727,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,55,Textiles (17),C_TEXT,25709.903431698647,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,56,Wearing apparel; furs (18),C_GARM,133182.42380648924,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,57,Leather and leather products (19),C_LETH,19919.735325815735,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,121590.91122559491,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,60,Pulp,C_PULP,50029.49163048357,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,62,Paper and paper products,C_PAPE,39948.97468981087,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,63,Printed matter and recorded media (22),C_MDIA,42101.48077875136,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,64,Coke Oven Coke,C_COKE,1217588.9969827554,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,65,Gas Coke,C_GCOK,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,66,Coal Tar,C_COTA,1164359.878761264,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,67,Motor Gasoline,C_MGSL,241617.53532001036,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,68,Aviation Gasoline,C_AGSL,241811.18510688003,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,70,Kerosene Type Jet Fuel,C_KJET,42179.00954973614,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,71,Kerosene,C_KERO,234622.00661530523,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,72,Gas/Diesel Oil,C_DOIL,236914.87271333675,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,73,Heavy Fuel Oil,C_FOIL,231544.77435269585,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,74,Refinery Gas,C_RGAS,242227.7668110128,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,75,Liquefied Petroleum Gases (LPG),C_LPGA,238089.24298172872,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,76,Refinery Feedstocks,C_REFF,240339.8984230001,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,77,Ethane,C_ETHA,234281.5290157298,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,78,Naphtha,C_NAPT,236090.81918564692,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,79,White Spirit & SBP,C_WHSP,243372.50147783192,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,80,Lubricants,C_LUBR,239249.07831337443,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,81,Bitumen,C_BITU,236883.8464010601,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,82,Paraffin Waxes,C_PARW,241223.75265839332,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,83,Petroleum Coke,C_PETC,243145.1590583721,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,84,Non-specified Petroleum Products,C_NSPP,241308.86724032328,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,85,Nuclear fuel,C_NUCF,4057.203490700576,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,86,"Plastics, basic",C_PLAS,41210.683259326805,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,88,N-fertiliser,C_NFER,1017820.4008706908,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,89,P- and other fertiliser,C_PFER,325936.16895941,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,90,Chemicals nec,C_CHEM,44689.465906291545,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,91,Charcoal,C_CHAR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,92,Additives/Blending Components,C_ADDC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,93,Biogasoline,C_BIOG,44609.85908117773,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,94,Biodiesels,C_BIOD,44554.90327256532,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,95,Other Liquid Biofuels,C_OBIO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,96,Rubber and plastic products (25),C_RUBP,31130.298877384997,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,97,Glass and glass products,C_GLAS,115565.60692492804,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,99,Ceramic goods,C_CRMC,120466.1120500644,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,70810.61081191376,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,101,"Cement, lime and plaster",C_CMNT,374008.3026696046,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,103,Other non-metallic mineral products,C_ONMM,91848.3595065827,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,264733.8546215793,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,106,Precious metals,C_PREM,29803.97823867209,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,108,Aluminium and aluminium products,C_ALUM,30001.52268626185,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,110,"Lead, zinc and tin and products thereof",C_LZTP,27109.16041121882,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,112,Copper products,C_COPP,52437.60293139708,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,114,Other non-ferrous metal products,C_ONFM,40513.96498451921,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,116,Foundry work services,C_METC,169166.65038621402,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,28292.79386405419,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,118,Machinery and equipment n.e.c. (29),C_MACH,24371.87069244026,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,119,Office machinery and computers (30),C_OFMA,22167.761993869568,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,20589.33210094404,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,23346.94031814677,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,22077.556973734885,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,20057.29388199891,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,124,Other transport equipment (35),C_OTRE,26195.44112941295,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,44808.17149791348,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,126,Secondary raw materials,C_RYMS,20330.18629915668,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,128,Electricity by coal,C_POWC,6941641.01971418,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,129,Electricity by gas,C_POWG,1178135.3608080577,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,130,Electricity by nuclear,C_POWN,2585.874166756896,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,131,Electricity by hydro,C_POWH,44545.68115535617,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,132,Electricity by wind,C_POWW,3181607.2450026567,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,133,Electricity by petroleum and other oil derivatives,C_POWP,978813.329023302,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,134,Electricity by biomass and waste,C_POWB,1316180.335267582,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,135,Electricity by solar photovoltaic,C_POWS,15802188.36206975,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,136,Electricity by solar thermal,C_POWE,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,137,"Electricity by tide, wave, ocean",C_POWO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,138,Electricity by Geothermal,C_POWM,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,139,Electricity nec,C_POWZ,971183.9963549318,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,140,Transmission services of electricity,C_POWT,7.948845663132904,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,141,Distribution and trade services of electricity,C_POWD,1239.9707249948412,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,142,Coke oven gas,C_COOG,496175.0953852704,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,143,Blast Furnace Gas,C_MBFG,496198.5087299756,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,144,Oxygen Steel Furnace Gas,C_MOSG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,145,Gas Works Gas,C_MGWG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,146,Biogas,C_MBIO,495859.7014772069,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,147,Distribution services of gaseous fuels through mains,C_GASD,496216.6466890712,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,148,Steam and hot water supply services,C_HWAT,1378454.734709378,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,149,"Collected and purified water, distribution services of water (41)",C_WATR,3592.0941078141523,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,150,Construction work (45),C_CONS,10255.604094689392,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,11112.023037810835,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,153,Retail trade services of motor fuel,C_TDFU,694812.2848233989,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,37661.04345257595,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,10009.116648130172,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,156,Hotel and restaurant services (55),C_HORE,22996.86545509278,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,157,Railway transportation services,C_TRAI,110834.83984547554,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,158,Other land transportation services,C_TLND,10979.705611868245,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,159,Transportation services via pipelines,C_TPIP,1674952.7965672326,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,160,Sea and coastal water transportation services,C_TWAS,966089.0701130974,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,161,Inland water transportation services,C_TWAI,4990323.408119346,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,162,Air transport services (62),C_TAIR,1066453.2867897602,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,5136.102298627339,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,164,Post and telecommunication services (64),C_PTEL,6178.076806826707,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,6818.969913844488,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,3297.402845458586,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,167,Services auxiliary to financial intermediation (67),C_FAUX,5654.456331647922,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,168,Real estate services (70),C_REAL,7073.612743306557,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,22142.27150522928,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,170,Computer and related services (72),C_COMP,19777.725292744024,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,171,Research and development services (73),C_RESD,45779.52664785661,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,172,Other business services (74),C_OBUS,13715.467979476429,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,173,Public administration and defence services; compulsory social security services (75),C_PADF,4465.61820503083,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,174,Education services (80),C_EDUC,6015.001623411199,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,175,Health and social work services (85),C_HEAL,7084.92876354135,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,176,Food waste for treatment: incineration,C_INCF,25234.9541248503,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,177,Paper waste for treatment: incineration,C_INCP,29259.23781834798,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,178,Plastic waste for treatment: incineration,C_INCL,2284935.718706488,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,179,Intert/metal waste for treatment: incineration,C_INCM,1693126.547755598,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,180,Textiles waste for treatment: incineration,C_INCT,2535253.449365,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,181,Wood waste for treatment: incineration,C_INCW,37843.92698300904,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,182,Oil/hazardous waste for treatment: incineration,C_INCO,327020.7737791487,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,183,Food waste for treatment: biogasification and land application,C_BIOF,57494.89105101999,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,184,Paper waste for treatment: biogasification and land application,C_BIOP,170350.80572078069,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,7830.12002175754,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,186,Food waste for treatment: composting and land application,C_COMF,5378.645226624329,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,187,Paper and wood waste for treatment: composting and land application,C_COMW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,188,Food waste for treatment: waste water treatment,C_WASF,7014.57657489792,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,189,Other waste for treatment: waste water treatment,C_WASO,5461.278705391338,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,190,Food waste for treatment: landfill,C_LANF,5121.125362688839,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,191,Paper for treatment: landfill,C_LANP,6241.014961701951,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,192,Plastic waste for treatment: landfill,C_LANL,7884.1109723593745,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,6506.994508376256,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,194,Textiles waste for treatment: landfill,C_LANT,11256.47803678328,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,195,Wood waste for treatment: landfill,C_LANW,9643.306748275165,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,196,Membership organisation services n.e.c. (91),C_ORGA,6469.192628008223,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,197,"Recreational, cultural and sporting services (92)",C_RECR,4768.17200378643,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,198,Other services (93),C_OSER,6972.954136340145,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,199,Private households with employed persons (95),C_PRHH,3382.0899095226027,kg CO2e/M.EUR,2022,3
+EXIOBASE,GB,英國,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,1,Paddy rice,C_PARI,39711.2060970358,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,2,Wheat,C_WHEA,1056116.8233760349,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,3,Cereal grains nec,C_OCER,37701.53882728086,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,4,"Vegetables, fruit, nuts",C_FVEG,8894.108374520509,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,5,Oil seeds,C_OILS,240901.6391815056,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,6,"Sugar cane, sugar beet",C_SUGB,39323.209096299455,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,7,Plant-based fibers,C_FIBR,6724.101498446876,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,8,Crops nec,C_OTCR,2714.5527527118934,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,9,Cattle,C_CATL,5584.508730513197,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,10,Pigs,C_PIGS,6079.137650039567,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,11,Poultry,C_PLTR,4514.655990554116,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,12,Meat animals nec,C_OMEA,21663.36513969643,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,13,Animal products nec,C_OANP,50264.28584176172,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,14,Raw milk,C_MILK,21586.02403985445,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,15,"Wool, silk-worm cocoons",C_WOOL,146537303.4834795,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,18,"Products of forestry, logging and related services (02)",C_FORE,19452.45376029576,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,24763.539192078548,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,20,Anthracite,C_ANTH,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,21,Coking Coal,C_COKC,29620250.70583072,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,22,Other Bituminous Coal,C_OTBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,23,Sub-Bituminous Coal,C_SUBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,24,Patent Fuel,C_PATF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,25,Lignite/Brown Coal,C_LIBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,26,BKB/Peat Briquettes,C_BKBP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,27,Peat,C_PEAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,72631.21337368677,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,36854165.89498135,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,30,Natural Gas Liquids,C_GASL,36854166.78074727,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,31,Other Hydrocarbons,C_OGPL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,32,Uranium and thorium ores (12),C_ORAN,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,33,Iron ores,C_IRON,9531100635.99072,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,34,Copper ores and concentrates,C_COPO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,35,Nickel ores and concentrates,C_NIKO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,36,Aluminium ores and concentrates,C_ALUO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,37,Precious metal ores and concentrates,C_PREO,32362006.2664716,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,38,"Lead, zinc and tin ores and concentrates",C_LZTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,39,Other non-ferrous metal ores and concentrates,C_ONFO,95873067.27800708,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,40,Stone,C_STON,47678.11084747486,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,41,Sand and clay,C_SDCL,109820.0114624521,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,466125.516863301,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,43,Products of meat cattle,C_PCAT,54132.20127720904,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,44,Products of meat pigs,C_PPIG,46389.30723120562,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,45,Products of meat poultry,C_PPLT,207773.21739437064,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,46,Meat products nec,C_POME,268097.1570521896,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,47,products of Vegetable oils and fats,C_VOIL,81523.64094778121,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,48,Dairy products,C_DAIR,30442.892436446746,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,49,Processed rice,C_RICE,19382.05510321147,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,50,Sugar,C_SUGR,57723.93701772252,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,51,Food products nec,C_OFOD,17153.18841930967,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,52,Beverages,C_BEVR,16478.29346954282,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,53,Fish products,C_FSHP,24199.98108543071,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,54,Tobacco products (16),C_TOBC,274982.38941782963,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,55,Textiles (17),C_TEXT,213469.4914172752,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,56,Wearing apparel; furs (18),C_GARM,147964.38744240106,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,57,Leather and leather products (19),C_LETH,91670.0013376697,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,4569.202110934341,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,60,Pulp,C_PULP,46524.929559150885,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,62,Paper and paper products,C_PAPE,80238.36579583366,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,63,Printed matter and recorded media (22),C_MDIA,21088.56758469332,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,64,Coke Oven Coke,C_COKE,4789232.414475593,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,65,Gas Coke,C_GCOK,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,66,Coal Tar,C_COTA,4789232.420111098,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,67,Motor Gasoline,C_MGSL,277577.002073649,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,68,Aviation Gasoline,C_AGSL,277577.00207084086,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,70,Kerosene Type Jet Fuel,C_KJET,277577.00229100406,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,71,Kerosene,C_KERO,277577.0020840943,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,72,Gas/Diesel Oil,C_DOIL,277577.0020809371,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,73,Heavy Fuel Oil,C_FOIL,277577.0021431684,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,74,Refinery Gas,C_RGAS,277577.0022925927,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,75,Liquefied Petroleum Gases (LPG),C_LPGA,277577.00212566915,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,76,Refinery Feedstocks,C_REFF,277577.00238003454,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,77,Ethane,C_ETHA,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,78,Naphtha,C_NAPT,277577.0020243307,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,79,White Spirit & SBP,C_WHSP,277577.00208440993,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,80,Lubricants,C_LUBR,277577.002103825,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,81,Bitumen,C_BITU,277577.00232589105,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,82,Paraffin Waxes,C_PARW,277577.0088472324,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,83,Petroleum Coke,C_PETC,277577.00557843375,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,84,Non-specified Petroleum Products,C_NSPP,277577.0033772548,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,85,Nuclear fuel,C_NUCF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,86,"Plastics, basic",C_PLAS,34680.232375338564,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,88,N-fertiliser,C_NFER,938910.0493742618,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,89,P- and other fertiliser,C_PFER,133821.37096311714,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,90,Chemicals nec,C_CHEM,167031.02466219594,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,91,Charcoal,C_CHAR,167031.03322819714,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,92,Additives/Blending Components,C_ADDC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,93,Biogasoline,C_BIOG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,94,Biodiesels,C_BIOD,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,95,Other Liquid Biofuels,C_OBIO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,96,Rubber and plastic products (25),C_RUBP,3402.552392759194,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,97,Glass and glass products,C_GLAS,231455.23466054,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,99,Ceramic goods,C_CRMC,243617.26323795388,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,1143238.1433453436,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,101,"Cement, lime and plaster",C_CMNT,612524.90334277,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,103,Other non-metallic mineral products,C_ONMM,230284.60765474432,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,253896.0737210989,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,106,Precious metals,C_PREM,36131.21934804649,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,108,Aluminium and aluminium products,C_ALUM,9091.463907051142,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,110,"Lead, zinc and tin and products thereof",C_LZTP,312140.82220447593,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,112,Copper products,C_COPP,26152.558745881957,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,114,Other non-ferrous metal products,C_ONFM,41886.71514015239,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,116,Foundry work services,C_METC,270615.08204975905,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,5457.357929974987,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,118,Machinery and equipment n.e.c. (29),C_MACH,6312.050988420775,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,119,Office machinery and computers (30),C_OFMA,4133.868418143753,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,4155.989421580542,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,5631.660242440193,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,18615.783822706544,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,7360.109986733077,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,124,Other transport equipment (35),C_OTRE,3380.684653537834,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,67014.68270082772,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,126,Secondary raw materials,C_RYMS,45226.56952544045,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,128,Electricity by coal,C_POWC,6155542.894279783,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,129,Electricity by gas,C_POWG,5591501.819954003,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,130,Electricity by nuclear,C_POWN,11.32763066473951,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,131,Electricity by hydro,C_POWH,1448.629269143206,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,132,Electricity by wind,C_POWW,8999.702737876674,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,133,Electricity by petroleum and other oil derivatives,C_POWP,1821660.0045839576,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,134,Electricity by biomass and waste,C_POWB,3148600.432881589,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,135,Electricity by solar photovoltaic,C_POWS,29435.53881324669,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,136,Electricity by solar thermal,C_POWE,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,137,"Electricity by tide, wave, ocean",C_POWO,7836520217.463479,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,138,Electricity by Geothermal,C_POWM,6636.604108622048,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,139,Electricity nec,C_POWZ,257772.40234383143,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,140,Transmission services of electricity,C_POWT,143.42131638020476,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,141,Distribution and trade services of electricity,C_POWD,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,142,Coke oven gas,C_COOG,501529.9240718604,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,143,Blast Furnace Gas,C_MBFG,501529.9240515803,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,144,Oxygen Steel Furnace Gas,C_MOSG,501529.9240490519,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,145,Gas Works Gas,C_MGWG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,146,Biogas,C_MBIO,501529.9241067884,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,147,Distribution services of gaseous fuels through mains,C_GASD,501529.9240907653,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,148,Steam and hot water supply services,C_HWAT,430623.95013562456,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,149,"Collected and purified water, distribution services of water (41)",C_WATR,5395.255379523668,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,150,Construction work (45),C_CONS,9449.289017366242,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,5163.948841055451,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,153,Retail trade services of motor fuel,C_TDFU,556167.7070991629,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,2448.795958783112,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,9916.731392137644,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,156,Hotel and restaurant services (55),C_HORE,5488.266509287123,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,157,Railway transportation services,C_TRAI,5298.804034969602,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,158,Other land transportation services,C_TLND,674.8466923292663,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,159,Transportation services via pipelines,C_TPIP,2750.74183595518,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,160,Sea and coastal water transportation services,C_TWAS,1187179.4331416134,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,161,Inland water transportation services,C_TWAI,67595488.2003906,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,162,Air transport services (62),C_TAIR,556147.6314013231,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,7132.509100058175,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,164,Post and telecommunication services (64),C_PTEL,4908.774541510164,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,7576.472113270623,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,4778.358671252833,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,167,Services auxiliary to financial intermediation (67),C_FAUX,7120.4883018389,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,168,Real estate services (70),C_REAL,18235.6807247593,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,5320.60032409089,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,170,Computer and related services (72),C_COMP,5288.301586883266,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,171,Research and development services (73),C_RESD,32986.93990296652,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,172,Other business services (74),C_OBUS,6722.44376712948,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,173,Public administration and defence services; compulsory social security services (75),C_PADF,24005.466213521067,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,174,Education services (80),C_EDUC,8007.265505877192,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,175,Health and social work services (85),C_HEAL,24380.666425993662,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,176,Food waste for treatment: incineration,C_INCF,11159.90060915954,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,177,Paper waste for treatment: incineration,C_INCP,13302.19838425916,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,178,Plastic waste for treatment: incineration,C_INCL,389668.9176237016,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,179,Intert/metal waste for treatment: incineration,C_INCM,405290.9521572024,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,180,Textiles waste for treatment: incineration,C_INCT,387077.5208788188,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,181,Wood waste for treatment: incineration,C_INCW,25725.574779832,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,182,Oil/hazardous waste for treatment: incineration,C_INCO,326515.4712532381,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,183,Food waste for treatment: biogasification and land application,C_BIOF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,184,Paper waste for treatment: biogasification and land application,C_BIOP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,186,Food waste for treatment: composting and land application,C_COMF,156663.90507146946,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,187,Paper and wood waste for treatment: composting and land application,C_COMW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,188,Food waste for treatment: waste water treatment,C_WASF,160952.69299901134,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,189,Other waste for treatment: waste water treatment,C_WASO,86769.08688367115,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,190,Food waste for treatment: landfill,C_LANF,102948.5663326649,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,191,Paper for treatment: landfill,C_LANP,117091.45205529388,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,192,Plastic waste for treatment: landfill,C_LANL,148609.50879174122,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,135309.41194270586,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,194,Textiles waste for treatment: landfill,C_LANT,326560.9391910022,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,195,Wood waste for treatment: landfill,C_LANW,247903.4010843456,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,196,Membership organisation services n.e.c. (91),C_ORGA,15298.304085143316,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,197,"Recreational, cultural and sporting services (92)",C_RECR,5805.609654067218,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,198,Other services (93),C_OSER,8390.843232098072,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,199,Private households with employed persons (95),C_PRHH,60566.817419084735,kg CO2e/M.EUR,2022,3
+EXIOBASE,JP,日本,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,1,Paddy rice,C_PARI,74373.82995562004,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,2,Wheat,C_WHEA,59409.062400670366,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,3,Cereal grains nec,C_OCER,148906.0992255317,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,4,"Vegetables, fruit, nuts",C_FVEG,92244.4055067592,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,5,Oil seeds,C_OILS,157516.84511734758,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,6,"Sugar cane, sugar beet",C_SUGB,407064.58792731096,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,7,Plant-based fibers,C_FIBR,384653.8809631453,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,8,Crops nec,C_OTCR,44442.73327843827,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,9,Cattle,C_CATL,57645.918695698456,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,10,Pigs,C_PIGS,17051.499607961283,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,11,Poultry,C_PLTR,74936.86015937799,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,12,Meat animals nec,C_OMEA,34546.1334729299,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,13,Animal products nec,C_OANP,109461.4411217068,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,14,Raw milk,C_MILK,850675.5855168407,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,15,"Wool, silk-worm cocoons",C_WOOL,661878.9714961488,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,18,"Products of forestry, logging and related services (02)",C_FORE,91755.91199194614,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,1761.658295988562,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,20,Anthracite,C_ANTH,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,21,Coking Coal,C_COKC,409957.7458794084,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,22,Other Bituminous Coal,C_OTBC,409957.7458349096,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,23,Sub-Bituminous Coal,C_SUBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,24,Patent Fuel,C_PATF,409957.7508418716,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,25,Lignite/Brown Coal,C_LIBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,26,BKB/Peat Briquettes,C_BKBP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,27,Peat,C_PEAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,347509.87702285324,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,329021.1476552294,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,30,Natural Gas Liquids,C_GASL,329021.14969936945,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,31,Other Hydrocarbons,C_OGPL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,32,Uranium and thorium ores (12),C_ORAN,3989264.284654443,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,33,Iron ores,C_IRON,316270.95458816254,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,34,Copper ores and concentrates,C_COPO,169814.61603390196,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,35,Nickel ores and concentrates,C_NIKO,1737465.6394267129,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,36,Aluminium ores and concentrates,C_ALUO,3723114.982621512,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,37,Precious metal ores and concentrates,C_PREO,324852.7506982298,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,38,"Lead, zinc and tin ores and concentrates",C_LZTO,4193122.82247196,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,39,Other non-ferrous metal ores and concentrates,C_ONFO,220508.2396230368,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,40,Stone,C_STON,111057.91331596952,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,41,Sand and clay,C_SDCL,335981.1383887725,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,1221980.0936959176,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,43,Products of meat cattle,C_PCAT,670721.9886202257,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,44,Products of meat pigs,C_PPIG,6267.413441161767,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,45,Products of meat poultry,C_PPLT,17645.398892398192,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,46,Meat products nec,C_POME,9299.783678937978,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,47,products of Vegetable oils and fats,C_VOIL,1097.7217690843152,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,48,Dairy products,C_DAIR,58648.19208274584,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,49,Processed rice,C_RICE,332625.3650609087,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,50,Sugar,C_SUGR,7139.854908022406,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,51,Food products nec,C_OFOD,8552.053442816834,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,52,Beverages,C_BEVR,16717.355940608923,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,53,Fish products,C_FSHP,17441.52422625962,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,54,Tobacco products (16),C_TOBC,5355643.8831505645,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,55,Textiles (17),C_TEXT,27241.94950103789,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,56,Wearing apparel; furs (18),C_GARM,47965.028497898966,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,57,Leather and leather products (19),C_LETH,114820.66138829345,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,709717.0020546129,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,60,Pulp,C_PULP,42527.3673704245,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,62,Paper and paper products,C_PAPE,180811.65514302085,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,63,Printed matter and recorded media (22),C_MDIA,10803.990832741569,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,64,Coke Oven Coke,C_COKE,1397667.9918258395,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,65,Gas Coke,C_GCOK,1392703.8441272285,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,66,Coal Tar,C_COTA,1397666.818149061,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,67,Motor Gasoline,C_MGSL,233015.05013652903,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,68,Aviation Gasoline,C_AGSL,233015.0501357765,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,70,Kerosene Type Jet Fuel,C_KJET,233015.05013696305,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,71,Kerosene,C_KERO,233015.050308872,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,72,Gas/Diesel Oil,C_DOIL,233015.0501333672,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,73,Heavy Fuel Oil,C_FOIL,233015.05018692752,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,74,Refinery Gas,C_RGAS,233015.05013172305,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,75,Liquefied Petroleum Gases (LPG),C_LPGA,233015.05013760692,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,76,Refinery Feedstocks,C_REFF,233015.0501440382,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,77,Ethane,C_ETHA,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,78,Naphtha,C_NAPT,233015.05005105323,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,79,White Spirit & SBP,C_WHSP,233015.05005450323,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,80,Lubricants,C_LUBR,233015.0501336469,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,81,Bitumen,C_BITU,233015.05017859887,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,82,Paraffin Waxes,C_PARW,233015.0503215244,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,83,Petroleum Coke,C_PETC,233015.05058088095,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,84,Non-specified Petroleum Products,C_NSPP,233015.05027343752,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,85,Nuclear fuel,C_NUCF,5200734.390861884,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,86,"Plastics, basic",C_PLAS,7678.655513430354,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,88,N-fertiliser,C_NFER,313935.6562981693,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,89,P- and other fertiliser,C_PFER,290391.7038767944,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,90,Chemicals nec,C_CHEM,472363.7875176369,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,91,Charcoal,C_CHAR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,92,Additives/Blending Components,C_ADDC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,93,Biogasoline,C_BIOG,472363.7890164164,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,94,Biodiesels,C_BIOD,472363.78904807055,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,95,Other Liquid Biofuels,C_OBIO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,96,Rubber and plastic products (25),C_RUBP,103518.10726769602,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,97,Glass and glass products,C_GLAS,111326.44762345258,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,99,Ceramic goods,C_CRMC,167027.37709387118,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,1726908.44105932,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,101,"Cement, lime and plaster",C_CMNT,3336389.6251628683,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,103,Other non-metallic mineral products,C_ONMM,1573664.2800698632,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,759612.072848087,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,106,Precious metals,C_PREM,304376.9200599365,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,108,Aluminium and aluminium products,C_ALUM,116631.91405956548,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,110,"Lead, zinc and tin and products thereof",C_LZTP,194036.5320279347,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,112,Copper products,C_COPP,252791.73331739425,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,114,Other non-ferrous metal products,C_ONFM,522110.5551332242,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,116,Foundry work services,C_METC,1037063.1016049008,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,300081.9332627152,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,118,Machinery and equipment n.e.c. (29),C_MACH,32640.28306953992,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,119,Office machinery and computers (30),C_OFMA,9214.66940630512,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,10183.18661056638,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,25181.40219860856,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,5276.643011654959,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,25054.063791836787,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,124,Other transport equipment (35),C_OTRE,21064.15560240064,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,59713.89628431368,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,126,Secondary raw materials,C_RYMS,13789.3513191866,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,128,Electricity by coal,C_POWC,11818091.771334045,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,129,Electricity by gas,C_POWG,12662449.047218218,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,130,Electricity by nuclear,C_POWN,4385.011314099781,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,131,Electricity by hydro,C_POWH,7617.003108140016,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,132,Electricity by wind,C_POWW,85406.41272988918,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,133,Electricity by petroleum and other oil derivatives,C_POWP,1176412.8329452318,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,134,Electricity by biomass and waste,C_POWB,1288764.533608995,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,135,Electricity by solar photovoltaic,C_POWS,4109941.352012509,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,136,Electricity by solar thermal,C_POWE,226787850.43603495,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,137,"Electricity by tide, wave, ocean",C_POWO,227239226.0128675,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,138,Electricity by Geothermal,C_POWM,626977156.8478454,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,139,Electricity nec,C_POWZ,33311187.76826629,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,140,Transmission services of electricity,C_POWT,103946.72244867156,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,141,Distribution and trade services of electricity,C_POWD,2268.9163423511704,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,142,Coke oven gas,C_COOG,16978443.853975363,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,143,Blast Furnace Gas,C_MBFG,16978443.853167746,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,144,Oxygen Steel Furnace Gas,C_MOSG,16978477.908506665,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,145,Gas Works Gas,C_MGWG,16978443.88297382,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,146,Biogas,C_MBIO,16978443.85411833,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,147,Distribution services of gaseous fuels through mains,C_GASD,16978443.85226437,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,148,Steam and hot water supply services,C_HWAT,68016753.62878977,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,149,"Collected and purified water, distribution services of water (41)",C_WATR,156218.64833395905,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,150,Construction work (45),C_CONS,22198.31616131481,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,5486.481044056968,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,153,Retail trade services of motor fuel,C_TDFU,73146.3833215914,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,3327.403052617355,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,15433.878527656074,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,156,Hotel and restaurant services (55),C_HORE,9707.044362779188,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,157,Railway transportation services,C_TRAI,576975.8066683551,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,158,Other land transportation services,C_TLND,41611.82227124064,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,159,Transportation services via pipelines,C_TPIP,200662.12517261505,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,160,Sea and coastal water transportation services,C_TWAS,929920.0494649846,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,161,Inland water transportation services,C_TWAI,17366342.08249575,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,162,Air transport services (62),C_TAIR,973086.7339418648,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,13134.931326351334,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,164,Post and telecommunication services (64),C_PTEL,8481.954357507,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,29980.07354646474,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,6874.620994751787,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,167,Services auxiliary to financial intermediation (67),C_FAUX,4143.483454803917,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,168,Real estate services (70),C_REAL,15261.587402389,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,103348.89174818716,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,170,Computer and related services (72),C_COMP,3018.3761433515283,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,171,Research and development services (73),C_RESD,7187.465522768485,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,172,Other business services (74),C_OBUS,14049.330698878137,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,173,Public administration and defence services; compulsory social security services (75),C_PADF,47229.631229175546,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,174,Education services (80),C_EDUC,24819.544532351825,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,175,Health and social work services (85),C_HEAL,129799.59973399637,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,176,Food waste for treatment: incineration,C_INCF,30984.115686217,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,177,Paper waste for treatment: incineration,C_INCP,30556.152089164752,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,178,Plastic waste for treatment: incineration,C_INCL,7097536.771796406,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,179,Intert/metal waste for treatment: incineration,C_INCM,8768996.770390004,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,180,Textiles waste for treatment: incineration,C_INCT,6430117.901479838,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,181,Wood waste for treatment: incineration,C_INCW,16936.087106596726,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,182,Oil/hazardous waste for treatment: incineration,C_INCO,7854979.404198653,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,183,Food waste for treatment: biogasification and land application,C_BIOF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,184,Paper waste for treatment: biogasification and land application,C_BIOP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,186,Food waste for treatment: composting and land application,C_COMF,67707.94254136142,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,187,Paper and wood waste for treatment: composting and land application,C_COMW,15491.61398333575,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,188,Food waste for treatment: waste water treatment,C_WASF,77527.2500257952,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,189,Other waste for treatment: waste water treatment,C_WASO,76605.77523261051,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,190,Food waste for treatment: landfill,C_LANF,71548.44291303803,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,191,Paper for treatment: landfill,C_LANP,49913.04685820844,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,192,Plastic waste for treatment: landfill,C_LANL,28508.98962399624,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,45030.62368387213,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,194,Textiles waste for treatment: landfill,C_LANT,20664.154842337863,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,195,Wood waste for treatment: landfill,C_LANW,21992.08375985658,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,196,Membership organisation services n.e.c. (91),C_ORGA,438206.5720138693,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,197,"Recreational, cultural and sporting services (92)",C_RECR,8991.38851552205,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,198,Other services (93),C_OSER,9868.037710767085,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,199,Private households with employed persons (95),C_PRHH,16194.35930875692,kg CO2e/M.EUR,2022,3
+EXIOBASE,CN,中國,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,1,Paddy rice,C_PARI,38470.20972944565,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,2,Wheat,C_WHEA,398508598.1178291,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,3,Cereal grains nec,C_OCER,76400.93335724666,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,4,"Vegetables, fruit, nuts",C_FVEG,34413.47663017027,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,5,Oil seeds,C_OILS,110325.12795748618,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,6,"Sugar cane, sugar beet",C_SUGB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,7,Plant-based fibers,C_FIBR,153937.01403715333,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,8,Crops nec,C_OTCR,141840.1884834437,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,9,Cattle,C_CATL,213330.7629428153,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,10,Pigs,C_PIGS,4480.827387062345,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,11,Poultry,C_PLTR,13965.540463860354,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,12,Meat animals nec,C_OMEA,2953870.266584713,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,13,Animal products nec,C_OANP,72074.72297090098,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,14,Raw milk,C_MILK,43091.72903240279,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,15,"Wool, silk-worm cocoons",C_WOOL,16844027.21873057,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,18,"Products of forestry, logging and related services (02)",C_FORE,48328.17236980437,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,134126.88951290157,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,20,Anthracite,C_ANTH,9676849.078310288,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,21,Coking Coal,C_COKC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,22,Other Bituminous Coal,C_OTBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,23,Sub-Bituminous Coal,C_SUBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,24,Patent Fuel,C_PATF,9676849.072187869,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,25,Lignite/Brown Coal,C_LIBC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,26,BKB/Peat Briquettes,C_BKBP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,27,Peat,C_PEAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,968566.9924410884,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,6300002.210104582,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,30,Natural Gas Liquids,C_GASL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,31,Other Hydrocarbons,C_OGPL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,32,Uranium and thorium ores (12),C_ORAN,2770964425.1865444,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,33,Iron ores,C_IRON,8914316.946171016,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,34,Copper ores and concentrates,C_COPO,230482195.81852227,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,35,Nickel ores and concentrates,C_NIKO,2194691.880091746,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,36,Aluminium ores and concentrates,C_ALUO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,37,Precious metal ores and concentrates,C_PREO,225392545.30071747,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,38,"Lead, zinc and tin ores and concentrates",C_LZTO,660073001.275202,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,39,Other non-ferrous metal ores and concentrates,C_ONFO,24269971.50364962,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,40,Stone,C_STON,237244.84629570937,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,41,Sand and clay,C_SDCL,121286.85446878128,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,52026.24877756844,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,43,Products of meat cattle,C_PCAT,2143943.5488088494,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,44,Products of meat pigs,C_PPIG,58828.69787599087,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,45,Products of meat poultry,C_PPLT,55612.71241084601,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,46,Meat products nec,C_POME,5687.3358361481,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,47,products of Vegetable oils and fats,C_VOIL,2570479.196441481,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,48,Dairy products,C_DAIR,97703.05925795644,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,49,Processed rice,C_RICE,7547467.799810105,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,50,Sugar,C_SUGR,945457.1441503316,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,51,Food products nec,C_OFOD,20833.73446545888,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,52,Beverages,C_BEVR,39733.971850248505,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,53,Fish products,C_FSHP,22366.64276850652,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,54,Tobacco products (16),C_TOBC,28259.01529675062,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,55,Textiles (17),C_TEXT,43126.07706289865,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,56,Wearing apparel; furs (18),C_GARM,24793.572599868312,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,57,Leather and leather products (19),C_LETH,16925.200850495057,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,41603.913764405406,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,60,Pulp,C_PULP,523312.3957825924,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,62,Paper and paper products,C_PAPE,106815.66367827382,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,63,Printed matter and recorded media (22),C_MDIA,28129.898442681944,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,64,Coke Oven Coke,C_COKE,4650341.774397736,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,65,Gas Coke,C_GCOK,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,66,Coal Tar,C_COTA,4650341.800387288,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,67,Motor Gasoline,C_MGSL,209507.04777886288,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,68,Aviation Gasoline,C_AGSL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,70,Kerosene Type Jet Fuel,C_KJET,209507.0478505962,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,71,Kerosene,C_KERO,209507.04783320488,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,72,Gas/Diesel Oil,C_DOIL,209507.04778453047,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,73,Heavy Fuel Oil,C_FOIL,209507.0477922216,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,74,Refinery Gas,C_RGAS,209507.0497094722,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,75,Liquefied Petroleum Gases (LPG),C_LPGA,209507.04786069185,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,76,Refinery Feedstocks,C_REFF,209507.04802189063,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,77,Ethane,C_ETHA,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,78,Naphtha,C_NAPT,209507.04747322568,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,79,White Spirit & SBP,C_WHSP,209507.0480334543,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,80,Lubricants,C_LUBR,209507.04789152983,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,81,Bitumen,C_BITU,209507.0481160617,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,82,Paraffin Waxes,C_PARW,209507.052045094,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,83,Petroleum Coke,C_PETC,209507.05677551252,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,84,Non-specified Petroleum Products,C_NSPP,209507.04878166795,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,85,Nuclear fuel,C_NUCF,7691.680820063999,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,86,"Plastics, basic",C_PLAS,99703.24500439598,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,88,N-fertiliser,C_NFER,76989.94448851359,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,89,P- and other fertiliser,C_PFER,107012.22569373185,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,90,Chemicals nec,C_CHEM,34672.56142288999,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,91,Charcoal,C_CHAR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,92,Additives/Blending Components,C_ADDC,34672.55900694487,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,93,Biogasoline,C_BIOG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,94,Biodiesels,C_BIOD,34672.56173142675,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,95,Other Liquid Biofuels,C_OBIO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,96,Rubber and plastic products (25),C_RUBP,27800.52421450979,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,97,Glass and glass products,C_GLAS,373363.5926152098,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,99,Ceramic goods,C_CRMC,228015.9989518468,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,21271218.300529823,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,101,"Cement, lime and plaster",C_CMNT,783686.1355131397,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,103,Other non-metallic mineral products,C_ONMM,521351.5554308039,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,162642.10019635793,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,106,Precious metals,C_PREM,56892.07097792993,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,108,Aluminium and aluminium products,C_ALUM,35730.23996748821,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,110,"Lead, zinc and tin and products thereof",C_LZTP,38962.716732520326,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,112,Copper products,C_COPP,53443.81123853673,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,114,Other non-ferrous metal products,C_ONFM,28899.80585406134,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,116,Foundry work services,C_METC,533364.3195669567,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,23175.048638280485,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,118,Machinery and equipment n.e.c. (29),C_MACH,17179.641122167053,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,119,Office machinery and computers (30),C_OFMA,7628.959201053449,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,9793.302116879684,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,8480.307630795072,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,37773.67473834945,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,10512.0501195017,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,124,Other transport equipment (35),C_OTRE,25121.96132270486,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,108957.45336138748,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,126,Secondary raw materials,C_RYMS,691498.8433652422,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,128,Electricity by coal,C_POWC,16280145.2597898,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,129,Electricity by gas,C_POWG,9709233.57080238,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,130,Electricity by nuclear,C_POWN,681.125237424335,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,131,Electricity by hydro,C_POWH,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,132,Electricity by wind,C_POWW,33301952.002250124,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,133,Electricity by petroleum and other oil derivatives,C_POWP,3993396.7300594174,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,134,Electricity by biomass and waste,C_POWB,5118206.950091519,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,135,Electricity by solar photovoltaic,C_POWS,3586661.3109045937,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,136,Electricity by solar thermal,C_POWE,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,137,"Electricity by tide, wave, ocean",C_POWO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,138,Electricity by Geothermal,C_POWM,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,139,Electricity nec,C_POWZ,2533949.5634767422,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,140,Transmission services of electricity,C_POWT,768043.7546964965,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,141,Distribution and trade services of electricity,C_POWD,211196.16410373824,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,142,Coke oven gas,C_COOG,1842160.200361939,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,143,Blast Furnace Gas,C_MBFG,1842160.2003538515,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,144,Oxygen Steel Furnace Gas,C_MOSG,1842160.2014484608,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,145,Gas Works Gas,C_MGWG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,146,Biogas,C_MBIO,1842160.1977870024,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,147,Distribution services of gaseous fuels through mains,C_GASD,1842160.200374143,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,148,Steam and hot water supply services,C_HWAT,9615151.034154128,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,149,"Collected and purified water, distribution services of water (41)",C_WATR,73799.70445352924,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,150,Construction work (45),C_CONS,21550.29975831212,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,453269.6233858953,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,153,Retail trade services of motor fuel,C_TDFU,10148.237292658194,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,14774.682135223407,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,12757.69079467534,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,156,Hotel and restaurant services (55),C_HORE,22838.884652463978,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,157,Railway transportation services,C_TRAI,17328.019789074457,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,158,Other land transportation services,C_TLND,32.25382922731686,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,159,Transportation services via pipelines,C_TPIP,1368.1445745459944,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,160,Sea and coastal water transportation services,C_TWAS,954494.3963309644,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,161,Inland water transportation services,C_TWAI,1076283.3392870738,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,162,Air transport services (62),C_TAIR,1039724.722957927,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,19948.18679834191,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,164,Post and telecommunication services (64),C_PTEL,7784.050430859809,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,4381.227021035944,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,6794.09769271687,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,167,Services auxiliary to financial intermediation (67),C_FAUX,3902.367164670872,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,168,Real estate services (70),C_REAL,13510.545579643833,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,18055.74828873849,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,170,Computer and related services (72),C_COMP,54067.322225321455,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,171,Research and development services (73),C_RESD,161344.85796095603,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,172,Other business services (74),C_OBUS,8155.441763128468,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,173,Public administration and defence services; compulsory social security services (75),C_PADF,25595.8927182724,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,174,Education services (80),C_EDUC,23405.511150606555,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,175,Health and social work services (85),C_HEAL,17456.464478620925,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,176,Food waste for treatment: incineration,C_INCF,84119.82964387111,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,177,Paper waste for treatment: incineration,C_INCP,106090.41661813363,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,178,Plastic waste for treatment: incineration,C_INCL,2055073.1541188825,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,179,Intert/metal waste for treatment: incineration,C_INCM,2050117.618194667,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,180,Textiles waste for treatment: incineration,C_INCT,1719213.0277676948,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,181,Wood waste for treatment: incineration,C_INCW,34068.626549064786,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,182,Oil/hazardous waste for treatment: incineration,C_INCO,488169.5563363185,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,183,Food waste for treatment: biogasification and land application,C_BIOF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,184,Paper waste for treatment: biogasification and land application,C_BIOP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,186,Food waste for treatment: composting and land application,C_COMF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,187,Paper and wood waste for treatment: composting and land application,C_COMW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,188,Food waste for treatment: waste water treatment,C_WASF,66480.98370546062,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,189,Other waste for treatment: waste water treatment,C_WASO,75514.18460745581,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,190,Food waste for treatment: landfill,C_LANF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,191,Paper for treatment: landfill,C_LANP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,192,Plastic waste for treatment: landfill,C_LANL,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,194,Textiles waste for treatment: landfill,C_LANT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,195,Wood waste for treatment: landfill,C_LANW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,196,Membership organisation services n.e.c. (91),C_ORGA,16781.728645289888,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,197,"Recreational, cultural and sporting services (92)",C_RECR,8779.039646189303,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,198,Other services (93),C_OSER,6447.555674073403,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,199,Private households with employed persons (95),C_PRHH,5908.380376848271,kg CO2e/M.EUR,2022,3
+EXIOBASE,KR,韓國,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,1,Paddy rice,C_PARI,2526864.89087929,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,2,Wheat,C_WHEA,533340.9260318847,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,3,Cereal grains nec,C_OCER,191369.51030017596,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,4,"Vegetables, fruit, nuts",C_FVEG,43152.93805050831,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,5,Oil seeds,C_OILS,152875.53350657682,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,6,"Sugar cane, sugar beet",C_SUGB,862985.5856702791,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,7,Plant-based fibers,C_FIBR,406448.7052970811,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,8,Crops nec,C_OTCR,126834.29896670047,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,9,Cattle,C_CATL,193476.5187429417,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,10,Pigs,C_PIGS,243586.93022068893,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,11,Poultry,C_PLTR,269857.811594922,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,12,Meat animals nec,C_OMEA,97789.49953291072,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,13,Animal products nec,C_OANP,87647.12149214947,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,14,Raw milk,C_MILK,87150.96746621848,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,15,"Wool, silk-worm cocoons",C_WOOL,1373530.3384297958,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,16,Manure (conventional treatment),C_MANC,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,17,Manure (biogas treatment),C_MANB,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,18,"Products of forestry, logging and related services (02)",C_FORE,31630.450501813502,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,19,Fish and other fishing products; services incidental of fishing (05),C_FISH,117881.1302023378,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,20,Anthracite,C_ANTH,165337.00010427917,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,21,Coking Coal,C_COKC,165337.00299699898,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,22,Other Bituminous Coal,C_OTBC,165337.00032097977,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,23,Sub-Bituminous Coal,C_SUBC,165337.00140225329,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,24,Patent Fuel,C_PATF,165337.00063373605,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,25,Lignite/Brown Coal,C_LIBC,165337.0015885685,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,26,BKB/Peat Briquettes,C_BKBP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,27,Peat,C_PEAT,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,28,"Crude petroleum and services related to crude oil extraction, excluding surveying",C_COIL,481025.4730260614,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,29,"Natural gas and services related to natural gas extraction, excluding surveying",C_GASE,555578.8784773072,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,30,Natural Gas Liquids,C_GASL,556234.1835875176,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,31,Other Hydrocarbons,C_OGPL,19.08107383923924,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,32,Uranium and thorium ores (12),C_ORAN,736909.1330184623,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,33,Iron ores,C_IRON,229356.501342835,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,34,Copper ores and concentrates,C_COPO,455951.65838451486,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,35,Nickel ores and concentrates,C_NIKO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,36,Aluminium ores and concentrates,C_ALUO,136165.71041611137,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,37,Precious metal ores and concentrates,C_PREO,1183227.1391513145,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,38,"Lead, zinc and tin ores and concentrates",C_LZTO,1489639.620739001,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,39,Other non-ferrous metal ores and concentrates,C_ONFO,236144.06444093917,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,40,Stone,C_STON,206425.7949300357,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,41,Sand and clay,C_SDCL,252211.70615049824,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,42,"Chemical and fertilizer minerals, salt and other mining and quarrying products n.e.c.",C_CHMF,750036.7825051793,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,43,Products of meat cattle,C_PCAT,52060.373991359775,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,44,Products of meat pigs,C_PPIG,36888.99711688605,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,45,Products of meat poultry,C_PPLT,29993.554826313823,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,46,Meat products nec,C_POME,497614.6866072005,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,47,products of Vegetable oils and fats,C_VOIL,100362.90542281144,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,48,Dairy products,C_DAIR,203472.42879203195,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,49,Processed rice,C_RICE,1366875.469255752,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,50,Sugar,C_SUGR,114998.31451170148,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,51,Food products nec,C_OFOD,41951.1554045538,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,52,Beverages,C_BEVR,44461.11415235021,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,53,Fish products,C_FSHP,139441.06574123673,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,54,Tobacco products (16),C_TOBC,120051.421536396,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,55,Textiles (17),C_TEXT,112921.1939036316,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,56,Wearing apparel; furs (18),C_GARM,69669.66453432348,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,57,Leather and leather products (19),C_LETH,88422.49836823308,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,58,Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20),C_WOOD,78378.59286228972,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,59,"Wood material for treatment, Re-processing of secondary wood material into new wood material",C_WOOW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,60,Pulp,C_PULP,147608.4629987849,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,61,"Secondary paper for treatment, Re-processing of secondary paper into new pulp",C_PAPR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,62,Paper and paper products,C_PAPE,191185.20248936987,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,63,Printed matter and recorded media (22),C_MDIA,43186.02823030417,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,64,Coke Oven Coke,C_COKE,3775365.67213213,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,65,Gas Coke,C_GCOK,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,66,Coal Tar,C_COTA,6846.405137457086,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,67,Motor Gasoline,C_MGSL,352760.71044074633,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,68,Aviation Gasoline,C_AGSL,351252.6577567146,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,69,Gasoline Type Jet Fuel,C_GJET,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,70,Kerosene Type Jet Fuel,C_KJET,355287.7001441082,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,71,Kerosene,C_KERO,424125.339183425,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,72,Gas/Diesel Oil,C_DOIL,355022.27157655667,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,73,Heavy Fuel Oil,C_FOIL,366306.1196792047,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,74,Refinery Gas,C_RGAS,355083.5974440096,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,75,Liquefied Petroleum Gases (LPG),C_LPGA,350607.49828717875,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,76,Refinery Feedstocks,C_REFF,345371.7498093921,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,77,Ethane,C_ETHA,348170.4492904567,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,78,Naphtha,C_NAPT,358229.712867928,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,79,White Spirit & SBP,C_WHSP,355972.99963951163,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,80,Lubricants,C_LUBR,271222.3765082959,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,81,Bitumen,C_BITU,327622.7052164427,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,82,Paraffin Waxes,C_PARW,340646.6119283396,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,83,Petroleum Coke,C_PETC,345613.71386719105,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,84,Non-specified Petroleum Products,C_NSPP,348078.0758929646,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,85,Nuclear fuel,C_NUCF,62087.1781033536,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,86,"Plastics, basic",C_PLAS,76763.64289000459,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,87,"Secondary plastic for treatment, Re-processing of secondary plastic into new plastic",C_PLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,88,N-fertiliser,C_NFER,1098438.702216544,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,89,P- and other fertiliser,C_PFER,259607.41021488112,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,90,Chemicals nec,C_CHEM,170904.2760370113,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,91,Charcoal,C_CHAR,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,92,Additives/Blending Components,C_ADDC,182401.73640815716,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,93,Biogasoline,C_BIOG,166492.8827830881,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,94,Biodiesels,C_BIOD,180302.96215666627,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,95,Other Liquid Biofuels,C_OBIO,164172.29977009448,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,96,Rubber and plastic products (25),C_RUBP,17091.26036000528,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,97,Glass and glass products,C_GLAS,166383.62099692094,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,98,"Secondary glass for treatment, Re-processing of secondary glass into new glass",C_GLAW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,99,Ceramic goods,C_CRMC,232173.69141067157,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,100,"Bricks, tiles and construction products, in baked clay",C_BRIK,197403.25736214087,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,101,"Cement, lime and plaster",C_CMNT,410785.3224388126,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,102,"Ash for treatment, Re-processing of ash into clinker",C_ASHW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,103,Other non-metallic mineral products,C_ONMM,131630.66734437668,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,104,Basic iron and steel and of ferro-alloys and first products thereof,C_STEL,98070.10672609712,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,105,"Secondary steel for treatment, Re-processing of secondary steel into new steel",C_STEW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,106,Precious metals,C_PREM,75359.65900635943,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,107,"Secondary preciuos metals for treatment, Re-processing of secondary preciuos metals into new preciuos metals",C_PREW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,108,Aluminium and aluminium products,C_ALUM,36021.205664549125,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,109,"Secondary aluminium for treatment, Re-processing of secondary aluminium into new aluminium",C_ALUW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,110,"Lead, zinc and tin and products thereof",C_LZTP,98784.51756997524,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,111,"Secondary lead for treatment, Re-processing of secondary lead into new lead",C_LZTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,112,Copper products,C_COPP,65179.35509906781,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,113,"Secondary copper for treatment, Re-processing of secondary copper into new copper",C_COPW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,114,Other non-ferrous metal products,C_ONFM,48157.77231323795,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,115,"Secondary other non-ferrous metals for treatment, Re-processing of secondary other non-ferrous metals into new other non-ferrous metals",C_ONFW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,116,Foundry work services,C_METC,151207.54238316015,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,117,"Fabricated metal products, except machinery and equipment (28)",C_FABM,39716.92134262774,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,118,Machinery and equipment n.e.c. (29),C_MACH,20208.31626268683,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,119,Office machinery and computers (30),C_OFMA,17889.45375835526,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,120,Electrical machinery and apparatus n.e.c. (31),C_ELMA,18082.6409612458,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,121,"Radio, television and communication equipment and apparatus (32)",C_RATV,22788.36039929662,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,122,"Medical, precision and optical instruments, watches and clocks (33)",C_MEIN,22629.322656761226,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,123,"Motor vehicles, trailers and semi-trailers (34)",C_MOTO,34622.73856246825,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,124,Other transport equipment (35),C_OTRE,78962.95468487302,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,125,Furniture; other manufactured goods n.e.c. (36),C_FURN,185193.21959342528,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,126,Secondary raw materials,C_RYMS,33459.46454396196,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,127,"Bottles for treatment, Recycling of bottles by direct reuse",C_BOTW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,128,Electricity by coal,C_POWC,12136434.93905787,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,129,Electricity by gas,C_POWG,12392909.079460423,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,130,Electricity by nuclear,C_POWN,8482.537128561524,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,131,Electricity by hydro,C_POWH,54758.09594308524,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,132,Electricity by wind,C_POWW,24054.29361592803,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,133,Electricity by petroleum and other oil derivatives,C_POWP,4775309.05412474,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,134,Electricity by biomass and waste,C_POWB,3889089.756633692,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,135,Electricity by solar photovoltaic,C_POWS,4196309.903098264,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,136,Electricity by solar thermal,C_POWE,17449.475723360432,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,137,"Electricity by tide, wave, ocean",C_POWO,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,138,Electricity by Geothermal,C_POWM,9084.097031174171,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,139,Electricity nec,C_POWZ,324339.1002059149,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,140,Transmission services of electricity,C_POWT,99161.20920922808,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,141,Distribution and trade services of electricity,C_POWD,4892.54221047081,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,142,Coke oven gas,C_COOG,1081228.894620991,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,143,Blast Furnace Gas,C_MBFG,1298780.2934395657,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,144,Oxygen Steel Furnace Gas,C_MOSG,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,145,Gas Works Gas,C_MGWG,551355.6606998027,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,146,Biogas,C_MBIO,4695386.476886479,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,147,Distribution services of gaseous fuels through mains,C_GASD,831047.9638580461,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,148,Steam and hot water supply services,C_HWAT,90107921.54255502,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,149,"Collected and purified water, distribution services of water (41)",C_WATR,224873.62769085212,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,150,Construction work (45),C_CONS,28633.86360965633,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,151,"Secondary construction material for treatment, Re-processing of secondary construction material into aggregates",C_CONW,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,152,"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries",C_TDMO,3347.7027945759805,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,153,Retail trade services of motor fuel,C_TDFU,110017.34788176249,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,154,"Wholesale trade and commission trade services, except of motor vehicles and motorcycles (51)",C_TDWH,6500.616837688524,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,155,"Retail  trade services, except of motor vehicles and motorcycles; repair services of personal and household goods (52)",C_TDRT,1029.832645145642,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,156,Hotel and restaurant services (55),C_HORE,8152.856825819916,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,157,Railway transportation services,C_TRAI,356493.15782887593,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,158,Other land transportation services,C_TLND,598.6153686815204,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,159,Transportation services via pipelines,C_TPIP,2994200.602524895,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,160,Sea and coastal water transportation services,C_TWAS,397152.1206764209,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,161,Inland water transportation services,C_TWAI,1231571.0178387978,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,162,Air transport services (62),C_TAIR,751532.5022921772,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,163,Supporting and auxiliary transport services; travel agency services (63),C_TAUX,30871.928986344545,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,164,Post and telecommunication services (64),C_PTEL,8543.578313940905,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,165,"Financial intermediation services, except insurance and pension funding services (65)",C_FINT,6125.677073663956,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,166,"Insurance and pension funding services, except compulsory social security services (66)",C_FINS,5641.025981625728,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,167,Services auxiliary to financial intermediation (67),C_FAUX,7214.879457329155,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,168,Real estate services (70),C_REAL,6784.875203501908,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,169,Renting services of machinery and equipment without operator and of personal and household goods (71),C_MARE,6791.037039366545,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,170,Computer and related services (72),C_COMP,8040.389514997901,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,171,Research and development services (73),C_RESD,7187.100693031102,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,172,Other business services (74),C_OBUS,8501.820235131816,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,173,Public administration and defence services; compulsory social security services (75),C_PADF,11454.713641365182,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,174,Education services (80),C_EDUC,10494.646064834587,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,175,Health and social work services (85),C_HEAL,9266.61802985836,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,176,Food waste for treatment: incineration,C_INCF,17699.707920209872,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,177,Paper waste for treatment: incineration,C_INCP,20863.49877740541,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,178,Plastic waste for treatment: incineration,C_INCL,252623.9791310489,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,179,Intert/metal waste for treatment: incineration,C_INCM,259430.09169477585,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,180,Textiles waste for treatment: incineration,C_INCT,287179.93496546487,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,181,Wood waste for treatment: incineration,C_INCW,19835.655891717,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,182,Oil/hazardous waste for treatment: incineration,C_INCO,194626.62031478036,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,183,Food waste for treatment: biogasification and land application,C_BIOF,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,184,Paper waste for treatment: biogasification and land application,C_BIOP,0.0,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,185,Sewage sludge for treatment: biogasification and land application,C_BIOS,6218.749073818302,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,186,Food waste for treatment: composting and land application,C_COMF,28863.649359292256,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,187,Paper and wood waste for treatment: composting and land application,C_COMW,9980.414249572856,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,188,Food waste for treatment: waste water treatment,C_WASF,8825.071646995542,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,189,Other waste for treatment: waste water treatment,C_WASO,11004.37562012569,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,190,Food waste for treatment: landfill,C_LANF,10326.93091014638,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,191,Paper for treatment: landfill,C_LANP,10027.810123821338,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,192,Plastic waste for treatment: landfill,C_LANL,10408.437823213251,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,193,Inert/metal/hazardous waste for treatment: landfill,C_LANI,9722.487053701729,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,194,Textiles waste for treatment: landfill,C_LANT,13108.519475735164,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,195,Wood waste for treatment: landfill,C_LANW,12248.46918155309,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,196,Membership organisation services n.e.c. (91),C_ORGA,6877.49386508929,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,197,"Recreational, cultural and sporting services (92)",C_RECR,7583.379921893022,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,198,Other services (93),C_OSER,8477.913678993005,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,199,Private households with employed persons (95),C_PRHH,7534.758880781907,kg CO2e/M.EUR,2022,3
+EXIOBASE,US,美國,200,Extra-territorial organizations and bodies,C_EXTO,0.0,kg CO2e/M.EUR,2022,3

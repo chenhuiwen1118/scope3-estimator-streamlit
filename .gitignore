@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.tar.gz
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+cache/
+*.pkl
+*.pickle
+*.cache
+
+# Models（太大，由腳本重建或下載）
+models/*.bin
+models/*.pt
+models/*.safetensors
+models/*.onnx
+!models/.gitkeep
+
+# Embedding 向量檔（可由腳本重建）
+*.npy
+!data/emission_factors/tier1_local/tier1_embeddings.npy
+!data/emission_factors/tier2_international/tier2_embeddings.npy
+!data/emission_factors/tier3_eeio/tier3_eeio_embeddings.npy
+
+# Data（訓練資料 — 含原始、標注、審查）
+data/training_data/
+
+# 備份檔
+*_backup_*.csv
+data/emission_factors/**/dedupe_backup_*/
+
+# FAISS Indexes
+*.index
+*.faiss
+
+# Logs
+logs/
+*.log
+
+# Test
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup
+*.bak
+*.backup
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# 二進位文件（PDF 參考資料不入庫）
+data/emission_factors/**/*.pdf
+
+# 大型二進位 / 非必要檔案
+README.pdf
+*.jsonl.gz
+*.numbers
+*.xlsx
+*.ods
+!data/emission_factors/tier2_international/*.xlsx
+
+# Local demo/import files outside runtime data directories
+/Scope 3 Procurement Data.xlsx
+/113年2月5日公告溫室氣體排放係數.ods
+
+# Heroku / PaaS 殘留（不需要）
+.slugignore
+Procfile
+runtime.txt
+
+# 內部開發文件（不公開）
+docs/reports/
+docs/user_testing/
+docs/STATUS.md
+docs/WORKLOG.md
+PROJECT_STATUS.md
+PROJECT_STRUCTURE.md
+RELEASE.md
+CHANGELOG.md
+
+# 非主線 requirements
+requirements_foodlca.txt
+requirements_opchat.txt
+
+# CI log 殘留
+actions_run_*.log
+
+# Claude 本地設定
+.claude/

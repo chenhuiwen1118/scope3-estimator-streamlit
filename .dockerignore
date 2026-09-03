@@ -1,0 +1,125 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+tests/
+
+# Documentation source (keep compiled docs)
+docs/*.md
+docs/user_testing/*.md
+docs/reports/*.md
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+.cache/
+*.pyc
+__pycache__/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Development scripts
+scripts/dev/
+scripts/test/
+
+# Data processing scripts (not needed in runtime)
+scripts/build_*embeddings.py
+scripts/integrate_*.py
+scripts/download_*.py
+
+# Docker
+Dockerfile.*
+docker-compose.*.yml
+.dockerignore
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Project management
+TODO.md
+NOTES.md
+*.draft.md
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment files (should use docker-compose env)
+.env
+.env.local
+.env.*.local
+
+# Data (training data mount at runtime, keep emission factors in image)
+data/training_data/
+data/synthetic/
+*.csv.gz
+*.parquet
+*.jsonl
+*.jsonl.gz
+
+# Keep these in image:
+# - data/emission_factors/ (必需！排放係數資料庫)
+# - data/reference_data/   (必需！參考資料)
+
+
+# Backup files
+*.backup
+*_backup_*
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# Keep necessary files
+# (data/ 由外部掛載，不打包進 image)

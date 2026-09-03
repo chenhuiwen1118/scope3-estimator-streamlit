@@ -1,0 +1,224 @@
+﻿Process,Category,EF3.1,kg CO2e
+"Lamb, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.945,12.61
+"Lamb, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.779,9.16
+"Lamb, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,2.45,15.11
+"Spring oat grain, organic, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.087,0.36
+"Winter oat, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.087,0.52
+"Baled hay, permanent meadow, organic, system number 1, at farm gate {FR} U",,0.046,0.11
+"Baled hay, permanent meadow, organic, system number 2, at farm gate {FR} U",,0.04,0.09
+"Baled hay, permanent meadow, organic, system number 3, at farm gate {FR} U",,0.054,0.09
+"Baled hay, permanent meadow, organic, system number 4, at farm gate {FR} U",,-0.045,0
+"Baled hay, permanent meadow, organic, system number 5, at farm gate {FR} U",,0.026,0.04
+"Baled hay, permanent meadow, organic, system number 6, at farm gate {FR} U",,0.016,0
+"Baled hay, permanent meadow, organic, suckler cow and beef fattening system number 1, at farm gate {FR} U",,0.017,0.05
+"Baled hay, permanent meadow, organic, suckler cow and beef fattening system number 2, at farm gate {FR} U",,0.01,0.02
+"Baled hay, permanent meadow, organic, suckler cow and beef fattening system number 3, at farm gate {FR} U",,0.01,0.02
+"Baled hay, permanent meadow, organic, suckler cow and beef fattening system number 4, at farm gate {FR} U",,0.012,0.02
+"Baled hay, temporary meadow, organic, system number 1, at farm gate {FR} U",,0.043,0.25
+"Baled hay, temporary meadow, organic, system number 2, at farm gate {FR} U",,0.037,0.26
+"Baled hay, temporary meadow, organic, system number 3, at farm gate {FR} U",,0.021,0.18
+"Baled hay, temporary meadow, organic, system number 4, at farm gate {FR} U",,0.02,0.18
+"Baled hay, temporary meadow, organic, system number 5, at farm gate {FR} U",,0.041,0.33
+"Spring wheat, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.044,0.32
+"Spring wheat, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.041,0.3
+"Winter wheat, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.088,0.45
+"Winter wheat, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.043,0.31
+"Winter wheat, from intercrop, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.085,0.44
+"Winter wheat, from intercrop, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.042,0.31
+"Winter wheat, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.054,0.35
+"Winter wheat, organic, system number 10, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.091,0.45
+"Winter wheat, organic, system number 11, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.075,0.43
+"Winter wheat, organic, system number 12, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.072,0.3
+"Winter wheat, organic, system number 13, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.067,0.44
+"Winter wheat, organic, system number 14, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.084,0.49
+"Winter wheat, organic, system number 15, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.069,0.39
+"Winter wheat, organic, system number 16, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.112,0.33
+"Winter wheat, organic, system number 17, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.061,0.36
+"Winter wheat, organic, system number 18, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.116,0.44
+"Winter wheat, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.089,0.41
+"Winter wheat, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.091,0.55
+"Winter wheat, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.132,0.71
+"Winter wheat, organic, system number 5, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.043,0.29
+"Winter wheat, organic, system number 6, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.064,0.38
+"Winter wheat, organic, system number 7, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.137,0.54
+"Winter wheat, organic, system number 8, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.091,0.54
+"Winter wheat, organic, system number 9, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.102,0.46
+"Cull ewe, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.615,9.6
+"Cull ewe, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,1.012,12.9
+"Cull ewe, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,1.925,10.61
+"Carrot, organic, Lower Normandy, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.014,0.09
+"Cauliflower, winter, organic, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.046,0.28
+"Winter rapeseed, organic, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.149,0.65
+"Zucchini, springtime, under tunnel, organic, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.044,0.15
+"Chicory witloof, season, organic at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.072,0.64
+"Chicory witloof, season, organic, storage and forcing, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.037,0.4
+"Chicory witloof, season, organic, root production, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.021,0.14
+"Silage maize, organic, Switzerland national average, at feeder {FR} U",,0.045,0.18
+"Silage maize, organic, stored and transported {FR} U",,0.04,0.17
+"Grass silage, temporary meadow, organic, system number 1, at farm gate {FR} U",,0.056,0.3
+"Grass silage, temporary meadow, organic, system number 2, at farm gate {FR} U",,0.051,0.32
+"Grass silage, temporary meadow, organic, system number 3, at farm gate {FR} U",,0.07,0.41
+"Grass silage, temporary meadow, organic, system number 4, at farm gate {FR} U",,0.046,0.29
+"Grass silage, temporary meadow, organic, system number 5, at farm gate {FR} U",,0.038,0.26
+"Spelt, organic, at farm gate {FR} U",,0.115,0.97
+"Spring faba bean and spring wheat intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.05,0.36
+"Spring faba bean and spring barley intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.05,0.36
+"Spring faba bean, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.054,0.39
+"Spring faba bean, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.054,0.39
+"Spring faba bean, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.092,0.59
+"Spring faba bean, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.127,0.79
+"Winter faba bean and winter wheat intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.048,0.35
+"Winter faba bean and winter wheat intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.091,0.39
+"Winter faba bean and winter barley intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.048,0.35
+"Winter faba bean, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.052,0.37
+"Winter faba bean, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.072,0.37
+"Winter faba bean, from intercrop, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.052,0.37
+"Winter faba bean, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.108,0.6
+"Winter faba bean, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.089,0.58
+"Winter faba bean, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.115,0.49
+"Winter faba bean, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.119,0.75
+"Baled grass, permanent meadow, organic, system number 1, at farm gate {FR} U",,0.049,0.13
+"Baled grass, permanent meadow, organic, system number 2, at farm gate {FR} U",,0.014,0.06
+"Baled grass, permanent meadow, organic, suckler cow and beef fattening system number 1, at farm gate {FR} U",,0.006,0.05
+"Baled grass, permanent meadow, organic, suckler cow and beef fattening system number 3, at farm gate {FR} U",,0.009,0.07
+"Baled grass, permanent meadow, organic, suckler cow and beef fattening system number 4, at farm gate {FR} U",,0.015,0.1
+"Baled grass, temporary meadow, organic, system number 3, at farm gate {FR} U",,0.038,0.26
+"Grazed grass, pasture at farm, organic, system number 1, at farm gate {FR} U",,0.028,-0.11
+"Grazed grass, summer pasture and pasture at farm, organic, system number 1, at farm gate {FR} U",,0.066,-0.26
+"Grazed grass, summer pasture, organic, system number 1, at farm gate {FR} U",,0.077,-0.3
+"Grazed grass, permanent meadow, organic, system number 1, at farm gate {FR} U",,0.044,0.09
+"Grazed grass, permanent meadow, organic, system number 2, at farm gate {FR} U",,0.038,0.07
+"Grazed grass, permanent meadow, organic, system number 3, at farm gate {FR} U",,0.052,0.07
+"Grazed grass, permanent meadow, organic, system number 4, at farm gate {FR} U",,0.008,-0.05
+"Grazed grass, permanent meadow, organic, system number 5, at farm gate {FR} U",,0.024,0.02
+"Grazed grass, permanent meadow, organic, system number 6, at farm gate {FR} U",,0.013,-0.04
+"Grazed grass, permanent meadow, organic, suckler cow and beef fattening system number 1, at farm gate {FR} U",,0.027,0
+"Grazed grass, permanent meadow, organic, suckler cow and beef fattening system number 2, at farm gate {FR} U",,0.025,0.01
+"Grazed grass, permanent meadow, organic, suckler cow and beef fattening system number 3, at farm gate {FR} U",,0.03,0.01
+"Grazed grass, permanent meadow, organic, suckler cow and beef fattening system number 4, at farm gate {FR} U",,0.03,0.01
+"Grazed grass, temporary meadow, organic, system number 1, at farm gate {FR} U",,0.041,0.23
+"Grazed grass, temporary meadow, organic, system number 2, at farm gate {FR} U",,0.036,0.24
+"Grazed grass, temporary meadow, organic, system number 3, at farm gate {FR} U",,0.016,0.13
+"Grazed grass, temporary meadow, organic, system number 4, at farm gate {FR} U",,0.015,0.14
+"Wool, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.133,2.57
+"Wool, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.229,2.82
+"Wool, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.491,3
+"Cow milk, organic, lowland milk system, silage maize 5 to 10%, at farm gate {FR} U",,0.102,1.1
+"Cow milk, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.094,0.91
+"Cow milk, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.096,0.86
+"Cow milk, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.081,0.8
+"Cow milk, organic, system number 4, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.078,0.84
+"Cow milk, organic, system number 5, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.083,0.94
+"Blue lupine, organic, at farm gate {FR} U",,0.214,3.73
+"Alfalfa, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.037,0.25
+"Alfalfa, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.018,0.15
+"Alfalfa, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.053,0.2
+"Alfalfa, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.022,0.17
+"Alfalfa, organic, system number 5, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.033,0.24
+"Grain maize, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.104,0.26
+"Grain maize, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.099,0.23
+"Grain maize, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.149,0.23
+"Melon, organic, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.061,0.13
+"Walnut, dried inshell, traditional varieties, organic, at farm gate {FR} U",Agricultural\Plant production\Nuts\Transformation,0.444,1.32
+"Egg, organic, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.463,1.72
+"Egg, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.544,1.99
+"Egg, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.545,2.01
+"Spring barley, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.042,0.31
+"Spring barley, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.045,0.32
+"Spring barley, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.119,0.56
+"Spring barley, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.125,0.61
+"Spring barley, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.064,0.42
+"Spring barley, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.063,0.42
+"Winter barley, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.043,0.31
+"Winter barley, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.04,0.29
+"Winter barley, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.097,0.38
+"Winter barley, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.057,0.38
+"Wheat straw, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0,0
+"Wheat straw, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0,0
+"Peach, organic, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.201,0.22
+"Pear, organic, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.094,0.11
+"Chickpea, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.145,0.91
+"Spring pea and spring wheat intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.044,0.32
+"Spring pea and spring barley intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.044,0.33
+"Spring pea, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.047,0.35
+"Spring pea, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.046,0.35
+"Winter pea and winter wheat intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.076,0.39
+"Winter pea and winter wheat intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.043,0.32
+"Winter pea and winter barley intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.042,0.31
+"Winter pea and triticale grain intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.05,0.31
+"Winter pea and triticale grain intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.055,0.36
+"Winter pea and triticale grain intercrop, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.08,0.53
+"Winter pea and triticale grain intercrop, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.065,0.45
+"Winter pea, from intercrop, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.053,0.38
+"Winter pea, from intercrop, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.063,0.44
+"Winter pea, from intercrop, organic, system number 5, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.043,0.32
+"Winter pea, from intercrop, organic, system number 6, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.073,0.38
+"Winter pea, from intercrop, organic, system number 7, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.044,0.33
+"Winter pea, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.049,0.3
+"Winter pea, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.053,0.35
+"Apple, organic, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.062,0.11
+"Pig, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.535,3.62
+"Pig, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.596,4.24
+"Pig, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.545,3.87
+"Pig, organic, system number 4, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.697,5.03
+"Fattened pig, organic, national average, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.633,4.4
+"Cull hen, organic, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.849,6.02
+"Cull hen, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,1.908,11.89
+"Cull hen, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,1.908,11.89
+"Broiler, organic, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.635,2.65
+"Broiler, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.68,3.14
+"Broiler, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.69,3.14
+"Grape, organic, PDO, dry white wine, system number 1, at vineyard gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.029,0.15
+"Grape, organic, PDO, dry white wine, system number 2, at vineyard gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.03,0.16
+"Grape, organic, PDO, dry white wine, system number 3, at vineyard gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.055,0.24
+"Grape, organic, PDO, dry white wine, system number 4, at vineyard gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.059,0.3
+"Grape, organic, PDO, dry white wine, system number 5, at vineyard gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.14,0.67
+"Grape, organic, AOC, Maconnais, at vineyard {FR} U",Agricultural\Plant production\Legumes\Transformation,0.134,0.63
+"Grape, organic, variety mix, Languedoc-Roussillon, at vineyard {FR} U",Agricultural\Plant production\Legumes\Transformation,0.075,0.33
+"Soybean grain, organic, at farm gate {CN} U",Agricultural\Plant production\Legumes\Transformation,0.101,0.84
+"Soybean grain, organic, at farm gate {IN} U",Agricultural\Plant production\Legumes\Transformation,0.232,1.37
+"Soybean grain, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.252,0.67
+"Soybean grain, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.264,0.73
+"Soybean grain, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.149,0.97
+"Soybean grain, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.132,0.88
+"Soybean grain, organic, system number 5, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.299,0.43
+"Sorghum, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.028,0.23
+"Cropping system number 1, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.056,0.2
+"Cropping system number 10, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.217,0.24
+"Cropping system number 11, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.051,0.2
+"Cropping system number 2, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.067,0.24
+"Cropping system number 3, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.035,0.15
+"Cropping system number 4, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.242,0.49
+"Cropping system number 5, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.122,0.46
+"Cropping system number 6, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.13,0.3
+"Cropping system number 7, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.099,0.36
+"Cropping system number 8, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.078,0.16
+"Cropping system number 9, organic, at farm gate {FR} U",Agricultural\Plant production\Intercrops\Transformation,0.043,0.17
+"Tomato, organic, greenhouse production, national average, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.2
+"Sunflower grain, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.127,0.46
+"Sunflower grain, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.111,0.4
+"Sunflower grain, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.099,0.39
+"Sunflower grain, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.101,0.42
+"Sunflower grain, organic, system number 5, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.123,0.51
+"Triticale grain, from intercrop, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.05,0.31
+"Triticale grain, from intercrop, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.055,0.37
+"Triticale grain, from intercrop, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.095,0.61
+"Triticale grain, from intercrop, organic, system number 4, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.066,0.46
+"Triticale grain, organic, system number 1, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.044,0.33
+"Triticale grain, organic, system number 2, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.073,0.44
+"Triticale grain, organic, system number 3, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.055,0.32
+"Cull sow, organic, system number 1, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.833,8.84
+"Cull sow, organic, system number 2, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,4.314,25.44
+"Cull sow, organic, system number 3, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.946,9.37
+"Cull sow, organic, system number 4, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,7.109,51.33
+"Cull sow, organic, national average, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,2.244,11.02
+"Suckler cull cow, organic, suckler cow system number 1, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.5,17.57
+"Suckler cull cow, organic, suckler cow system number 2, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.05,13.05
+"Suckler cull cow, organic, suckler cow system number 3, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.763,18.7
+"Suckler cull cow, organic, suckler cow system number 4, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.486,16.7
+"Cull cow, organic, lowland milk system, silage maize 5 to 10%, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.937,9.76
+"Cull cow, organic, milk system number 1, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.366,13.08
+"Cull cow, organic, milk system number 2, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.617,13.36
+"Cull cow, organic, milk system number 3, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.824,7.69
+"Cull cow, organic, milk system number 4, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.065,11.15
+"Cull cow, organic, milk system number 5, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.853,8.98

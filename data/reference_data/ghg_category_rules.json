@@ -1,0 +1,186 @@
+{
+  "category_1_keywords": {
+    "services": [
+      "服務", "service", "services",
+      "consulting", "consultation", "consultancy", "顧問",
+      "advisory", "advisor", "諮詢",
+      "training", "course", "workshop", "seminar", "education", "培訓", "課程",
+      "audit", "auditing", "稽核", "審計",
+      "legal services", "法律服務",
+      "security services", "保全", "保安",
+      "maintenance", "repair", "維修", "保養", "修理",
+      "cleaning", "清潔", "衛生",
+      "monitoring", "監測",
+      "management services", "管理服務",
+      "professional services", "專業服務",
+      "human services", "人力服務",
+      "provision of", "提供",
+      "media monitoring", "媒體監測"
+    ],
+    "office_supplies": [
+      "文具", "stationery",
+      "紙張", "paper",
+      "筆", "pen", "pencil",
+      "墨水", "ink",
+      "影印紙", "copy paper",
+      "office supplies", "辦公用品"
+    ],
+    "consumables": [
+      "耗材", "supplies", "consumables",
+      "碳粉", "toner",
+      "墨水匣", "ink cartridge",
+      "電池", "battery", "batteries",
+      "燈泡", "light bulb", "bulb"
+    ],
+    "fuel_energy": [
+      "燃料", "fuel",
+      "柴油", "diesel",
+      "汽油", "gasoline", "petrol",
+      "天然氣", "gas", "natural gas",
+      "電力", "electricity", "power", "energy",
+      "油", "oil",
+      "航空燃料", "aviation fuel", "jet fuel"
+    ],
+    "medical_supplies": [
+      "醫療用品", "medical supplies",
+      "衛生用品", "sanitizing", "disinfecting",
+      "catheters", "導管",
+      "surgical", "手術用品",
+      "pharmaceuticals", "藥品"
+    ],
+    "food_services": [
+      "食品", "food", "食物",
+      "飲料", "beverage", "drinks",
+      "餐飲", "catering", "餐點",
+      "meal", "lunch", "dinner"
+    ],
+    "raw_materials": [
+      "原料", "raw materials", "materials",
+      "材料", "material",
+      "零件", "parts", "components",
+      "配件", "accessories"
+    ],
+    "description": "這些項目為消耗品或服務，不列為固定資產，即使金額較高也屬於 Category 1"
+  },
+  "category_2_keywords": {
+    "equipment": [
+      "設備", "equipment",
+      "機器", "machinery", "machine",
+      "機械", "mechanical equipment",
+      "儀器", "instrument", "apparatus",
+      "裝置", "device", "installation",
+      "purchase of equipment", "採購設備",
+      "acquisition of equipment", "購置設備"
+    ],
+    "vehicles": [
+      "車輛", "vehicle", "vehicles",
+      "汽車", "car", "automobile",
+      "卡車", "truck", "trucks",
+      "貨車", "van", "delivery truck",
+      "轎車", "sedan",
+      "電動車", "electric vehicle",
+      "bus", "buses", "巴士"
+    ],
+    "furniture": [
+      "家具", "furniture",
+      "辦公桌", "desk", "office desk",
+      "椅子", "chair", "chairs",
+      "櫃子", "cabinet", "filing cabinet",
+      "沙發", "sofa", "couch",
+      "辦公傢俱", "office furniture"
+    ],
+    "property": [
+      "土地", "land", "property",
+      "建築", "building", "construction",
+      "廠房", "plant", "factory",
+      "房屋", "house", "premises",
+      "不動產", "real estate",
+      "基礎建設", "infrastructure",
+      "設施", "facility", "facilities"
+    ],
+    "it_hardware": [
+      "伺服器", "server", "servers",
+      "工作站", "workstation",
+      "主機", "host", "mainframe",
+      "網路設備", "network equipment", "networking equipment",
+      "儲存設備", "storage equipment", "storage system",
+      "硬體", "hardware"
+    ],
+    "description": "這些項目通常金額較高且使用年限超過 2 年，應列為固定資產 (Category 2)"
+  },
+  "category_1_priority_patterns": {
+    "description": "這些模式即使金額高於門檻，也強制判為 Category 1（服務與消耗品）",
+    "patterns": [
+      ".*service.*",
+      ".*services.*",
+      ".*consulting.*",
+      ".*training.*",
+      ".*course.*",
+      ".*audit.*",
+      ".*legal.*",
+      ".*advisory.*",
+      ".*maintenance.*",
+      ".*repair.*",
+      ".*supply of.*diesel.*",
+      ".*supply of.*fuel.*",
+      ".*supply of.*gas.*",
+      ".*supply of.*electricity.*",
+      ".*contract.*service.*",
+      ".*provision of.*service.*",
+      ".*security services.*",
+      ".*cleaning.*",
+      ".*monitoring.*"
+    ],
+    "confidence": 0.85,
+    "note": "這些關鍵字優先於金額判斷，因為服務即使金額高也是消耗性支出"
+  },
+  "category_2_priority_patterns": {
+    "description": "這些模式明確指出是購買資產，金額高時判為 Category 2",
+    "patterns": [
+      ".*purchase of.*vehicle.*",
+      ".*purchase of.*equipment.*",
+      ".*purchase of.*machinery.*",
+      ".*acquisition of.*",
+      ".*procurement of equipment.*",
+      ".*construction.*",
+      ".*building.*"
+    ],
+    "confidence": 0.80,
+    "min_amount": 50000,
+    "note": "這些關鍵字指出是購買固定資產"
+  },
+  "ambiguous_keywords": {
+    "computer_related": [
+      "電腦", "computer",
+      "筆電", "laptop", "notebook",
+      "平板", "tablet", "ipad",
+      "螢幕", "monitor", "screen", "display",
+      "印表機", "printer"
+    ],
+    "phone_related": [
+      "手機", "phone", "mobile", "smartphone",
+      "電話", "telephone",
+      "通訊設備", "communication equipment"
+    ],
+    "appliances": [
+      "冷氣", "air conditioner", "AC",
+      "冰箱", "refrigerator", "fridge",
+      "飲水機", "water dispenser"
+    ],
+    "description": "這些項目需要根據金額門檻（通常 10,000-50,000 元）與會計科目判斷",
+    "threshold_note": "企業通常將金額 >= 10,000-50,000 元且使用年限 > 2 年的項目列為固定資產"
+  },
+  "exclude_keywords": {
+    "description": "這些項目應排除在 Scope 3 計算之外",
+    "keywords": [
+      "利息", "interest",
+      "匯兌", "exchange",
+      "折舊", "depreciation",
+      "攤銷", "amortization",
+      "稅金", "tax",
+      "罰款", "penalty", "fine",
+      "捐贈", "donation",
+      "投資", "investment"
+    ]
+  }
+}

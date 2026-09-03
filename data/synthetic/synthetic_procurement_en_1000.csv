@@ -1,0 +1,1001 @@
+﻿description,ghg_category,scenario,industry,item_type,amount,language
+Cold storage rental (9889 cbm) for quarterly,1,logistics,Logistics,Warehousing,1922424.87,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,9863909.24,en
+consumer goods manufacturing line (5643 units/day capacity),2,equipment,Manufacturing,Production Line,41723599.45,en
+Construction of distribution center (40253 sqm),2,equipment,Real Estate,Building,450810901.48,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,815597.88,en
+warehouse building contract (headquarters),2,equipment,Real Estate,Building,162105537.5,en
+Logistics service for cross-border corridor (annual),1,logistics,Logistics,Freight,2387987.1,en
+Purchase of ethanol solvent - 8343 liters,1,raw_materials,Manufacturing,Chemical,804887.41,en
+Solar panel installation (2946 kW capacity),2,equipment,Energy,Power Generation,30994151.21,en
+Engagement of legal consultant (10 months),1,services,Professional Services,Consulting,1833745.29,en
+conveyor system procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,6243354.16,en
+Contract for 5761 shipments via management,1,logistics,Logistics,Freight,2279156.04,en
+Warehouse storage service (1537 sqm for 12 months),1,logistics,Logistics,Warehousing,2206494.95,en
+forklifts acquisition (industrial grade),2,equipment,Transportation,Vehicle,6249500.49,en
+manufacturing plant building contract (factory),2,equipment,Real Estate,Building,269610094.28,en
+robotic arm procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,3921557.64,en
+Logistics service for cross-border corridor (6 months),1,logistics,Logistics,Freight,3175635.75,en
+IT infrastructure upgrade - conveyor system (9738 units),2,equipment,IT Infrastructure,Hardware,1669307.1,en
+Renewable energy facility construction (9519 MW),2,equipment,Energy,Power Generation,129039404.09,en
+Order 8599 capacitors for production batch,1,raw_materials,Electronics,Electronic Components,2576095.83,en
+Purchase of 3302 units of microchips for assembly,1,raw_materials,Electronics,Electronic Components,1010582.41,en
+PCB boards component procurement (1286 pcs),1,raw_materials,Electronics,Electronic Components,728308.68,en
+Purchase of acetone solvent - 9917 liters,1,raw_materials,Manufacturing,Chemical,1385981.88,en
+"Building management service (headquarters, 19 months)",1,services,Facility Management,Maintenance,401566.93,en
+Purchase of 3167 tons of rice for food production,1,raw_materials,Food & Beverage,Agricultural,1672641.7,en
+Procurement of aluminum alloy (7924 kg) for production line,1,raw_materials,Manufacturing,Metal,3444325.8,en
+Cold storage rental (7136 cbm) for 12 months,1,logistics,Logistics,Warehousing,719446.21,en
+Purchase of 7806 injection molding machine for data center,2,equipment,IT Infrastructure,Hardware,6592034.7,en
+manufacturing plant building contract (factory),2,equipment,Real Estate,Building,258395372.77,en
+consumer goods manufacturing line (4921 units/day capacity),2,equipment,Manufacturing,Production Line,50944840.07,en
+management transportation service - East-West,1,logistics,Logistics,Freight,967254.16,en
+Logistics service for cross-border corridor (annual),1,logistics,Logistics,Freight,2081372.25,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,161264.42,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,1217279.18,en
+Industrial ethanol supply contract (1712 liters),1,raw_materials,Manufacturing,Chemical,247971.31,en
+Analytics software subscription (1488 licenses for 6 months),1,services,IT Services,Software,185685.27,en
+conveyor system acquisition - industrial grade,2,equipment,Manufacturing,Machinery,5850888.11,en
+Professional advisory service - management,1,services,Professional Services,Consulting,1028624.24,en
+manufacturing plant building contract (factory),2,equipment,Real Estate,Building,421126180.4,en
+Purchase of 8712 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,767900.2,en
+Logistics service for North-South corridor (6 months),1,logistics,Logistics,Freight,149900.77,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1110724.87,en
+Cold storage rental (2601 cbm) for annual,1,logistics,Logistics,Warehousing,653575.49,en
+packaging machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,5158385.78,en
+Procurement of steel sheets (823 kg) for production line,1,raw_materials,Manufacturing,Metal,1716145.14,en
+Procurement of titanium (8499 kg) for production line,1,raw_materials,Manufacturing,Metal,443345.63,en
+CNC machine power generation system - 3114 MW,2,equipment,Energy,Power Generation,130000879.23,en
+Purchase of 232 kg of steel sheets for manufacturing use,1,raw_materials,Manufacturing,Metal,2407322.9,en
+wheat ingredient procurement - 7796 tons,1,raw_materials,Food & Beverage,Agricultural,2601923.18,en
+consumer goods manufacturing line (539 units/day capacity),2,equipment,Manufacturing,Production Line,10184067.45,en
+Cold storage rental (8828 cbm) for 12 months,1,logistics,Logistics,Warehousing,659879.3,en
+Fleet procurement - 5914 forklifts,2,equipment,Transportation,Vehicle,5985443.87,en
+Order organic sugar (3228 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1634060.22,en
+wheat ingredient procurement - 8166 tons,1,raw_materials,Food & Beverage,Agricultural,2791114.6,en
+Purchase of 397 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,1440864.01,en
+Engagement of sustainability consultant (20 months),1,services,Professional Services,Consulting,1441412.48,en
+Purchase of 9630 tons of soybeans for food production,1,raw_materials,Food & Beverage,Agricultural,489852.7,en
+Logistics service for North-South corridor (quarterly),1,logistics,Logistics,Freight,3545047.91,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,622878.9,en
+consumer goods manufacturing line (578 units/day capacity),2,equipment,Manufacturing,Production Line,25405629.98,en
+Purchase of 8584 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,3985869.25,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,821713.45,en
+sustainability transportation service - cross-border,1,logistics,Logistics,Freight,3580019.59,en
+Engagement of management consultant (21 months),1,services,Professional Services,Consulting,1900669.89,en
+Purchase of sulfuric acid solvent - 1676 liters,1,raw_materials,Manufacturing,Chemical,1201224.91,en
+injection molding machine power generation system - 8141 MW,2,equipment,Energy,Power Generation,117566450.31,en
+Industrial packaging machine (1170 units) with installation,2,equipment,Manufacturing,Machinery,9925290.76,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,5498411.25,en
+Engagement of management consultant (20 months),1,services,Professional Services,Consulting,943182.92,en
+Purchase of 3116 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,5133774.04,en
+soybeans ingredient procurement - 8248 tons,1,raw_materials,Food & Beverage,Agricultural,1908090.82,en
+Cold storage rental (5623 cbm) for quarterly,1,logistics,Logistics,Warehousing,2767939.48,en
+Warehouse storage service (4684 sqm for annual),1,logistics,Logistics,Warehousing,2011808.41,en
+IT infrastructure upgrade - robotic arm (9884 units),2,equipment,IT Infrastructure,Hardware,3891457.2,en
+Cold storage rental (9626 cbm) for quarterly,1,logistics,Logistics,Warehousing,300227.85,en
+5493 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,1301481.64,en
+Purchase of 1529 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,3073147.16,en
+Purchase of 4579 units of LED modules for assembly,1,raw_materials,Electronics,Electronic Components,2848277.35,en
+Order 856 kg of copper wire for QQ3 production,1,raw_materials,Manufacturing,Metal,3305549.48,en
+Purchase of 5975 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,1925584.56,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,67325511.06,en
+Purchase of toluene solvent - 3856 liters,1,raw_materials,Manufacturing,Chemical,1878410.87,en
+LED modules component procurement (2660 pcs),1,raw_materials,Electronics,Electronic Components,7408006.38,en
+Monthly freight service for North-South distribution,1,logistics,Logistics,Freight,4841670.24,en
+Warehouse storage service (7806 sqm for quarterly),1,logistics,Logistics,Warehousing,1961961.59,en
+Industrial ethanol supply contract (6855 liters),1,raw_materials,Manufacturing,Chemical,904068.26,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,92916332.9,en
+Purchase of 6494 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,2656142.64,en
+New manufacturing plant development project,2,equipment,Real Estate,Building,374220775.7,en
+Facility maintenance service for 6 months,1,services,Facility Management,Maintenance,1442958.4,en
+legal consulting services for 12 months,1,services,Professional Services,Consulting,1297660.12,en
+wheat ingredient procurement - 8059 tons,1,raw_materials,Food & Beverage,Agricultural,355143.95,en
+Monthly freight service for North-South distribution,1,logistics,Logistics,Freight,1469705.53,en
+Purchase of 7777 kg of copper wire for manufacturing use,1,raw_materials,Manufacturing,Metal,1098863.18,en
+CNC machine power generation system - 149 MW,2,equipment,Energy,Power Generation,198842361.11,en
+Order 336 kg of aluminum alloy for QQ1 production,1,raw_materials,Manufacturing,Metal,3675057.23,en
+Renewable energy facility construction (596 MW),2,equipment,Energy,Power Generation,17375686.02,en
+Warehouse storage service (8634 sqm for quarterly),1,logistics,Logistics,Warehousing,2999930.21,en
+sustainability consulting services for annual,1,services,Professional Services,Consulting,324476.18,en
+Industrial injection molding machine (8908 units) with installation,2,equipment,Manufacturing,Machinery,17754560.35,en
+New office building development project,2,equipment,Real Estate,Building,189229774.21,en
+legal consulting services for quarterly,1,services,Professional Services,Consulting,1948679.68,en
+Purchase of 2804 electric vans for logistics operations,2,equipment,Transportation,Vehicle,18045402.94,en
+Order organic soybeans (3612 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1721574.04,en
+Engagement of management consultant (22 months),1,services,Professional Services,Consulting,360153.68,en
+Analytics software subscription (563 licenses for quarterly),1,services,IT Services,Software,792987.41,en
+7020 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,606189.87,en
+robotic arm procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,7332169.68,en
+Purchase of ethanol solvent - 3448 liters,1,raw_materials,Manufacturing,Chemical,588806.22,en
+conveyor system power generation system - 8791 MW,2,equipment,Energy,Power Generation,51033951.28,en
+Facility maintenance service for 12 months,1,services,Facility Management,Maintenance,1072376.42,en
+New manufacturing plant development project,2,equipment,Real Estate,Building,164144207.18,en
+IT infrastructure upgrade - CNC machine (3627 units),2,equipment,IT Infrastructure,Hardware,1650521.53,en
+distribution center building contract (branch),2,equipment,Real Estate,Building,58317213.71,en
+SaaS subscription for Analytics (8574 users),1,services,IT Services,Software,562383.58,en
+Industrial ethanol supply contract (4955 liters),1,raw_materials,Manufacturing,Chemical,1408146.63,en
+Purchase of 589 tons of corn for food production,1,raw_materials,Food & Beverage,Agricultural,2414579.35,en
+Purchase of 965 delivery trucks for logistics operations,2,equipment,Transportation,Vehicle,6332244.06,en
+Order 3495 kg of titanium for QQ4 production,1,raw_materials,Manufacturing,Metal,4915681.44,en
+SaaS subscription for CRM (2081 users),1,services,IT Services,Software,543894.69,en
+Fleet procurement - 3752 delivery trucks,2,equipment,Transportation,Vehicle,18995535.5,en
+7384 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1432867.76,en
+IT infrastructure upgrade - injection molding machine (6961 units),2,equipment,IT Infrastructure,Hardware,9928382.03,en
+Purchase of 7155 units of microchips for assembly,1,raw_materials,Electronics,Electronic Components,6736717.07,en
+Warehouse storage service (5431 sqm for 12 months),1,logistics,Logistics,Warehousing,277739.29,en
+Order organic rice (9866 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,855911.33,en
+Order organic soybeans (4425 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,128446.87,en
+Engagement of management consultant (36 months),1,services,Professional Services,Consulting,487743.7,en
+Purchase of CNC machine for production facility,2,equipment,Manufacturing,Machinery,35011236.84,en
+Construction of distribution center (41833 sqm),2,equipment,Real Estate,Building,312739265.58,en
+Warehouse storage service (7858 sqm for quarterly),1,logistics,Logistics,Warehousing,501312.17,en
+robotic arm acquisition - industrial grade,2,equipment,Manufacturing,Machinery,48228804.6,en
+Industrial sulfuric acid supply contract (4131 liters),1,raw_materials,Manufacturing,Chemical,158791.01,en
+IT infrastructure upgrade - conveyor system (5405 units),2,equipment,IT Infrastructure,Hardware,9343693.47,en
+soybeans ingredient procurement - 7616 tons,1,raw_materials,Food & Beverage,Agricultural,308741.24,en
+Third-party warehousing at factory - 9052 sqm,1,logistics,Logistics,Warehousing,1426834.11,en
+Cloud financial service - annual contract,1,services,IT Services,Software,955760.58,en
+8313 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1836471.98,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1054896.37,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,638305.95,en
+titanium raw material supply - 7837 kg,1,raw_materials,Manufacturing,Metal,2794784.44,en
+IT transportation service - urban,1,logistics,Logistics,Freight,4813126.74,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,28812148.69,en
+Order 3777 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,4443093.76,en
+Construction of distribution center (27813 sqm),2,equipment,Real Estate,Building,350644094.32,en
+Construction of distribution center (12753 sqm),2,equipment,Real Estate,Building,139477401.7,en
+Industrial packaging machine (6321 units) with installation,2,equipment,Manufacturing,Machinery,13811488.69,en
+Contract for 2183 shipments via financial,1,logistics,Logistics,Freight,2623195.33,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,6995678.11,en
+wheat ingredient procurement - 235 tons,1,raw_materials,Food & Beverage,Agricultural,1872141.64,en
+Cloud legal service - annual contract,1,services,IT Services,Software,821148.27,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,641483.88,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,17094180.77,en
+Engagement of sustainability consultant (6 months),1,services,Professional Services,Consulting,1626236.81,en
+New office building development project,2,equipment,Real Estate,Building,281906564.59,en
+Professional advisory service - IT,1,services,Professional Services,Consulting,1692074.93,en
+SaaS subscription for ERP (9681 users),1,services,IT Services,Software,562439.69,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,6961935.7,en
+Monthly freight service for urban distribution,1,logistics,Logistics,Freight,4269610.58,en
+Complete consumer goods production line installation,2,equipment,Manufacturing,Production Line,8355305.46,en
+Purchase of 2631 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,519958.42,en
+distribution center building contract (factory),2,equipment,Real Estate,Building,483676448.97,en
+Contract for 5675 shipments via management,1,logistics,Logistics,Freight,4689764.7,en
+Solar panel installation (2386 kW capacity),2,equipment,Energy,Power Generation,46071681.04,en
+robotic arm procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,1193999.88,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,17583374.18,en
+Contract for 8725 shipments via sustainability,1,logistics,Logistics,Freight,955191.42,en
+Purchase of 8299 robotic arm for data center,2,equipment,IT Infrastructure,Hardware,5313118.12,en
+capacitors component procurement (365 pcs),1,raw_materials,Electronics,Electronic Components,748862.39,en
+Professional advisory service - IT,1,services,Professional Services,Consulting,419447.81,en
+Engagement of management consultant (13 months),1,services,Professional Services,Consulting,1173887.09,en
+sugar ingredient procurement - 3529 tons,1,raw_materials,Food & Beverage,Agricultural,2793658.54,en
+Cloud sustainability service - 6 months contract,1,services,IT Services,Software,471807.84,en
+Purchase of robotic arm for production facility,2,equipment,Manufacturing,Machinery,27131270.17,en
+Collaboration software subscription (8751 licenses for quarterly),1,services,IT Services,Software,388190.87,en
+Industrial acetone supply contract (8844 liters),1,raw_materials,Manufacturing,Chemical,581970.84,en
+Monthly freight service for cross-border distribution,1,logistics,Logistics,Freight,3214285.28,en
+Purchase of 4681 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,53582.58,en
+conveyor system power generation system - 2539 MW,2,equipment,Energy,Power Generation,76491161.94,en
+IT infrastructure upgrade - conveyor system (2095 units),2,equipment,IT Infrastructure,Hardware,2259790.31,en
+ERP software subscription (166 licenses for quarterly),1,services,IT Services,Software,972318.64,en
+conveyor system acquisition - industrial grade,2,equipment,Manufacturing,Machinery,2682294.71,en
+Third-party warehousing at regional office - 1400 sqm,1,logistics,Logistics,Warehousing,933576.68,en
+Logistics service for cross-border corridor (6 months),1,logistics,Logistics,Freight,1383405.86,en
+Fleet procurement - 2942 forklifts,2,equipment,Transportation,Vehicle,27136677.47,en
+"Building management service (factory, 13 months)",1,services,Facility Management,Maintenance,584436.92,en
+Order 9692 resistors for production batch,1,raw_materials,Electronics,Electronic Components,794766.46,en
+4139 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1566142.77,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,7903595.0,en
+packaging machine acquisition - industrial grade,2,equipment,Manufacturing,Machinery,577434.63,en
+consumer goods manufacturing line (2004 units/day capacity),2,equipment,Manufacturing,Production Line,55886931.2,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,12174045.97,en
+office building building contract (headquarters),2,equipment,Real Estate,Building,216858383.73,en
+Warehouse storage service (369 sqm for 6 months),1,logistics,Logistics,Warehousing,422308.23,en
+management consulting services for 6 months,1,services,Professional Services,Consulting,1385461.45,en
+aluminum alloy raw material supply - 9598 kg,1,raw_materials,Manufacturing,Metal,905067.81,en
+Procurement of stainless steel (4780 kg) for production line,1,raw_materials,Manufacturing,Metal,2263973.46,en
+Logistics service for North-South corridor (6 months),1,logistics,Logistics,Freight,2776937.49,en
+Industrial sodium hydroxide supply contract (6195 liters),1,raw_materials,Manufacturing,Chemical,1285572.21,en
+financial transportation service - urban,1,logistics,Logistics,Freight,292814.15,en
+3595 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1784580.49,en
+Industrial sulfuric acid supply contract (8794 liters),1,raw_materials,Manufacturing,Chemical,40209.35,en
+Renewable energy facility construction (9166 MW),2,equipment,Energy,Power Generation,70119068.71,en
+Industrial ethanol supply contract (5633 liters),1,raw_materials,Manufacturing,Chemical,1482459.53,en
+Renewable energy facility construction (3659 MW),2,equipment,Energy,Power Generation,158842102.26,en
+Procurement of copper wire (4791 kg) for production line,1,raw_materials,Manufacturing,Metal,3029746.08,en
+Warehouse storage service (7949 sqm for 6 months),1,logistics,Logistics,Warehousing,261771.82,en
+Industrial conveyor system (6258 units) with installation,2,equipment,Manufacturing,Machinery,44964939.64,en
+Engagement of sustainability consultant (32 months),1,services,Professional Services,Consulting,1377080.99,en
+cargo vehicles acquisition (industrial grade),2,equipment,Transportation,Vehicle,25324840.62,en
+ERP software subscription (9208 licenses for 6 months),1,services,IT Services,Software,995968.1,en
+Third-party warehousing at factory - 8015 sqm,1,logistics,Logistics,Warehousing,159815.47,en
+Industrial injection molding machine (1113 units) with installation,2,equipment,Manufacturing,Machinery,45055870.25,en
+Procurement of automated injection molding machine system,2,equipment,Manufacturing,Machinery,28718680.07,en
+robotic arm procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,2616949.58,en
+Engagement of management consultant (22 months),1,services,Professional Services,Consulting,1056447.03,en
+electronics manufacturing line (1335 units/day capacity),2,equipment,Manufacturing,Production Line,43609335.51,en
+Procurement of copper wire (5295 kg) for production line,1,raw_materials,Manufacturing,Metal,2085496.91,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,74940323.38,en
+Fleet procurement - 5223 forklifts,2,equipment,Transportation,Vehicle,16157771.73,en
+SaaS subscription for CRM (3171 users),1,services,IT Services,Software,194760.46,en
+Industrial conveyor system (9443 units) with installation,2,equipment,Manufacturing,Machinery,22117233.09,en
+Solar panel installation (1137 kW capacity),2,equipment,Energy,Power Generation,66552207.86,en
+Monthly freight service for North-South distribution,1,logistics,Logistics,Freight,2190707.24,en
+Purchase of 54 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,2465370.81,en
+5645 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1324220.32,en
+646 liters of ethanol for chemical processing,1,raw_materials,Manufacturing,Chemical,773739.65,en
+legal transportation service - regional,1,logistics,Logistics,Freight,271270.93,en
+Purchase of conveyor system for production facility,2,equipment,Manufacturing,Machinery,41352894.04,en
+Cloud sustainability service - 12 months contract,1,services,IT Services,Software,380778.39,en
+"Building management service (headquarters, 12 months)",1,services,Facility Management,Maintenance,950970.95,en
+Industrial packaging machine (3705 units) with installation,2,equipment,Manufacturing,Machinery,8061083.13,en
+Order organic sugar (6061 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,915354.17,en
+legal consulting services for quarterly,1,services,Professional Services,Consulting,571371.31,en
+Order 5517 kg of titanium for QQ4 production,1,raw_materials,Manufacturing,Metal,4335588.26,en
+microchips component procurement (5512 pcs),1,raw_materials,Electronics,Electronic Components,3334957.26,en
+Cloud financial service - 12 months contract,1,services,IT Services,Software,238848.68,en
+Procurement of automated injection molding machine system,2,equipment,Manufacturing,Machinery,911696.97,en
+Procurement of titanium (2151 kg) for production line,1,raw_materials,Manufacturing,Metal,4526339.07,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,506389.93,en
+Monthly freight service for regional distribution,1,logistics,Logistics,Freight,3182191.88,en
+Purchase of acetone solvent - 5610 liters,1,raw_materials,Manufacturing,Chemical,1780057.77,en
+Procurement of steel sheets (3606 kg) for production line,1,raw_materials,Manufacturing,Metal,432946.99,en
+cargo vehicles acquisition (industrial grade),2,equipment,Transportation,Vehicle,28751317.3,en
+Third-party warehousing at warehouse - 7684 sqm,1,logistics,Logistics,Warehousing,1525283.83,en
+financial transportation service - regional,1,logistics,Logistics,Freight,318366.9,en
+Industrial toluene supply contract (3383 liters),1,raw_materials,Manufacturing,Chemical,578274.34,en
+soybeans ingredient procurement - 5115 tons,1,raw_materials,Food & Beverage,Agricultural,1330596.21,en
+Monthly freight service for North-South distribution,1,logistics,Logistics,Freight,2780495.53,en
+IT transportation service - cross-border,1,logistics,Logistics,Freight,915848.36,en
+Warehouse storage service (1261 sqm for 6 months),1,logistics,Logistics,Warehousing,471316.32,en
+Renewable energy facility construction (236 MW),2,equipment,Energy,Power Generation,196019191.66,en
+Construction of distribution center (35158 sqm),2,equipment,Real Estate,Building,270647468.16,en
+Solar panel installation (8624 kW capacity),2,equipment,Energy,Power Generation,157597733.04,en
+aluminum alloy raw material supply - 6834 kg,1,raw_materials,Manufacturing,Metal,1720534.47,en
+Warehouse storage service (322 sqm for quarterly),1,logistics,Logistics,Warehousing,2900872.25,en
+SaaS subscription for CRM (7569 users),1,services,IT Services,Software,875012.71,en
+packaging machine power generation system - 1217 MW,2,equipment,Energy,Power Generation,177029157.56,en
+Industrial injection molding machine (4947 units) with installation,2,equipment,Manufacturing,Machinery,15101434.23,en
+Order 5165 capacitors for production batch,1,raw_materials,Electronics,Electronic Components,2905541.6,en
+Purchase of CNC machine for production facility,2,equipment,Manufacturing,Machinery,34071785.7,en
+Collaboration software subscription (1004 licenses for quarterly),1,services,IT Services,Software,353296.47,en
+Warehouse storage service (736 sqm for annual),1,logistics,Logistics,Warehousing,616749.11,en
+IT transportation service - North-South,1,logistics,Logistics,Freight,1069305.68,en
+Procurement of steel sheets (2454 kg) for production line,1,raw_materials,Manufacturing,Metal,2917807.62,en
+Renewable energy facility construction (3991 MW),2,equipment,Energy,Power Generation,3751667.72,en
+Construction of office building (38454 sqm),2,equipment,Real Estate,Building,418347730.49,en
+Purchase of sulfuric acid solvent - 1880 liters,1,raw_materials,Manufacturing,Chemical,1188205.08,en
+Order organic corn (7151 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,318196.5,en
+Warehouse storage service (1988 sqm for 6 months),1,logistics,Logistics,Warehousing,2376291.1,en
+Purchase of acetone solvent - 9098 liters,1,raw_materials,Manufacturing,Chemical,1922897.46,en
+IT consulting services for quarterly,1,services,Professional Services,Consulting,661817.57,en
+IT infrastructure upgrade - CNC machine (482 units),2,equipment,IT Infrastructure,Hardware,8709656.26,en
+"Building management service (warehouse, 34 months)",1,services,Facility Management,Maintenance,42941.43,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,733029.18,en
+Collaboration software subscription (8737 licenses for 6 months),1,services,IT Services,Software,692968.96,en
+Purchase of 4612 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,6774343.15,en
+"Building management service (warehouse, 6 months)",1,services,Facility Management,Maintenance,279251.82,en
+Warehouse storage service (7548 sqm for 12 months),1,logistics,Logistics,Warehousing,1028447.14,en
+Purchase of 5410 forklifts for logistics operations,2,equipment,Transportation,Vehicle,15473597.76,en
+Order 7041 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,3219246.03,en
+Purchase of 8753 forklifts for logistics operations,2,equipment,Transportation,Vehicle,12886760.98,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,173232.42,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,971653.56,en
+"Building management service (factory, 31 months)",1,services,Facility Management,Maintenance,1175930.7,en
+Fleet procurement - 4342 cargo vehicles,2,equipment,Transportation,Vehicle,10377783.43,en
+Engagement of IT consultant (18 months),1,services,Professional Services,Consulting,350821.22,en
+Engagement of legal consultant (24 months),1,services,Professional Services,Consulting,1434998.37,en
+Logistics service for cross-border corridor (quarterly),1,logistics,Logistics,Freight,3641300.76,en
+Renewable energy facility construction (4065 MW),2,equipment,Energy,Power Generation,184277061.52,en
+Construction of distribution center (38703 sqm),2,equipment,Real Estate,Building,12279211.27,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,7800036.04,en
+legal transportation service - regional,1,logistics,Logistics,Freight,641635.33,en
+Purchase of 4840 units of microchips for assembly,1,raw_materials,Electronics,Electronic Components,3896516.17,en
+Purchase of 9318 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,3157007.62,en
+Professional advisory service - sustainability,1,services,Professional Services,Consulting,889709.9,en
+Construction of warehouse (34358 sqm),2,equipment,Real Estate,Building,307197689.98,en
+Procurement of aluminum alloy (4066 kg) for production line,1,raw_materials,Manufacturing,Metal,3292261.25,en
+Purchase of 8807 kg of steel sheets for manufacturing use,1,raw_materials,Manufacturing,Metal,2543237.78,en
+Order 8949 resistors for production batch,1,raw_materials,Electronics,Electronic Components,2032663.25,en
+Third-party warehousing at regional office - 6198 sqm,1,logistics,Logistics,Warehousing,2280192.09,en
+Cloud IT service - annual contract,1,services,IT Services,Software,867780.14,en
+ERP software subscription (2350 licenses for quarterly),1,services,IT Services,Software,423399.4,en
+Cloud financial service - quarterly contract,1,services,IT Services,Software,130968.16,en
+Construction of office building (3940 sqm),2,equipment,Real Estate,Building,489176248.8,en
+conveyor system power generation system - 5703 MW,2,equipment,Energy,Power Generation,39008537.17,en
+Order organic corn (2034 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,139367.0,en
+Cold storage rental (4091 cbm) for quarterly,1,logistics,Logistics,Warehousing,2575895.6,en
+electric vans acquisition (industrial grade),2,equipment,Transportation,Vehicle,15769170.23,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,1297145.06,en
+sugar ingredient procurement - 754 tons,1,raw_materials,Food & Beverage,Agricultural,820310.61,en
+Monthly freight service for regional distribution,1,logistics,Logistics,Freight,2670848.05,en
+aluminum alloy raw material supply - 106 kg,1,raw_materials,Manufacturing,Metal,995746.72,en
+conveyor system power generation system - 5546 MW,2,equipment,Energy,Power Generation,49011801.87,en
+Monthly freight service for regional distribution,1,logistics,Logistics,Freight,1917069.62,en
+management transportation service - cross-border,1,logistics,Logistics,Freight,2959885.72,en
+Purchase of 369 tons of corn for food production,1,raw_materials,Food & Beverage,Agricultural,2071731.25,en
+SaaS subscription for Analytics (2169 users),1,services,IT Services,Software,191519.54,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,83798775.05,en
+Contract for 6742 shipments via financial,1,logistics,Logistics,Freight,3051103.22,en
+PCB boards component procurement (3470 pcs),1,raw_materials,Electronics,Electronic Components,6669333.31,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,1606207.59,en
+Warehouse storage service (701 sqm for annual),1,logistics,Logistics,Warehousing,514570.66,en
+ERP software subscription (8192 licenses for 12 months),1,services,IT Services,Software,748250.47,en
+IT infrastructure upgrade - packaging machine (1304 units),2,equipment,IT Infrastructure,Hardware,6233634.94,en
+Third-party warehousing at factory - 6052 sqm,1,logistics,Logistics,Warehousing,1034532.49,en
+Purchase of 3306 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,5799307.19,en
+Facility maintenance service for 6 months,1,services,Facility Management,Maintenance,1249645.11,en
+Industrial injection molding machine (5883 units) with installation,2,equipment,Manufacturing,Machinery,31175663.24,en
+Purchase of 7556 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,4757644.02,en
+packaging machine power generation system - 5253 MW,2,equipment,Energy,Power Generation,39953760.65,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,620289.05,en
+Complete consumer goods production line installation,2,equipment,Manufacturing,Production Line,15796684.14,en
+resistors component procurement (8957 pcs),1,raw_materials,Electronics,Electronic Components,6555126.37,en
+Purchase of toluene solvent - 4516 liters,1,raw_materials,Manufacturing,Chemical,1013183.8,en
+titanium raw material supply - 5710 kg,1,raw_materials,Manufacturing,Metal,756404.3,en
+Construction of manufacturing plant (18604 sqm),2,equipment,Real Estate,Building,294162458.1,en
+Engagement of sustainability consultant (9 months),1,services,Professional Services,Consulting,53078.23,en
+packaging machine power generation system - 1393 MW,2,equipment,Energy,Power Generation,189965112.16,en
+Purchase of 272 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,6527760.33,en
+Cloud legal service - quarterly contract,1,services,IT Services,Software,670253.15,en
+Facility maintenance service for 12 months,1,services,Facility Management,Maintenance,781987.09,en
+Cloud IT service - 12 months contract,1,services,IT Services,Software,910313.14,en
+Warehouse storage service (7528 sqm for 6 months),1,logistics,Logistics,Warehousing,273912.24,en
+Order 1336 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,5190658.68,en
+ERP software subscription (9085 licenses for annual),1,services,IT Services,Software,443677.77,en
+Third-party warehousing at branch - 1651 sqm,1,logistics,Logistics,Warehousing,1860779.81,en
+manufacturing plant building contract (headquarters),2,equipment,Real Estate,Building,375167092.68,en
+microchips component procurement (4678 pcs),1,raw_materials,Electronics,Electronic Components,4226766.41,en
+electronics manufacturing line (2293 units/day capacity),2,equipment,Manufacturing,Production Line,72369139.53,en
+aluminum alloy raw material supply - 2887 kg,1,raw_materials,Manufacturing,Metal,3751384.16,en
+sustainability consulting services for 6 months,1,services,Professional Services,Consulting,282217.24,en
+Fleet procurement - 9987 delivery trucks,2,equipment,Transportation,Vehicle,28047230.86,en
+aluminum alloy raw material supply - 2380 kg,1,raw_materials,Manufacturing,Metal,271471.1,en
+Third-party warehousing at warehouse - 9375 sqm,1,logistics,Logistics,Warehousing,2346207.5,en
+Industrial ethanol supply contract (997 liters),1,raw_materials,Manufacturing,Chemical,1367047.06,en
+Logistics service for East-West corridor (12 months),1,logistics,Logistics,Freight,4480580.91,en
+Industrial sodium hydroxide supply contract (8528 liters),1,raw_materials,Manufacturing,Chemical,1760850.71,en
+LED modules component procurement (3948 pcs),1,raw_materials,Electronics,Electronic Components,5645514.06,en
+Third-party warehousing at regional office - 6512 sqm,1,logistics,Logistics,Warehousing,1147103.11,en
+Cloud management service - 12 months contract,1,services,IT Services,Software,627000.29,en
+Order 1941 resistors for production batch,1,raw_materials,Electronics,Electronic Components,6789088.97,en
+Warehouse storage service (4954 sqm for 6 months),1,logistics,Logistics,Warehousing,2825635.43,en
+sustainability consulting services for annual,1,services,Professional Services,Consulting,899761.97,en
+Order organic soybeans (6296 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1861274.66,en
+Purchase of 410 units of microchips for assembly,1,raw_materials,Electronics,Electronic Components,5505664.97,en
+Renewable energy facility construction (7971 MW),2,equipment,Energy,Power Generation,24649417.7,en
+Warehouse storage service (709 sqm for 12 months),1,logistics,Logistics,Warehousing,2726288.08,en
+IT consulting services for 6 months,1,services,Professional Services,Consulting,1399810.53,en
+IT infrastructure upgrade - robotic arm (9894 units),2,equipment,IT Infrastructure,Hardware,504604.51,en
+Monthly freight service for East-West distribution,1,logistics,Logistics,Freight,2895579.14,en
+IT infrastructure upgrade - conveyor system (234 units),2,equipment,IT Infrastructure,Hardware,2588562.88,en
+Order 2400 microchips for production batch,1,raw_materials,Electronics,Electronic Components,4001922.34,en
+management transportation service - East-West,1,logistics,Logistics,Freight,494014.72,en
+Order organic soybeans (8095 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,2913466.51,en
+New warehouse development project,2,equipment,Real Estate,Building,281724965.26,en
+Order organic soybeans (6197 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,194083.47,en
+Cloud sustainability service - annual contract,1,services,IT Services,Software,437557.75,en
+IT infrastructure upgrade - packaging machine (5667 units),2,equipment,IT Infrastructure,Hardware,8799276.9,en
+distribution center building contract (branch),2,equipment,Real Estate,Building,188857613.32,en
+Cloud financial service - quarterly contract,1,services,IT Services,Software,641162.74,en
+"Building management service (headquarters, 8 months)",1,services,Facility Management,Maintenance,1334704.83,en
+Renewable energy facility construction (2447 MW),2,equipment,Energy,Power Generation,176303636.52,en
+Engagement of financial consultant (28 months),1,services,Professional Services,Consulting,1569370.37,en
+Third-party warehousing at factory - 4288 sqm,1,logistics,Logistics,Warehousing,789387.42,en
+Solar panel installation (9194 kW capacity),2,equipment,Energy,Power Generation,150414427.59,en
+Order 6953 capacitors for production batch,1,raw_materials,Electronics,Electronic Components,7481460.5,en
+Facility maintenance service for 6 months,1,services,Facility Management,Maintenance,811942.4,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,31981286.4,en
+Procurement of automated CNC machine system,2,equipment,Manufacturing,Machinery,49907081.99,en
+Order 1139 kg of aluminum alloy for QQ4 production,1,raw_materials,Manufacturing,Metal,3700484.17,en
+3640 liters of sodium hydroxide for chemical processing,1,raw_materials,Manufacturing,Chemical,616712.87,en
+Industrial injection molding machine (7837 units) with installation,2,equipment,Manufacturing,Machinery,28124615.21,en
+"Building management service (regional office, 22 months)",1,services,Facility Management,Maintenance,96828.85,en
+financial transportation service - North-South,1,logistics,Logistics,Freight,2141857.77,en
+Professional advisory service - management,1,services,Professional Services,Consulting,1748319.29,en
+aluminum alloy raw material supply - 6523 kg,1,raw_materials,Manufacturing,Metal,4440146.33,en
+Procurement of copper wire (7274 kg) for production line,1,raw_materials,Manufacturing,Metal,4848626.29,en
+robotic arm power generation system - 1359 MW,2,equipment,Energy,Power Generation,8104928.15,en
+injection molding machine acquisition - industrial grade,2,equipment,Manufacturing,Machinery,39101399.36,en
+Monthly freight service for urban distribution,1,logistics,Logistics,Freight,2191566.43,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,246762.26,en
+soybeans ingredient procurement - 109 tons,1,raw_materials,Food & Beverage,Agricultural,1283309.53,en
+SaaS subscription for CRM (792 users),1,services,IT Services,Software,909668.82,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1495603.96,en
+injection molding machine acquisition - industrial grade,2,equipment,Manufacturing,Machinery,15462245.64,en
+conveyor system procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,2612516.36,en
+Purchase of 4669 tons of wheat for food production,1,raw_materials,Food & Beverage,Agricultural,202258.19,en
+4145 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,1252690.44,en
+SaaS subscription for CRM (7667 users),1,services,IT Services,Software,642379.38,en
+Third-party warehousing at headquarters - 6274 sqm,1,logistics,Logistics,Warehousing,368984.83,en
+injection molding machine power generation system - 5534 MW,2,equipment,Energy,Power Generation,182464355.16,en
+warehouse building contract (factory),2,equipment,Real Estate,Building,288212798.99,en
+Purchase of 3397 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,3037470.36,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,44517665.71,en
+cargo vehicles acquisition (industrial grade),2,equipment,Transportation,Vehicle,2142936.29,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,2296738.2,en
+Fleet procurement - 2045 forklifts,2,equipment,Transportation,Vehicle,3206679.5,en
+Third-party warehousing at regional office - 6657 sqm,1,logistics,Logistics,Warehousing,2361134.33,en
+financial transportation service - North-South,1,logistics,Logistics,Freight,2127988.94,en
+Third-party warehousing at headquarters - 2594 sqm,1,logistics,Logistics,Warehousing,1666372.57,en
+Renewable energy facility construction (7322 MW),2,equipment,Energy,Power Generation,42556574.55,en
+Logistics service for urban corridor (quarterly),1,logistics,Logistics,Freight,3329221.52,en
+Purchase of 9098 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,1522395.75,en
+Order organic rice (8188 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,458214.18,en
+Warehouse storage service (4341 sqm for 12 months),1,logistics,Logistics,Warehousing,798936.08,en
+Purchase of toluene solvent - 8105 liters,1,raw_materials,Manufacturing,Chemical,609126.77,en
+Purchase of sodium hydroxide solvent - 6258 liters,1,raw_materials,Manufacturing,Chemical,1604854.26,en
+Purchase of 1827 kg of copper wire for manufacturing use,1,raw_materials,Manufacturing,Metal,2460274.42,en
+2203 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,1047468.56,en
+Collaboration software subscription (8500 licenses for annual),1,services,IT Services,Software,195280.92,en
+Purchase of 200 tons of rice for food production,1,raw_materials,Food & Beverage,Agricultural,1367547.92,en
+1762 liters of sodium hydroxide for chemical processing,1,raw_materials,Manufacturing,Chemical,136789.57,en
+Professional advisory service - legal,1,services,Professional Services,Consulting,1004764.92,en
+Logistics service for North-South corridor (quarterly),1,logistics,Logistics,Freight,1146951.65,en
+Industrial acetone supply contract (7072 liters),1,raw_materials,Manufacturing,Chemical,1074890.08,en
+Monthly freight service for regional distribution,1,logistics,Logistics,Freight,4299611.72,en
+"Building management service (branch, 18 months)",1,services,Facility Management,Maintenance,422619.09,en
+Solar panel installation (428 kW capacity),2,equipment,Energy,Power Generation,161601857.13,en
+Purchase of acetone solvent - 3481 liters,1,raw_materials,Manufacturing,Chemical,632587.68,en
+889 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,688626.42,en
+Purchase of 4423 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,634033.91,en
+Solar panel installation (4995 kW capacity),2,equipment,Energy,Power Generation,35969990.21,en
+Renewable energy facility construction (3833 MW),2,equipment,Energy,Power Generation,75925650.52,en
+Engagement of IT consultant (7 months),1,services,Professional Services,Consulting,1224191.19,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,659661.96,en
+Cloud sustainability service - annual contract,1,services,IT Services,Software,42347.86,en
+wheat ingredient procurement - 7258 tons,1,raw_materials,Food & Beverage,Agricultural,1936704.74,en
+Fleet procurement - 6580 cargo vehicles,2,equipment,Transportation,Vehicle,7156866.23,en
+electronics manufacturing line (6845 units/day capacity),2,equipment,Manufacturing,Production Line,23959418.85,en
+management consulting services for 12 months,1,services,Professional Services,Consulting,65656.34,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,41869419.54,en
+legal consulting services for 12 months,1,services,Professional Services,Consulting,1171697.27,en
+SaaS subscription for CRM (2836 users),1,services,IT Services,Software,394578.64,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,1408116.84,en
+Procurement of steel sheets (6144 kg) for production line,1,raw_materials,Manufacturing,Metal,653063.62,en
+Renewable energy facility construction (8859 MW),2,equipment,Energy,Power Generation,95743831.93,en
+Purchase of 4012 CNC machine for data center,2,equipment,IT Infrastructure,Hardware,1331200.97,en
+Cloud financial service - 12 months contract,1,services,IT Services,Software,64642.73,en
+Warehouse storage service (221 sqm for annual),1,logistics,Logistics,Warehousing,1846083.65,en
+Warehouse storage service (9125 sqm for annual),1,logistics,Logistics,Warehousing,1529626.45,en
+Cloud financial service - 12 months contract,1,services,IT Services,Software,202708.75,en
+Industrial sulfuric acid supply contract (6268 liters),1,raw_materials,Manufacturing,Chemical,1453940.82,en
+Construction of warehouse (48838 sqm),2,equipment,Real Estate,Building,184852208.95,en
+Collaboration software subscription (9702 licenses for quarterly),1,services,IT Services,Software,914617.17,en
+2838 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,1019967.71,en
+"Building management service (headquarters, 30 months)",1,services,Facility Management,Maintenance,850012.8,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1281406.31,en
+rice ingredient procurement - 1058 tons,1,raw_materials,Food & Beverage,Agricultural,2103347.09,en
+Professional advisory service - IT,1,services,Professional Services,Consulting,1947879.99,en
+Purchase of 1965 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,4107519.07,en
+rice ingredient procurement - 1512 tons,1,raw_materials,Food & Beverage,Agricultural,679819.97,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,10971810.33,en
+Purchase of 4856 tons of soybeans for food production,1,raw_materials,Food & Beverage,Agricultural,1237288.97,en
+aluminum alloy raw material supply - 210 kg,1,raw_materials,Manufacturing,Metal,406230.54,en
+IT infrastructure upgrade - injection molding machine (406 units),2,equipment,IT Infrastructure,Hardware,8557088.62,en
+Purchase of 7401 delivery trucks for logistics operations,2,equipment,Transportation,Vehicle,27898994.3,en
+automotive parts manufacturing line (4700 units/day capacity),2,equipment,Manufacturing,Production Line,73424287.59,en
+sustainability consulting services for annual,1,services,Professional Services,Consulting,338171.36,en
+Purchase of 6861 tons of wheat for food production,1,raw_materials,Food & Beverage,Agricultural,2092545.03,en
+financial consulting services for 6 months,1,services,Professional Services,Consulting,353980.31,en
+Order organic corn (9985 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1793443.22,en
+Procurement of copper wire (1114 kg) for production line,1,raw_materials,Manufacturing,Metal,960145.47,en
+Purchase of 6118 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,4460597.03,en
+Cold storage rental (3115 cbm) for quarterly,1,logistics,Logistics,Warehousing,1967168.39,en
+corn ingredient procurement - 241 tons,1,raw_materials,Food & Beverage,Agricultural,1027392.15,en
+Purchase of 3165 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,1831453.06,en
+Industrial sodium hydroxide supply contract (7818 liters),1,raw_materials,Manufacturing,Chemical,1530255.01,en
+Cold storage rental (691 cbm) for 6 months,1,logistics,Logistics,Warehousing,2597892.05,en
+Logistics service for North-South corridor (6 months),1,logistics,Logistics,Freight,135125.17,en
+warehouse building contract (factory),2,equipment,Real Estate,Building,162365155.95,en
+Third-party warehousing at warehouse - 1373 sqm,1,logistics,Logistics,Warehousing,1619105.25,en
+Purchase of 8416 forklifts for logistics operations,2,equipment,Transportation,Vehicle,18468769.0,en
+Order organic corn (4823 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,134726.65,en
+Collaboration software subscription (9330 licenses for quarterly),1,services,IT Services,Software,359236.13,en
+microchips component procurement (9740 pcs),1,raw_materials,Electronics,Electronic Components,4705097.52,en
+Engagement of IT consultant (35 months),1,services,Professional Services,Consulting,832018.08,en
+Purchase of 2038 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,3068652.58,en
+conveyor system power generation system - 6349 MW,2,equipment,Energy,Power Generation,167904514.17,en
+IT infrastructure upgrade - conveyor system (4521 units),2,equipment,IT Infrastructure,Hardware,9994407.92,en
+Purchase of CNC machine for production facility,2,equipment,Manufacturing,Machinery,26791028.35,en
+Order 9856 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,3096296.31,en
+Industrial sodium hydroxide supply contract (3364 liters),1,raw_materials,Manufacturing,Chemical,848743.6,en
+Fleet procurement - 8574 forklifts,2,equipment,Transportation,Vehicle,20965369.63,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,49984287.94,en
+CNC machine power generation system - 1787 MW,2,equipment,Energy,Power Generation,23473895.59,en
+Purchase of 8828 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,29437081.74,en
+"Building management service (branch, 25 months)",1,services,Facility Management,Maintenance,849834.29,en
+Construction of manufacturing plant (17165 sqm),2,equipment,Real Estate,Building,283170829.24,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,8172386.88,en
+Engagement of legal consultant (12 months),1,services,Professional Services,Consulting,428936.12,en
+Engagement of IT consultant (33 months),1,services,Professional Services,Consulting,1066870.26,en
+wheat ingredient procurement - 9275 tons,1,raw_materials,Food & Beverage,Agricultural,2881618.17,en
+Facility maintenance service for 12 months,1,services,Facility Management,Maintenance,129902.47,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,949089.53,en
+electronics manufacturing line (4364 units/day capacity),2,equipment,Manufacturing,Production Line,86018497.59,en
+Analytics software subscription (4247 licenses for annual),1,services,IT Services,Software,301110.61,en
+copper wire raw material supply - 3544 kg,1,raw_materials,Manufacturing,Metal,1556435.36,en
+Procurement of automated CNC machine system,2,equipment,Manufacturing,Machinery,4384631.1,en
+Procurement of aluminum alloy (5452 kg) for production line,1,raw_materials,Manufacturing,Metal,4104476.54,en
+CRM software subscription (5056 licenses for 12 months),1,services,IT Services,Software,888388.92,en
+Purchase of packaging machine for production facility,2,equipment,Manufacturing,Machinery,3864062.74,en
+Complete consumer goods production line installation,2,equipment,Manufacturing,Production Line,94482705.28,en
+Logistics service for regional corridor (annual),1,logistics,Logistics,Freight,4420645.13,en
+titanium raw material supply - 9406 kg,1,raw_materials,Manufacturing,Metal,1743109.27,en
+"Building management service (warehouse, 25 months)",1,services,Facility Management,Maintenance,114145.07,en
+Renewable energy facility construction (5105 MW),2,equipment,Energy,Power Generation,29141859.03,en
+rice ingredient procurement - 8088 tons,1,raw_materials,Food & Beverage,Agricultural,961600.99,en
+Industrial toluene supply contract (8187 liters),1,raw_materials,Manufacturing,Chemical,357905.85,en
+Warehouse storage service (5503 sqm for 6 months),1,logistics,Logistics,Warehousing,658729.41,en
+Order 1912 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,6173678.01,en
+CRM software subscription (3485 licenses for 12 months),1,services,IT Services,Software,776624.89,en
+Order 9198 microchips for production batch,1,raw_materials,Electronics,Electronic Components,761622.41,en
+Logistics service for North-South corridor (quarterly),1,logistics,Logistics,Freight,3884001.74,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,14575526.02,en
+Logistics service for regional corridor (12 months),1,logistics,Logistics,Freight,766811.99,en
+Collaboration software subscription (2229 licenses for 12 months),1,services,IT Services,Software,307430.93,en
+Order organic wheat (7910 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,825625.0,en
+Purchase of conveyor system for production facility,2,equipment,Manufacturing,Machinery,37844576.02,en
+Purchase of 4371 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,244753.33,en
+Third-party warehousing at headquarters - 1401 sqm,1,logistics,Logistics,Warehousing,2554977.41,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,1364552.55,en
+4082 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,1504102.85,en
+Purchase of acetone solvent - 1637 liters,1,raw_materials,Manufacturing,Chemical,1428034.74,en
+Order 4360 kg of titanium for QQ2 production,1,raw_materials,Manufacturing,Metal,2210782.45,en
+warehouse building contract (branch),2,equipment,Real Estate,Building,191709211.76,en
+Purchase of 9632 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,6331112.8,en
+Fleet procurement - 1364 cargo vehicles,2,equipment,Transportation,Vehicle,4105761.06,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,221813.55,en
+Purchase of sulfuric acid solvent - 2313 liters,1,raw_materials,Manufacturing,Chemical,1147890.31,en
+Engagement of management consultant (28 months),1,services,Professional Services,Consulting,1603671.89,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,1332100.79,en
+forklifts acquisition (industrial grade),2,equipment,Transportation,Vehicle,6423461.37,en
+Purchase of 7702 tons of wheat for food production,1,raw_materials,Food & Beverage,Agricultural,710432.57,en
+Renewable energy facility construction (129 MW),2,equipment,Energy,Power Generation,129010414.24,en
+Purchase of 8876 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,3018858.81,en
+9581 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,28863.01,en
+"Building management service (factory, 36 months)",1,services,Facility Management,Maintenance,239786.84,en
+Purchase of sodium hydroxide solvent - 3939 liters,1,raw_materials,Manufacturing,Chemical,1719915.43,en
+SaaS subscription for Collaboration (1937 users),1,services,IT Services,Software,553872.0,en
+financial consulting services for 12 months,1,services,Professional Services,Consulting,100822.79,en
+Fleet procurement - 3333 cargo vehicles,2,equipment,Transportation,Vehicle,22271687.97,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,81565899.21,en
+CNC machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,7646796.07,en
+Order 2727 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,2125891.56,en
+Order organic soybeans (6732 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1185334.59,en
+Industrial packaging machine (2935 units) with installation,2,equipment,Manufacturing,Machinery,13108764.05,en
+Cold storage rental (993 cbm) for annual,1,logistics,Logistics,Warehousing,2273742.11,en
+Order 4769 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,6451257.49,en
+Complete consumer goods production line installation,2,equipment,Manufacturing,Production Line,7102434.13,en
+Purchase of sodium hydroxide solvent - 4400 liters,1,raw_materials,Manufacturing,Chemical,1523886.25,en
+Monthly freight service for cross-border distribution,1,logistics,Logistics,Freight,4047893.11,en
+Fleet procurement - 3375 cargo vehicles,2,equipment,Transportation,Vehicle,17116878.21,en
+Security software subscription (7710 licenses for quarterly),1,services,IT Services,Software,46330.16,en
+Third-party warehousing at factory - 7436 sqm,1,logistics,Logistics,Warehousing,395271.1,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,62629628.28,en
+Order 2262 kg of steel sheets for QQ2 production,1,raw_materials,Manufacturing,Metal,2665740.3,en
+Purchase of acetone solvent - 9998 liters,1,raw_materials,Manufacturing,Chemical,1295950.48,en
+Third-party warehousing at warehouse - 9731 sqm,1,logistics,Logistics,Warehousing,457789.93,en
+Third-party warehousing at warehouse - 7766 sqm,1,logistics,Logistics,Warehousing,1224129.41,en
+aluminum alloy raw material supply - 2783 kg,1,raw_materials,Manufacturing,Metal,4745215.17,en
+Contract for 9919 shipments via sustainability,1,logistics,Logistics,Freight,1681111.56,en
+Purchase of 4429 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,11134297.19,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,14585187.74,en
+Fleet procurement - 4849 forklifts,2,equipment,Transportation,Vehicle,28334438.64,en
+Industrial ethanol supply contract (6166 liters),1,raw_materials,Manufacturing,Chemical,1109964.52,en
+financial transportation service - urban,1,logistics,Logistics,Freight,3963063.26,en
+Contract for 5799 shipments via sustainability,1,logistics,Logistics,Freight,4297836.21,en
+SaaS subscription for Collaboration (2516 users),1,services,IT Services,Software,329081.54,en
+Purchase of ethanol solvent - 5143 liters,1,raw_materials,Manufacturing,Chemical,1446251.89,en
+Order 2391 kg of steel sheets for QQ1 production,1,raw_materials,Manufacturing,Metal,1799825.36,en
+New distribution center development project,2,equipment,Real Estate,Building,434853319.31,en
+electronics manufacturing line (1443 units/day capacity),2,equipment,Manufacturing,Production Line,30233378.69,en
+Purchase of 3070 electric vans for logistics operations,2,equipment,Transportation,Vehicle,3138012.2,en
+Construction of office building (35196 sqm),2,equipment,Real Estate,Building,271507886.65,en
+microchips component procurement (5157 pcs),1,raw_materials,Electronics,Electronic Components,7457556.21,en
+Order organic rice (3754 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1502796.7,en
+ERP software subscription (5046 licenses for quarterly),1,services,IT Services,Software,303771.11,en
+Cold storage rental (2821 cbm) for 12 months,1,logistics,Logistics,Warehousing,2733687.72,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,73512384.79,en
+Logistics service for North-South corridor (12 months),1,logistics,Logistics,Freight,4398765.81,en
+Contract for 3881 shipments via legal,1,logistics,Logistics,Freight,1111260.43,en
+Order organic corn (311 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1983835.49,en
+Industrial sulfuric acid supply contract (9604 liters),1,raw_materials,Manufacturing,Chemical,66484.21,en
+Procurement of automated conveyor system system,2,equipment,Manufacturing,Machinery,22959323.46,en
+Purchase of 4918 electric vans for logistics operations,2,equipment,Transportation,Vehicle,12326760.72,en
+management consulting services for 6 months,1,services,Professional Services,Consulting,339231.4,en
+Warehouse storage service (3271 sqm for 12 months),1,logistics,Logistics,Warehousing,965812.14,en
+Monthly freight service for cross-border distribution,1,logistics,Logistics,Freight,2520842.05,en
+SaaS subscription for Security (7848 users),1,services,IT Services,Software,326122.62,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,930076.29,en
+Logistics service for North-South corridor (6 months),1,logistics,Logistics,Freight,4806845.2,en
+Fleet procurement - 7302 forklifts,2,equipment,Transportation,Vehicle,15655667.76,en
+automotive parts manufacturing line (4261 units/day capacity),2,equipment,Manufacturing,Production Line,98826911.05,en
+Procurement of automated conveyor system system,2,equipment,Manufacturing,Machinery,42441277.89,en
+Construction of manufacturing plant (9393 sqm),2,equipment,Real Estate,Building,170154444.39,en
+office building building contract (factory),2,equipment,Real Estate,Building,206763015.07,en
+Warehouse storage service (8956 sqm for annual),1,logistics,Logistics,Warehousing,856308.13,en
+Industrial CNC machine (5710 units) with installation,2,equipment,Manufacturing,Machinery,28463188.25,en
+Engagement of financial consultant (20 months),1,services,Professional Services,Consulting,461499.13,en
+electronics manufacturing line (2285 units/day capacity),2,equipment,Manufacturing,Production Line,64295920.97,en
+Purchase of sodium hydroxide solvent - 4077 liters,1,raw_materials,Manufacturing,Chemical,1494971.79,en
+electronics manufacturing line (8880 units/day capacity),2,equipment,Manufacturing,Production Line,81721705.94,en
+Industrial ethanol supply contract (7521 liters),1,raw_materials,Manufacturing,Chemical,1157977.61,en
+LED modules component procurement (1974 pcs),1,raw_materials,Electronics,Electronic Components,3175349.99,en
+Cold storage rental (2817 cbm) for 12 months,1,logistics,Logistics,Warehousing,2931289.9,en
+Logistics service for urban corridor (annual),1,logistics,Logistics,Freight,1625161.49,en
+IT infrastructure upgrade - conveyor system (1970 units),2,equipment,IT Infrastructure,Hardware,1095735.21,en
+Purchase of CNC machine for production facility,2,equipment,Manufacturing,Machinery,13434493.29,en
+7292 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,1609986.41,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,34986870.22,en
+SaaS subscription for Security (6840 users),1,services,IT Services,Software,42281.32,en
+Order 5843 microchips for production batch,1,raw_materials,Electronics,Electronic Components,3946337.92,en
+Construction of warehouse (8146 sqm),2,equipment,Real Estate,Building,444757061.18,en
+electric vans acquisition (industrial grade),2,equipment,Transportation,Vehicle,22435588.13,en
+rice ingredient procurement - 1452 tons,1,raw_materials,Food & Beverage,Agricultural,2272488.43,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,661935.58,en
+consumer goods manufacturing line (6199 units/day capacity),2,equipment,Manufacturing,Production Line,30645165.16,en
+Industrial toluene supply contract (9519 liters),1,raw_materials,Manufacturing,Chemical,292834.43,en
+Renewable energy facility construction (8001 MW),2,equipment,Energy,Power Generation,58212524.77,en
+steel sheets raw material supply - 9245 kg,1,raw_materials,Manufacturing,Metal,642838.46,en
+Professional advisory service - sustainability,1,services,Professional Services,Consulting,1047590.33,en
+Purchase of 4951 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,7686888.72,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,86080792.22,en
+Logistics service for cross-border corridor (6 months),1,logistics,Logistics,Freight,4700757.14,en
+Purchase of 9217 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,7701737.17,en
+Industrial robotic arm (4420 units) with installation,2,equipment,Manufacturing,Machinery,39393404.27,en
+electronics manufacturing line (5445 units/day capacity),2,equipment,Manufacturing,Production Line,19764002.38,en
+IT infrastructure upgrade - robotic arm (8177 units),2,equipment,IT Infrastructure,Hardware,7155871.69,en
+Renewable energy facility construction (4009 MW),2,equipment,Energy,Power Generation,149113621.28,en
+Contract for 7317 shipments via financial,1,logistics,Logistics,Freight,1927416.07,en
+Solar panel installation (1156 kW capacity),2,equipment,Energy,Power Generation,36093874.12,en
+Procurement of automated robotic arm system,2,equipment,Manufacturing,Machinery,34812215.78,en
+Professional advisory service - management,1,services,Professional Services,Consulting,247491.96,en
+Purchase of injection molding machine for production facility,2,equipment,Manufacturing,Machinery,8351266.1,en
+Procurement of automated robotic arm system,2,equipment,Manufacturing,Machinery,11282581.78,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,526799.14,en
+Purchase of 7607 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,24663721.14,en
+Facility maintenance service for 6 months,1,services,Facility Management,Maintenance,541449.22,en
+New distribution center development project,2,equipment,Real Estate,Building,458796018.43,en
+Logistics service for regional corridor (6 months),1,logistics,Logistics,Freight,3091010.58,en
+Renewable energy facility construction (8819 MW),2,equipment,Energy,Power Generation,163191972.52,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,8925940.44,en
+packaging machine power generation system - 7372 MW,2,equipment,Energy,Power Generation,135223226.11,en
+Logistics service for urban corridor (12 months),1,logistics,Logistics,Freight,2501362.4,en
+Facility maintenance service for 6 months,1,services,Facility Management,Maintenance,468357.31,en
+Industrial conveyor system (9443 units) with installation,2,equipment,Manufacturing,Machinery,21704711.66,en
+Purchase of 434 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,1098791.42,en
+Purchase of ethanol solvent - 2358 liters,1,raw_materials,Manufacturing,Chemical,1677027.72,en
+Industrial acetone supply contract (2236 liters),1,raw_materials,Manufacturing,Chemical,1473667.97,en
+Purchase of 9359 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,6429573.76,en
+Cloud IT service - 12 months contract,1,services,IT Services,Software,994314.49,en
+Complete automotive parts production line installation,2,equipment,Manufacturing,Production Line,98964449.66,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,97739573.13,en
+rice ingredient procurement - 8744 tons,1,raw_materials,Food & Beverage,Agricultural,2117063.6,en
+1934 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,1844126.96,en
+IT consulting services for quarterly,1,services,Professional Services,Consulting,574391.98,en
+Collaboration software subscription (2294 licenses for annual),1,services,IT Services,Software,203198.25,en
+manufacturing plant building contract (headquarters),2,equipment,Real Estate,Building,297179280.95,en
+1902 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,894321.67,en
+Renewable energy facility construction (4989 MW),2,equipment,Energy,Power Generation,183943218.4,en
+IT infrastructure upgrade - packaging machine (1944 units),2,equipment,IT Infrastructure,Hardware,3729214.18,en
+Complete automotive parts production line installation,2,equipment,Manufacturing,Production Line,23648682.35,en
+Purchase of 6136 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,698942.81,en
+distribution center building contract (warehouse),2,equipment,Real Estate,Building,297078809.39,en
+SaaS subscription for Security (4208 users),1,services,IT Services,Software,206346.48,en
+CRM software subscription (7243 licenses for quarterly),1,services,IT Services,Software,752437.28,en
+manufacturing plant building contract (regional office),2,equipment,Real Estate,Building,479034405.38,en
+Order 6960 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,1436267.43,en
+Monthly freight service for cross-border distribution,1,logistics,Logistics,Freight,475179.73,en
+Purchase of injection molding machine for production facility,2,equipment,Manufacturing,Machinery,3136215.91,en
+Third-party warehousing at factory - 2115 sqm,1,logistics,Logistics,Warehousing,442583.19,en
+Cloud financial service - 12 months contract,1,services,IT Services,Software,348999.31,en
+New office building development project,2,equipment,Real Estate,Building,170779954.41,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,20663933.34,en
+"Building management service (factory, 13 months)",1,services,Facility Management,Maintenance,45569.77,en
+Professional advisory service - IT,1,services,Professional Services,Consulting,1159907.15,en
+"Building management service (regional office, 18 months)",1,services,Facility Management,Maintenance,1153871.29,en
+"Building management service (regional office, 29 months)",1,services,Facility Management,Maintenance,654463.46,en
+Purchase of toluene solvent - 1440 liters,1,raw_materials,Manufacturing,Chemical,1569955.25,en
+Procurement of automated robotic arm system,2,equipment,Manufacturing,Machinery,48225146.63,en
+Purchase of 5626 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,2594794.66,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,23944353.87,en
+496 liters of acetone for chemical processing,1,raw_materials,Manufacturing,Chemical,754453.28,en
+robotic arm power generation system - 1563 MW,2,equipment,Energy,Power Generation,60928070.97,en
+Logistics service for cross-border corridor (6 months),1,logistics,Logistics,Freight,3766902.09,en
+Order 6385 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,4847272.41,en
+Cloud IT service - annual contract,1,services,IT Services,Software,306284.12,en
+automotive parts manufacturing line (6623 units/day capacity),2,equipment,Manufacturing,Production Line,28139045.23,en
+Purchase of 711 CNC machine for data center,2,equipment,IT Infrastructure,Hardware,5787569.49,en
+New distribution center development project,2,equipment,Real Estate,Building,266146537.28,en
+New warehouse development project,2,equipment,Real Estate,Building,489212401.9,en
+7659 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,641703.83,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,1293900.77,en
+Order 4529 LED modules for production batch,1,raw_materials,Electronics,Electronic Components,3066923.87,en
+resistors component procurement (6043 pcs),1,raw_materials,Electronics,Electronic Components,6075049.29,en
+Contract for 4686 shipments via management,1,logistics,Logistics,Freight,947831.93,en
+Purchase of 9118 electric vans for logistics operations,2,equipment,Transportation,Vehicle,20839529.65,en
+Engagement of management consultant (13 months),1,services,Professional Services,Consulting,1827155.76,en
+IT consulting services for annual,1,services,Professional Services,Consulting,1076589.17,en
+Fleet procurement - 6253 cargo vehicles,2,equipment,Transportation,Vehicle,10833864.24,en
+Professional advisory service - legal,1,services,Professional Services,Consulting,652653.49,en
+Warehouse storage service (4838 sqm for 6 months),1,logistics,Logistics,Warehousing,2203248.34,en
+PCB boards component procurement (6628 pcs),1,raw_materials,Electronics,Electronic Components,7010762.67,en
+SaaS subscription for CRM (891 users),1,services,IT Services,Software,740217.3,en
+Logistics service for East-West corridor (annual),1,logistics,Logistics,Freight,2215625.42,en
+Order 3824 microchips for production batch,1,raw_materials,Electronics,Electronic Components,5209551.45,en
+wheat ingredient procurement - 2587 tons,1,raw_materials,Food & Beverage,Agricultural,1097017.68,en
+Order organic soybeans (1463 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,2199892.81,en
+Purchase of 4508 tons of rice for food production,1,raw_materials,Food & Beverage,Agricultural,2639265.15,en
+Collaboration software subscription (9215 licenses for quarterly),1,services,IT Services,Software,22835.59,en
+Purchase of acetone solvent - 318 liters,1,raw_materials,Manufacturing,Chemical,606783.38,en
+forklifts acquisition (industrial grade),2,equipment,Transportation,Vehicle,992652.45,en
+conveyor system acquisition - industrial grade,2,equipment,Manufacturing,Machinery,25991516.64,en
+Purchase of injection molding machine for production facility,2,equipment,Manufacturing,Machinery,41315430.11,en
+Industrial packaging machine (6032 units) with installation,2,equipment,Manufacturing,Machinery,36260385.31,en
+Procurement of automated conveyor system system,2,equipment,Manufacturing,Machinery,49621218.72,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,223958.18,en
+SaaS subscription for Analytics (5877 users),1,services,IT Services,Software,935626.13,en
+corn ingredient procurement - 5256 tons,1,raw_materials,Food & Beverage,Agricultural,344048.34,en
+robotic arm power generation system - 3718 MW,2,equipment,Energy,Power Generation,152198053.09,en
+warehouse building contract (regional office),2,equipment,Real Estate,Building,77147823.05,en
+injection molding machine acquisition - industrial grade,2,equipment,Manufacturing,Machinery,10098233.46,en
+Solar panel installation (5222 kW capacity),2,equipment,Energy,Power Generation,110683181.93,en
+Logistics service for urban corridor (12 months),1,logistics,Logistics,Freight,4942037.61,en
+Purchase of 5988 tons of soybeans for food production,1,raw_materials,Food & Beverage,Agricultural,2126586.05,en
+Automated assembly line for consumer goods,2,equipment,Manufacturing,Production Line,39018130.88,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,93670243.1,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,10745308.2,en
+consumer goods manufacturing line (8914 units/day capacity),2,equipment,Manufacturing,Production Line,83731123.74,en
+Collaboration software subscription (7812 licenses for annual),1,services,IT Services,Software,71776.26,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,17344542.67,en
+packaging machine acquisition - industrial grade,2,equipment,Manufacturing,Machinery,20208919.05,en
+Facility maintenance service for quarterly,1,services,Facility Management,Maintenance,1024973.24,en
+New manufacturing plant development project,2,equipment,Real Estate,Building,380781786.37,en
+Purchase of acetone solvent - 4770 liters,1,raw_materials,Manufacturing,Chemical,352697.62,en
+Order organic sugar (6742 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,2767961.04,en
+Purchase of packaging machine for production facility,2,equipment,Manufacturing,Machinery,47943899.78,en
+Cloud legal service - quarterly contract,1,services,IT Services,Software,37077.38,en
+Warehouse storage service (1484 sqm for 6 months),1,logistics,Logistics,Warehousing,1197317.25,en
+"Building management service (regional office, 6 months)",1,services,Facility Management,Maintenance,757494.48,en
+Purchase of 480 forklifts for logistics operations,2,equipment,Transportation,Vehicle,3299898.49,en
+Contract for 7616 shipments via sustainability,1,logistics,Logistics,Freight,4262953.65,en
+Industrial robotic arm (9843 units) with installation,2,equipment,Manufacturing,Machinery,24710292.2,en
+Professional advisory service - legal,1,services,Professional Services,Consulting,1182879.68,en
+Purchase of 4301 injection molding machine for data center,2,equipment,IT Infrastructure,Hardware,1651319.1,en
+Order 6442 microchips for production batch,1,raw_materials,Electronics,Electronic Components,577242.43,en
+manufacturing plant building contract (branch),2,equipment,Real Estate,Building,492353268.41,en
+Solar panel installation (285 kW capacity),2,equipment,Energy,Power Generation,150705947.67,en
+corn ingredient procurement - 5867 tons,1,raw_materials,Food & Beverage,Agricultural,2553209.36,en
+Solar panel installation (6027 kW capacity),2,equipment,Energy,Power Generation,171333743.46,en
+CNC machine power generation system - 1246 MW,2,equipment,Energy,Power Generation,82272876.25,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,247578.23,en
+Purchase of 7575 kg of titanium for manufacturing use,1,raw_materials,Manufacturing,Metal,3619035.81,en
+steel sheets raw material supply - 2678 kg,1,raw_materials,Manufacturing,Metal,1456382.43,en
+Renewable energy facility construction (7271 MW),2,equipment,Energy,Power Generation,192575056.24,en
+Fleet procurement - 2371 forklifts,2,equipment,Transportation,Vehicle,21786548.82,en
+"Building management service (warehouse, 17 months)",1,services,Facility Management,Maintenance,1062266.17,en
+Order organic corn (9304 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,2016516.33,en
+Procurement of automated injection molding machine system,2,equipment,Manufacturing,Machinery,34076187.84,en
+Order organic sugar (7166 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,458314.79,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,545402.11,en
+soybeans ingredient procurement - 5152 tons,1,raw_materials,Food & Beverage,Agricultural,614677.54,en
+8769 liters of ethanol for chemical processing,1,raw_materials,Manufacturing,Chemical,1263081.03,en
+Purchase of 8696 units of resistors for assembly,1,raw_materials,Electronics,Electronic Components,6752596.83,en
+CRM software subscription (5193 licenses for 12 months),1,services,IT Services,Software,580516.13,en
+Purchase of conveyor system for production facility,2,equipment,Manufacturing,Machinery,17483274.78,en
+Construction of distribution center (46923 sqm),2,equipment,Real Estate,Building,158387994.83,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,1551796.13,en
+SaaS subscription for ERP (8589 users),1,services,IT Services,Software,933013.97,en
+CRM software subscription (3993 licenses for 12 months),1,services,IT Services,Software,315587.67,en
+Order 1215 kg of copper wire for QQ4 production,1,raw_materials,Manufacturing,Metal,3037207.75,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,23096525.45,en
+Purchase of 8834 CNC machine for data center,2,equipment,IT Infrastructure,Hardware,2754039.95,en
+consumer goods manufacturing line (7514 units/day capacity),2,equipment,Manufacturing,Production Line,40519584.24,en
+Purchase of sulfuric acid solvent - 9298 liters,1,raw_materials,Manufacturing,Chemical,327137.61,en
+New distribution center development project,2,equipment,Real Estate,Building,310912223.11,en
+Purchase of 9266 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,1075945.04,en
+Warehouse storage service (1200 sqm for annual),1,logistics,Logistics,Warehousing,2388789.67,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,32701533.61,en
+Third-party warehousing at branch - 4603 sqm,1,logistics,Logistics,Warehousing,2302517.1,en
+conveyor system procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,7792494.8,en
+Logistics service for East-West corridor (12 months),1,logistics,Logistics,Freight,3391624.65,en
+Purchase of 1524 electric vans for logistics operations,2,equipment,Transportation,Vehicle,26188636.46,en
+Order 9376 kg of steel sheets for QQ2 production,1,raw_materials,Manufacturing,Metal,3541032.3,en
+Order 9596 kg of steel sheets for QQ4 production,1,raw_materials,Manufacturing,Metal,4580392.11,en
+Solar panel installation (1329 kW capacity),2,equipment,Energy,Power Generation,59756663.25,en
+Purchase of toluene solvent - 2331 liters,1,raw_materials,Manufacturing,Chemical,604026.85,en
+3392 liters of sodium hydroxide for chemical processing,1,raw_materials,Manufacturing,Chemical,19849.4,en
+Warehouse storage service (1134 sqm for 12 months),1,logistics,Logistics,Warehousing,2844054.71,en
+Cloud sustainability service - 6 months contract,1,services,IT Services,Software,89215.81,en
+Logistics service for urban corridor (12 months),1,logistics,Logistics,Freight,4347160.66,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,83071246.43,en
+Purchase of 5289 conveyor system for data center,2,equipment,IT Infrastructure,Hardware,5968972.74,en
+Construction of distribution center (31936 sqm),2,equipment,Real Estate,Building,22770854.21,en
+IT infrastructure upgrade - CNC machine (3984 units),2,equipment,IT Infrastructure,Hardware,3594952.24,en
+Construction of manufacturing plant (4265 sqm),2,equipment,Real Estate,Building,394140128.22,en
+Procurement of automated conveyor system system,2,equipment,Manufacturing,Machinery,1427706.06,en
+Procurement of titanium (2362 kg) for production line,1,raw_materials,Manufacturing,Metal,2541565.21,en
+soybeans ingredient procurement - 7914 tons,1,raw_materials,Food & Beverage,Agricultural,2526246.99,en
+Purchase of 5602 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,1579432.92,en
+Purchase of 8634 injection molding machine for data center,2,equipment,IT Infrastructure,Hardware,9999770.89,en
+Purchase of toluene solvent - 2889 liters,1,raw_materials,Manufacturing,Chemical,1893288.06,en
+conveyor system power generation system - 9807 MW,2,equipment,Energy,Power Generation,123235345.73,en
+Purchase of 6448 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,242035.82,en
+SaaS subscription for Security (6778 users),1,services,IT Services,Software,616466.42,en
+conveyor system procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,2251947.21,en
+CRM software subscription (903 licenses for 12 months),1,services,IT Services,Software,298893.35,en
+Order 3581 kg of aluminum alloy for QQ2 production,1,raw_materials,Manufacturing,Metal,3861456.69,en
+automotive parts manufacturing line (6861 units/day capacity),2,equipment,Manufacturing,Production Line,66437055.9,en
+CRM software subscription (1323 licenses for 6 months),1,services,IT Services,Software,952583.72,en
+Industrial conveyor system (3970 units) with installation,2,equipment,Manufacturing,Machinery,40767153.4,en
+Solar panel installation (5138 kW capacity),2,equipment,Energy,Power Generation,58125578.36,en
+Warehouse storage service (4247 sqm for annual),1,logistics,Logistics,Warehousing,1237378.98,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,423579.09,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,74113266.02,en
+Logistics service for East-West corridor (quarterly),1,logistics,Logistics,Freight,4769735.13,en
+New distribution center development project,2,equipment,Real Estate,Building,15189924.8,en
+Procurement of stainless steel (8255 kg) for production line,1,raw_materials,Manufacturing,Metal,1366419.76,en
+Fleet procurement - 942 delivery trucks,2,equipment,Transportation,Vehicle,6296592.38,en
+Purchase of 1922 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,1978190.29,en
+electric vans acquisition (industrial grade),2,equipment,Transportation,Vehicle,12442921.38,en
+Purchase of 5431 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,9519489.45,en
+Purchase of 5180 units of capacitors for assembly,1,raw_materials,Electronics,Electronic Components,6397749.16,en
+Complete electronics production line installation,2,equipment,Manufacturing,Production Line,70020730.63,en
+Purchase of 9125 conveyor system for data center,2,equipment,IT Infrastructure,Hardware,5172642.96,en
+Industrial sulfuric acid supply contract (1812 liters),1,raw_materials,Manufacturing,Chemical,760371.54,en
+Professional advisory service - legal,1,services,Professional Services,Consulting,1973944.78,en
+Purchase of 6193 kg of stainless steel for manufacturing use,1,raw_materials,Manufacturing,Metal,270493.69,en
+Industrial ethanol supply contract (3834 liters),1,raw_materials,Manufacturing,Chemical,1499170.66,en
+capacitors component procurement (6391 pcs),1,raw_materials,Electronics,Electronic Components,3495150.27,en
+automotive parts manufacturing line (4806 units/day capacity),2,equipment,Manufacturing,Production Line,88813272.45,en
+Solar panel installation (1206 kW capacity),2,equipment,Energy,Power Generation,86444321.33,en
+Order organic sugar (7167 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,539703.2,en
+SaaS subscription for Collaboration (807 users),1,services,IT Services,Software,581700.07,en
+Third-party warehousing at warehouse - 7248 sqm,1,logistics,Logistics,Warehousing,941602.1,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,25827646.67,en
+1877 liters of toluene for chemical processing,1,raw_materials,Manufacturing,Chemical,1821161.47,en
+financial consulting services for annual,1,services,Professional Services,Consulting,1928775.64,en
+warehouse building contract (factory),2,equipment,Real Estate,Building,140109914.12,en
+"Building management service (headquarters, 7 months)",1,services,Facility Management,Maintenance,1389479.24,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1263288.41,en
+Cloud financial service - quarterly contract,1,services,IT Services,Software,132379.25,en
+Purchase of 5010 forklifts for logistics operations,2,equipment,Transportation,Vehicle,28225724.5,en
+Order 734 kg of stainless steel for QQ1 production,1,raw_materials,Manufacturing,Metal,2796849.96,en
+Purchase of acetone solvent - 9620 liters,1,raw_materials,Manufacturing,Chemical,311576.34,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,758494.83,en
+Purchase of 3092 kg of aluminum alloy for manufacturing use,1,raw_materials,Manufacturing,Metal,2764875.67,en
+Order 3125 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,2623852.22,en
+Warehouse storage service (2024 sqm for quarterly),1,logistics,Logistics,Warehousing,2149871.24,en
+Purchase of 823 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,184830.55,en
+sugar ingredient procurement - 2519 tons,1,raw_materials,Food & Beverage,Agricultural,343728.7,en
+robotic arm power generation system - 2226 MW,2,equipment,Energy,Power Generation,129425078.62,en
+Monthly freight service for cross-border distribution,1,logistics,Logistics,Freight,4886671.8,en
+automotive parts manufacturing line (9830 units/day capacity),2,equipment,Manufacturing,Production Line,39714183.97,en
+packaging machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,5488747.6,en
+Order 6521 capacitors for production batch,1,raw_materials,Electronics,Electronic Components,5403569.89,en
+Fleet procurement - 2229 forklifts,2,equipment,Transportation,Vehicle,9572710.31,en
+microchips component procurement (970 pcs),1,raw_materials,Electronics,Electronic Components,7750144.28,en
+Order organic sugar (6942 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1917435.66,en
+Contract for 4591 shipments via financial,1,logistics,Logistics,Freight,3968805.68,en
+Order 8371 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,4889405.8,en
+Procurement of steel sheets (8020 kg) for production line,1,raw_materials,Manufacturing,Metal,4178407.26,en
+Engagement of management consultant (22 months),1,services,Professional Services,Consulting,855460.77,en
+New warehouse development project,2,equipment,Real Estate,Building,32276283.61,en
+PCB boards component procurement (6045 pcs),1,raw_materials,Electronics,Electronic Components,4417399.76,en
+Procurement of automated injection molding machine system,2,equipment,Manufacturing,Machinery,12090995.1,en
+Procurement of aluminum alloy (4385 kg) for production line,1,raw_materials,Manufacturing,Metal,4961363.13,en
+New office building development project,2,equipment,Real Estate,Building,132250228.05,en
+Procurement of aluminum alloy (8977 kg) for production line,1,raw_materials,Manufacturing,Metal,553349.35,en
+Automated assembly line for electronics,2,equipment,Manufacturing,Production Line,33609363.49,en
+electronics manufacturing line (2631 units/day capacity),2,equipment,Manufacturing,Production Line,47121393.18,en
+forklifts acquisition (industrial grade),2,equipment,Transportation,Vehicle,16292259.65,en
+SaaS subscription for Security (9250 users),1,services,IT Services,Software,164160.36,en
+delivery trucks acquisition (industrial grade),2,equipment,Transportation,Vehicle,19824077.09,en
+Third-party warehousing at warehouse - 3947 sqm,1,logistics,Logistics,Warehousing,1550212.55,en
+Solar panel installation (4276 kW capacity),2,equipment,Energy,Power Generation,149684026.93,en
+Monthly freight service for East-West distribution,1,logistics,Logistics,Freight,1816429.34,en
+aluminum alloy raw material supply - 5304 kg,1,raw_materials,Manufacturing,Metal,823074.01,en
+electronics manufacturing line (2484 units/day capacity),2,equipment,Manufacturing,Production Line,79015249.07,en
+IT infrastructure upgrade - packaging machine (2535 units),2,equipment,IT Infrastructure,Hardware,8975914.85,en
+forklifts acquisition (industrial grade),2,equipment,Transportation,Vehicle,11848815.96,en
+Order organic sugar (8379 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,613426.86,en
+Order 9307 kg of steel sheets for QQ1 production,1,raw_materials,Manufacturing,Metal,4912074.48,en
+Order organic sugar (7090 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,312442.13,en
+"Building management service (regional office, 21 months)",1,services,Facility Management,Maintenance,1395635.11,en
+Purchase of 2965 packaging machine for data center,2,equipment,IT Infrastructure,Hardware,6405085.72,en
+Warehouse storage service (3371 sqm for annual),1,logistics,Logistics,Warehousing,2794240.71,en
+Purchase of 9600 CNC machine for data center,2,equipment,IT Infrastructure,Hardware,5055596.41,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1413774.26,en
+IT infrastructure upgrade - robotic arm (1035 units),2,equipment,IT Infrastructure,Hardware,5952646.2,en
+injection molding machine procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,5171686.86,en
+Purchase of toluene solvent - 2285 liters,1,raw_materials,Manufacturing,Chemical,1999192.11,en
+Cloud sustainability service - quarterly contract,1,services,IT Services,Software,130831.05,en
+copper wire raw material supply - 2246 kg,1,raw_materials,Manufacturing,Metal,4286299.08,en
+Procurement of aluminum alloy (8938 kg) for production line,1,raw_materials,Manufacturing,Metal,472801.76,en
+consumer goods manufacturing line (3415 units/day capacity),2,equipment,Manufacturing,Production Line,61982310.7,en
+automotive parts manufacturing line (718 units/day capacity),2,equipment,Manufacturing,Production Line,82052052.49,en
+Order 871 resistors for production batch,1,raw_materials,Electronics,Electronic Components,3137638.81,en
+Warehouse storage service (6515 sqm for quarterly),1,logistics,Logistics,Warehousing,1224021.44,en
+Purchase of 1669 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,1718735.27,en
+Purchase of 4272 tons of corn for food production,1,raw_materials,Food & Beverage,Agricultural,1621941.79,en
+cargo vehicles acquisition (industrial grade),2,equipment,Transportation,Vehicle,17096130.2,en
+microchips component procurement (3502 pcs),1,raw_materials,Electronics,Electronic Components,254690.45,en
+Contract for 1016 shipments via management,1,logistics,Logistics,Freight,2071409.42,en
+2529 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,426676.89,en
+resistors component procurement (2972 pcs),1,raw_materials,Electronics,Electronic Components,5878873.47,en
+Purchase of 9916 tons of sugar for food production,1,raw_materials,Food & Beverage,Agricultural,2716676.18,en
+Security software subscription (2009 licenses for annual),1,services,IT Services,Software,691767.74,en
+robotic arm procurement (industrial grade),2,equipment,IT Infrastructure,Hardware,8549587.51,en
+Purchase of 5835 kg of titanium for manufacturing use,1,raw_materials,Manufacturing,Metal,1211868.55,en
+Order organic corn (9933 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,1360103.74,en
+electronics manufacturing line (7961 units/day capacity),2,equipment,Manufacturing,Production Line,32593001.94,en
+3542 liters of sodium hydroxide for chemical processing,1,raw_materials,Manufacturing,Chemical,1063076.87,en
+sugar ingredient procurement - 3016 tons,1,raw_materials,Food & Beverage,Agricultural,1461038.25,en
+Engagement of legal consultant (31 months),1,services,Professional Services,Consulting,203030.92,en
+soybeans ingredient procurement - 9968 tons,1,raw_materials,Food & Beverage,Agricultural,1138602.39,en
+Warehouse storage service (1814 sqm for 6 months),1,logistics,Logistics,Warehousing,177202.98,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,929464.6,en
+Procurement of steel sheets (4795 kg) for production line,1,raw_materials,Manufacturing,Metal,4118181.21,en
+Fleet procurement - 8801 forklifts,2,equipment,Transportation,Vehicle,23086144.63,en
+warehouse building contract (regional office),2,equipment,Real Estate,Building,461912356.69,en
+Order 1095 resistors for production batch,1,raw_materials,Electronics,Electronic Components,6509954.88,en
+Purchase of robotic arm for production facility,2,equipment,Manufacturing,Machinery,3825129.83,en
+Professional advisory service - sustainability,1,services,Professional Services,Consulting,291374.14,en
+IT infrastructure upgrade - robotic arm (2601 units),2,equipment,IT Infrastructure,Hardware,2296495.73,en
+Order 8484 kg of titanium for QQ3 production,1,raw_materials,Manufacturing,Metal,2412182.52,en
+Fleet procurement - 8115 cargo vehicles,2,equipment,Transportation,Vehicle,3707582.46,en
+microchips component procurement (6528 pcs),1,raw_materials,Electronics,Electronic Components,4998978.2,en
+Facility maintenance service for annual,1,services,Facility Management,Maintenance,123342.5,en
+Construction of warehouse (23035 sqm),2,equipment,Real Estate,Building,207457239.63,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,270630.87,en
+Purchase of 6916 delivery trucks for logistics operations,2,equipment,Transportation,Vehicle,6621331.92,en
+Engagement of IT consultant (14 months),1,services,Professional Services,Consulting,958807.47,en
+Complete automotive parts production line installation,2,equipment,Manufacturing,Production Line,41439567.11,en
+IT infrastructure upgrade - CNC machine (7448 units),2,equipment,IT Infrastructure,Hardware,899816.4,en
+LED modules component procurement (1390 pcs),1,raw_materials,Electronics,Electronic Components,237711.43,en
+manufacturing plant building contract (factory),2,equipment,Real Estate,Building,317106734.12,en
+Facility maintenance service for 12 months,1,services,Facility Management,Maintenance,383020.4,en
+sustainability transportation service - East-West,1,logistics,Logistics,Freight,1886708.63,en
+"Building management service (factory, 32 months)",1,services,Facility Management,Maintenance,624623.39,en
+steel sheets raw material supply - 5070 kg,1,raw_materials,Manufacturing,Metal,4672820.21,en
+Construction of distribution center (31893 sqm),2,equipment,Real Estate,Building,443479732.95,en
+New warehouse development project,2,equipment,Real Estate,Building,351075274.4,en
+"Building management service (headquarters, 34 months)",1,services,Facility Management,Maintenance,955386.29,en
+Purchase of 5060 tons of soybeans for food production,1,raw_materials,Food & Beverage,Agricultural,2645197.28,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1477059.81,en
+Purchase of 748 kg of titanium for manufacturing use,1,raw_materials,Manufacturing,Metal,3311275.83,en
+Purchase of ethanol solvent - 5630 liters,1,raw_materials,Manufacturing,Chemical,1261371.84,en
+financial consulting services for 6 months,1,services,Professional Services,Consulting,1014018.34,en
+Automated assembly line for automotive parts,2,equipment,Manufacturing,Production Line,28842533.18,en
+microchips component procurement (6502 pcs),1,raw_materials,Electronics,Electronic Components,984804.25,en
+Cloud financial service - 12 months contract,1,services,IT Services,Software,61932.01,en
+IT infrastructure upgrade - robotic arm (9242 units),2,equipment,IT Infrastructure,Hardware,2556627.5,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,1337897.79,en
+"Building management service (headquarters, 36 months)",1,services,Facility Management,Maintenance,1268384.85,en
+Procurement of aluminum alloy (3188 kg) for production line,1,raw_materials,Manufacturing,Metal,289551.2,en
+Purchase of 751 cargo vehicles for logistics operations,2,equipment,Transportation,Vehicle,24899090.48,en
+Purchase of acetone solvent - 8582 liters,1,raw_materials,Manufacturing,Chemical,1673417.56,en
+Fleet procurement - 4071 delivery trucks,2,equipment,Transportation,Vehicle,2768089.58,en
+Professional advisory service - financial,1,services,Professional Services,Consulting,721831.29,en
+Procurement of automated conveyor system system,2,equipment,Manufacturing,Machinery,27046144.82,en
+Construction of distribution center (35984 sqm),2,equipment,Real Estate,Building,483157575.0,en
+Professional advisory service - sustainability,1,services,Professional Services,Consulting,1224783.93,en
+Third-party warehousing at headquarters - 2663 sqm,1,logistics,Logistics,Warehousing,1482789.53,en
+Professional advisory service - sustainability,1,services,Professional Services,Consulting,784524.65,en
+Order 2550 PCB boards for production batch,1,raw_materials,Electronics,Electronic Components,2374420.85,en
+steel sheets raw material supply - 6777 kg,1,raw_materials,Manufacturing,Metal,3883311.45,en
+Purchase of 4933 units of PCB boards for assembly,1,raw_materials,Electronics,Electronic Components,6335050.78,en
+legal consulting services for 6 months,1,services,Professional Services,Consulting,1459840.26,en
+7257 liters of sulfuric acid for chemical processing,1,raw_materials,Manufacturing,Chemical,1810842.46,en
+management consulting services for quarterly,1,services,Professional Services,Consulting,367382.79,en
+Order organic wheat (4301 tons) from certified supplier,1,raw_materials,Food & Beverage,Agricultural,451096.61,en
+consumer goods manufacturing line (7779 units/day capacity),2,equipment,Manufacturing,Production Line,8786774.5,en
+Purchase of 7857 kg of stainless steel for manufacturing use,1,raw_materials,Manufacturing,Metal,3125344.3,en
+SaaS subscription for Collaboration (6740 users),1,services,IT Services,Software,591908.13,en
+Cleaning and maintenance contract for office premises,1,services,Facility Management,Maintenance,221583.4,en
+automotive parts manufacturing line (721 units/day capacity),2,equipment,Manufacturing,Production Line,92200137.66,en
+Procurement of aluminum alloy (5097 kg) for production line,1,raw_materials,Manufacturing,Metal,2758023.5,en
+Third-party warehousing at headquarters - 6282 sqm,1,logistics,Logistics,Warehousing,1953938.8,en

@@ -1,0 +1,22 @@
+{
+  "gold_standard": "人工覆核批次排放係數匹配結果",
+  "source_file": "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果",
+  "source_files": [
+    "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果/Scope 3 Procurement Data_化學與塑膠加-表格 1.csv",
+    "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果/Scope 3 Procurement Data_連鎖餐飲與零-表格 1.csv",
+    "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果/Scope 3 Procurement Data_電子資通訊製-表格 1.csv",
+    "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果/表4-1_鋼鐵業_合成_表4-1_鋼鐵業_合成-表格 1.csv",
+    "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果/表4-1_食品飲料業_合成_表4-1_食品飲料業_合成-表格 1.csv"
+  ],
+  "standard_file": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/evaluation/reviewed_batch_standard/reviewed_batch_gold_standard.csv",
+  "backup_file": null,
+  "rows": 934,
+  "unique_queries": 163,
+  "unique_expected_factors": 95,
+  "rows_by_source_type": {
+    "table4_activity_csv": 600,
+    "procurement_workbook": 334
+  },
+  "created_at": "2026-08-20T16:11:24",
+  "notes": "This is a reviewed row-level expected-output standard, separate from procurement_training_items.csv."
+}

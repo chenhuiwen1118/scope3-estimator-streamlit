@@ -1,0 +1,11 @@
+{
+  "source": "MOENV CFP",
+  "source_url": "https://cfp.moenv.gov.tw/WebPage/WebSites/CoefficientDB.aspx",
+  "input_file": "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/系統程式/scope3_estimator-main/data/emission_factors/tier1_local/碳足跡排放係數.csv",
+  "updated_at": "2026-06-29T00:25:59",
+  "raw_rows": 1164,
+  "normalized_rows": 1164,
+  "tier1_total_rows": 2231,
+  "embeddings_rebuilt": true,
+  "note": "File-based import cache. Use official MOENV CFP export/download as input."
+}

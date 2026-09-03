@@ -1,0 +1,12 @@
+{
+  "cca_ghg_management": {
+    "source": "CCA GHG Factor Table",
+    "source_url": "https://www.cca.gov.tw/",
+    "input_file": "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/系統程式/scope3_estimator-main/113年2月5日公告溫室氣體排放係數.ods",
+    "updated_at": "2026-06-29T01:05:16",
+    "raw_rows": 870,
+    "normalized_rows": 215,
+    "tier1_total_rows": 2446,
+    "embeddings_rebuilt": true
+  }
+}

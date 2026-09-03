@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "title": "會計科目與 GHG Protocol 分類對照表",
+    "description": "基於台灣企業會計準則（IFRS），將會計科目映射到 GHG Protocol Scope 3 類別",
+    "version": "1.0",
+    "last_updated": "2026-01-29",
+    "source": "基於 IFRS 會計科目與 GHG Protocol 技術指引"
+  },
+
+  "category_2_subjects": {
+    "description": "這些會計科目通常列為固定資產，屬於 GHG Protocol Scope 3 Category 2（資本財）",
+    "subjects": [
+      {
+        "code": "1500",
+        "name": "不動產、廠房及設備",
+        "alias": ["固定資產", "PP&E", "Property, Plant and Equipment"],
+        "ghg_category": 2,
+        "confidence": 1.0,
+        "note": "所有列入此科目的項目均為資本財"
+      },
+      {
+        "code": "1501",
+        "name": "土地",
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1502",
+        "name": "土地改良物",
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1503",
+        "name": "建築物",
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1504",
+        "name": "機械設備",
+        "alias": ["機器設備"],
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1505",
+        "name": "運輸設備",
+        "alias": ["交通設備", "車輛"],
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1506",
+        "name": "辦公設備",
+        "ghg_category": 2,
+        "confidence": 1.0,
+        "note": "已資本化的辦公設備"
+      },
+      {
+        "code": "1507",
+        "name": "資訊設備",
+        "alias": ["電腦設備", "IT設備"],
+        "ghg_category": 2,
+        "confidence": 1.0,
+        "note": "已資本化的資訊設備"
+      },
+      {
+        "code": "1508",
+        "name": "租賃改良",
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1509",
+        "name": "未完工程及預付設備款",
+        "ghg_category": 2,
+        "confidence": 0.9,
+        "note": "建設中的資本支出"
+      },
+      {
+        "code": "1510",
+        "name": "其他固定資產",
+        "ghg_category": 2,
+        "confidence": 1.0
+      },
+      {
+        "code": "1600",
+        "name": "資本支出",
+        "alias": ["Capital Expenditure", "CapEx"],
+        "ghg_category": 2,
+        "confidence": 1.0
+      }
+    ]
+  },
+
+  "category_1_subjects": {
+    "description": "這些會計科目通常不列為固定資產，屬於 GHG Protocol Scope 3 Category 1（購買商品及勞務）",
+    "subjects": [
+      {
+        "code": "5100",
+        "name": "進貨",
+        "alias": ["原物料採購", "商品採購"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "5101",
+        "name": "原物料",
+        "alias": ["原料", "材料"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "5102",
+        "name": "商品",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "5200",
+        "name": "直接人工",
+        "ghg_category": 1,
+        "confidence": 0.8,
+        "note": "人工成本可能需單獨處理"
+      },
+      {
+        "code": "5300",
+        "name": "製造費用",
+        "ghg_category": 1,
+        "confidence": 0.9
+      },
+      {
+        "code": "6100",
+        "name": "營業費用",
+        "alias": ["Operating Expense", "OpEx"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6101",
+        "name": "薪資支出",
+        "ghg_category": 1,
+        "confidence": 0.7,
+        "note": "人工成本，可能需排除"
+      },
+      {
+        "code": "6102",
+        "name": "租金支出",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6103",
+        "name": "文具用品",
+        "alias": ["辦公用品"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6104",
+        "name": "旅費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6105",
+        "name": "運費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6106",
+        "name": "郵電費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6107",
+        "name": "修繕費",
+        "alias": ["維修費", "保養費"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6108",
+        "name": "廣告費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6109",
+        "name": "水電瓦斯費",
+        "ghg_category": 1,
+        "confidence": 1.0,
+        "note": "能源費用，Scope 2 優先"
+      },
+      {
+        "code": "6110",
+        "name": "保險費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6111",
+        "name": "交際費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6112",
+        "name": "捐贈",
+        "ghg_category": 1,
+        "confidence": 0.8
+      },
+      {
+        "code": "6113",
+        "name": "稅捐",
+        "ghg_category": 1,
+        "confidence": 0.7,
+        "note": "稅捐通常不計入 Scope 3"
+      },
+      {
+        "code": "6114",
+        "name": "折舊費用",
+        "ghg_category": "exclude",
+        "confidence": 1.0,
+        "note": "折舊為非現金支出，不列入 Scope 3。原資本支出應在購買年度計入 Category 2"
+      },
+      {
+        "code": "6115",
+        "name": "各項耗竭及攤提",
+        "ghg_category": "exclude",
+        "confidence": 1.0,
+        "note": "非現金支出，不列入"
+      },
+      {
+        "code": "6116",
+        "name": "伙食費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6117",
+        "name": "職工福利",
+        "ghg_category": 1,
+        "confidence": 0.8
+      },
+      {
+        "code": "6118",
+        "name": "訓練費",
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6119",
+        "name": "研究發展費用",
+        "alias": ["R&D費用"],
+        "ghg_category": 1,
+        "confidence": 0.9,
+        "note": "需視是否資本化"
+      },
+      {
+        "code": "6120",
+        "name": "勞務費",
+        "alias": ["外包費", "委外費"],
+        "ghg_category": 1,
+        "confidence": 1.0
+      },
+      {
+        "code": "6121",
+        "name": "雜項購置",
+        "ghg_category": 1,
+        "confidence": 0.8,
+        "note": "需視金額判斷"
+      }
+    ]
+  },
+
+  "ambiguous_subjects": {
+    "description": "這些科目需要額外資訊（如金額、使用年限）才能判斷",
+    "subjects": [
+      {
+        "code": "1130",
+        "name": "預付款項",
+        "ghg_category": "depends",
+        "confidence": 0.5,
+        "note": "需視預付項目性質決定，若為設備預付款則屬 Category 2"
+      },
+      {
+        "code": "6122",
+        "name": "什項購置",
+        "ghg_category": "depends",
+        "confidence": 0.5,
+        "note": "金額 < 門檻 → Category 1；金額 >= 門檻 → Category 2"
+      },
+      {
+        "code": "6200",
+        "name": "管理及總務費用",
+        "ghg_category": "depends",
+        "confidence": 0.6,
+        "note": "需細看明細，通常為 Category 1"
+      },
+      {
+        "code": "6300",
+        "name": "研究發展費用",
+        "ghg_category": "depends",
+        "confidence": 0.7,
+        "note": "費用化 → Category 1；資本化 → Category 2"
+      }
+    ]
+  },
+
+  "capitalization_thresholds": {
+    "description": "固定資產認列門檻（台灣企業常見標準）",
+    "amount_threshold": {
+      "small_enterprise": 10000,
+      "medium_enterprise": 30000,
+      "large_enterprise": 50000,
+      "unit": "TWD",
+      "note": "金額 >= 門檻且使用年限 > 2 年，通常列為固定資產"
+    },
+    "useful_life_threshold": {
+      "years": 2,
+      "note": "使用年限 > 2 年為固定資產判斷標準之一"
+    }
+  },
+
+  "special_cases": {
+    "description": "特殊處理案例",
+    "cases": [
+      {
+        "scenario": "電腦設備",
+        "rule": "金額 >= 30,000 元 → Category 2；金額 < 30,000 元 → Category 1",
+        "rationale": "依據企業會計政策決定資本化門檻"
+      },
+      {
+        "scenario": "辦公家具",
+        "rule": "整批採購金額 >= 50,000 元 → Category 2；單項或小額 → Category 1",
+        "rationale": "整批採購通常作為固定資產"
+      },
+      {
+        "scenario": "軟體授權",
+        "rule": "永久授權且金額 >= 門檻 → Category 2；訂閱制或小額 → Category 1",
+        "rationale": "永久授權可資本化為無形資產"
+      },
+      {
+        "scenario": "租賃",
+        "rule": "融資租賃 → Category 2；營業租賃 → Category 1",
+        "rationale": "IFRS 16 租賃會計處理"
+      }
+    ]
+  },
+
+  "ghg_protocol_notes": {
+    "category_1_vs_2_distinction": "依據 GHG Protocol，企業應遵循自身的財務會計程序來判斷採購項目是資本財（Category 2）還是購買商品（Category 1）。關鍵在於該項目是否在財務會計中列為固定資產或 PP&E。",
+    "timing_difference": "財務會計中固定資產需分年折舊，但 GHG Protocol 建議在購買年度一次性報告全部排放，而非隨折舊攤提。",
+    "exclusions": "折舊、攤提等非現金支出不列入 Scope 3 計算。"
+  }
+}

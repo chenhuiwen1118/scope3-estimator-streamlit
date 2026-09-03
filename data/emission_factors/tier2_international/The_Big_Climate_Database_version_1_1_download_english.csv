@@ -1,0 +1,544 @@
+﻿Product,Category,Total kg CO2e/kg,Data sources
+"Bell pepper, sweet",Vegetables and vegetable products,0.96,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Tomato,Vegetables and vegetable products,0.46,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Squash,Vegetables and vegetable products,0.73,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Aubergine,Vegetables and vegetable products,0.87,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Tomato, dried",Vegetables and vegetable products,2.33,Data on inputs and outputs of the food processing industry is modelled using: Wikipedia (2020); Bahçıvanoğlu (2020).
+Pumpkin,Vegetables and vegetable products,0.73,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Cucumber,Vegetables and vegetable products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Gherkin cucumber,Vegetables and vegetable products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Pepper, hot chili",Vegetables and vegetable products,0.96,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Beef, topside, cap off",Meat and poultry,55.31,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Bringhurst Meats (2020).
+"Beef, fillet, defatted",Meat and poultry,185.76,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Bringhurst Meats (2020).
+"Beef, mince, 10-15% fat",Meat and poultry,39.09,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Beef, rump",Meat and poultry,55.31,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Bringhurst Meats (2020).
+"Beef, mince, 15-20% fat",Meat and poultry,37.03,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Beef, T-bone steak",Meat and poultry,98.53,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Bringhurst Meats (2020).
+"Beef, mince, 5-10% fat",Meat and poultry,41.15,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Beer, lager, alc. 4.4 % by vol., canned","Wine, beer and spirits",0.65,"Data on inputs and outputs of the food processing industry is modelled using: The Climate conservancy (2008), Cordella and Santarelli (2008), Koroneos et al. (2005), Novozymes (2009), Hospido et al. (2005), Amienyo and Azapagic (2016)."
+"Beer, household, alc. 1,7 % by vol., canned","Wine, beer and spirits",0.65,"Data on inputs and outputs of the food processing industry is modelled using: The Climate conservancy (2008), Cordella and Santarelli (2008), Koroneos et al. (2005), Novozymes (2009), Hospido et al. (2005), Amienyo and Azapagic (2016)."
+"Beer, strong, alc. 7.6 % by vol., canned","Wine, beer and spirits",0.65,"Data on inputs and outputs of the food processing industry is modelled using: The Climate conservancy (2008), Cordella and Santarelli (2008), Koroneos et al. (2005), Novozymes (2009), Hospido et al. (2005), Amienyo and Azapagic (2016)."
+"Biscuit, sweet",Bread and bakery products,2.87,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018).
+"Biscuit, wholemeal, digestive type",Bread and bakery products,2.81,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018).
+"Butter cookie, wheat, Danish, industrially produced",Bread and bakery products,3.17,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020t); Tasty (2020a); Noya et al. (2018).
+American inspired cookie,Bread and bakery products,2.81,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018).
+Granola bar,Cereals and cereal products,4.08,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018); Inspired taste (2019).
+Wafer sticks,Bread and bakery products,2.53,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020e); ADEME (2020h); Konstantas et al. (2019); DTU (2019).
+Bread-crumbs,Bread and bakery products,1.5,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020a); Open Food Facts (2020b); Jensen JK, Arlbjørn JS (2014)."
+"Crispbread, knackebrot, rye, coarse",Bread and bakery products,1.3,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020a); Open Food Facts (2020b); Jensen JK, Arlbjørn JS (2014)."
+"Wheat bread, for toasting, industrially produced",Bread and bakery products,0.94,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+"Bread, white, for sausages",Bread and bakery products,0.94,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+"Bread, white, roll, coarse grain",Bread and bakery products,0.94,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+"Rye bread, dark, whole grains, industrially produced",Bread and bakery products,0.81,Data on inputs and outputs of the food processing industry is modelled using: Jensen and Arlbjørn (2014).
+Rye bread crumbs with brown sugar,Bread and bakery products,1.87,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020a); Open Food Facts (2020b); Jensen JK, Arlbjørn JS (2014); DTU (2019)."
+"Corn flakes, average values",Cereals and cereal products,2,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018).
+"Breakfast cereal, müsli, average values",Cereals and cereal products,1.97,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020s).
+"Breakfast cereal, sugar pops",Cereals and cereal products,2.41,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018); Guldkorn (2020); DTU (2019).
+"Breakfast cereal, oat puffs",Cereals and cereal products,1.88,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018); Nordic Expat Shop (2020).
+"Butter, salt added","Milk, dairy products and eggs",3.86,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020p).
+"Blended spread, 75% fat","Milk, dairy products and eggs",3.73,Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2010).
+"Plain cake, chocolate cake",Bread and bakery products,2.29,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2019).
+"Danish pastry, kanelsnegl",Bread and bakery products,1.88,Data on inputs and outputs of the food processing industry is modelled using: BBC (2020a); Konstantas et al. (2019).
+"Plain cake, average values",Bread and bakery products,2.29,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2019).
+"Cream pastry, layer cake",Bread and bakery products,2.29,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2019).
+"Cookie, truffle product / unbaked, industrially produced",Bread and bakery products,3.25,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020r); ARLA (2020b).
+"Pork, bacon, frying",Meat and poultry,6.43,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Pork, sausage, salami",Meat and poultry,5.9,Data on inputs and outputs of the food processing industry is modelled using: Shaw (2014); ADEME (2020b).
+"Pork, ham, boiled, sliced",Meat and poultry,4.28,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Beef, roastbeef, cooked, sliced",Meat and poultry,55.4,Data on inputs and outputs of the food processing industry is modelled using: Schmidt-Rivera and Azapagic (2019).
+"Pork, sausage, Danish",Meat and poultry,2.73,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020b) Medister. https://www.nemlig.com/medister-5024553.
+"Pork, liver paste, Danish",Meat and poultry,3.97,"Data on inputs and outputs of the food processing industry is modelled using: Davies (2015); DEFRA (2009)
+."
+"Pork, flank, spiced, cooked",Meat and poultry,4.28,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Pork sausage, bratwurst",Meat and poultry,2.13,Data on inputs and outputs of the food processing industry is modelled using: Davis and Sonesson (2008).
+"Chicken, breast, boiled, sliced",Meat and poultry,4.76,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Chicken, leg, flesh and skin",Meat and poultry,1.97,"Data on inputs and outputs of the food processing industry is modelled using: Pontoppidan and Hansen; Nielsen et al. (2003); Blonk (2015); Schmidt (2010) 
+."
+"Chicken, drumstick, flesh and skin",Meat and poultry,1.87,"Data on inputs and outputs of the food processing industry is modelled using: Pontoppidan and Hansen; Nielsen et al. (2003); Blonk (2015); Schmidt (2010) 
+."
+"Chicken, breast, flesh and skin",Meat and poultry,5.18,"Data on inputs and outputs of the food processing industry is modelled using: Pontoppidan and Hansen; Nielsen et al. (2003); Blonk (2015); Schmidt (2010) 
+."
+"Chicken, sausage",Meat and poultry,1.89,Data on inputs and outputs of the food processing industry is modelled using: Davis and Sonesson (2008).
+"Chicken, hen, flesh and skin",Meat and poultry,3.26,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Pontoppidan and Hansen (2000); Nielsen et al. (2003).
+"Tea, leaves",Beverages,13.81,Data on inputs and outputs of the food processing industry is modelled using: Jefferies et al. (2012); Soheili-Fard et al. (2018).
+"Coffee, instant, powder",Beverages,14.59,Data on inputs and outputs of the food processing industry is modelled using: Humbert et al. (2009).
+"Coffee, beans, roasted, ground",Beverages,5.41,Data on inputs and outputs of the food processing industry is modelled using: Humbert et al. (2009).
+"Cocoa, instant, without milk, powder",Beverages,12.44,Data on inputs and outputs of the food processing industry is modelled using: Recanati et al. (2018).
+"Cocoa, powder",Beverages,12.44,Data on inputs and outputs of the food processing industry is modelled using: Recanati et al. (2018).
+"Lamb, flank, spiced, cooked",Meat and poultry,28.53,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Beef, sausage, salami",Meat and poultry,40.54,Data on inputs and outputs of the food processing industry is modelled using: Shaw (2014); ADEME (2020b).
+"Pork, saddle, smoked, boiled",Meat and poultry,4.28,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Salad dressing, oil and vinegar",Seasonings and spices,3.83,"Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020i); Hetherington et al. (2012)
+."
+"Salad dressing, thousand island",Seasonings and spices,3.51,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); Simply recipes (2020a).
+"Water, tap, drinking",Beverages,0,Data are obtained from the EXIOBASE database.
+"Duck, meat",Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+"Goose, meat",Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+Mackerel mayonnaise salad,Seasonings and spices,2.71,Data on inputs and outputs of the food processing industry is modelled using: Hetherington (2012); Nemlig (2020f).
+Mustard dill sauce,Seasonings and spices,1.94,Data on inputs and outputs of the food processing industry is modelled using: BBC (2020b); Hetherington et al. (2012).
+Italian mayonnaise salad,Seasonings and spices,3.48,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012).
+Curry mayonnaise salad,Seasonings and spices,3.48,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012).
+"Yogurt plain, whole milk","Milk, dairy products and eggs",0.89,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014).
+"Cream, cultured, 18 % fat","Milk, dairy products and eggs",1.85,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014).
+"Skyr, 0.2 % fat","Milk, dairy products and eggs",1.32,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014).
+"Cheese, firm, Danbo, 45 % fidm.","Milk, dairy products and eggs",6.63,Data on inputs and outputs of the food processing industry is modelled using: González-Garcíaet al. (2013a).
+"Cheese, hard, Parmesan, 32 % fidm.","Milk, dairy products and eggs",6.63,Data on inputs and outputs of the food processing industry is modelled using: González-Garcíaet al. (2013a).
+"Cheese, semihard, Mozzarella, 30 % fidm.","Milk, dairy products and eggs",6.63,Data on inputs and outputs of the food processing industry is modelled using: González-Garcíaet al. (2013a).
+"Herring, pickled, canned",Seafood,6.04,Data on inputs and outputs of the food processing industry is modelled using: Shaw H (2011). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. 
+"Fish balls, canned",Seafood,2.65,Data on inputs and outputs of the food processing industry is modelled using: Arctic Grub (2013); Letkoeb (2020); Schmidt and Azapagic (2019). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+Fish pudding,Seafood,3.51,Data on inputs and outputs of the food processing industry is modelled using: Arctic Grub (2013); Letkoeb (2020); ADEME (2020j). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+"Cod, liver, canned",Seafood,10.39,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017)."
+"Cod, roe, canned",Seafood,5.03,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017)."
+"Shrimps, canned",Seafood,10.11,"Data on inputs and outputs of the food processing industry is modelled using: The Feed Conversion Rate for giant tiger prawn is used as a proxy, drawn from Fry JP et al. (2018)."
+"Cod, fillet, breaded",Seafood,2.8,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020k). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+"Caviar, lumpfish roe",Seafood,4.95,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data are obtained from Pelletier (2009) and SINTEF (2017)."
+"Fish cake, fried",Seafood,4.29,Data on inputs and outputs of the food processing industry is modelled using: Arctic Grub (2013); Letkoeb (2020); ADEME (2020j). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+"Cod, liver, smoked",Seafood,4.57,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data are obtained from Pelletier (2009) and SINTEF (2017)."
+"Cod, liver",Seafood,3.59,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017)."
+"Lobster, canned",Seafood,6.87,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for shrimps aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal shellfish source, the aquaculture of shrimps."
+"Mussels, in water, canned",Seafood,1.69,Data on inputs and outputs of the food processing industry is modelled using: Diesel used are obtained from Tamburini (2020).
+"Tuna, in tomato sauce, canned",Seafood,4.92,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020n); Open Food Facts (2020o); Hospido et al. (2006). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. 
+"Cod, roe",Seafood,4.94,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017)."
+"Crab claws, meat",Seafood,10.92,"Data on inputs and outputs of the food processing industry is modelled using: Feed data from Unnikrishnan & Paulraj (2010). The Feed Conversion Rate of giant tiger prawn is used as a proxy, drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from Mungkung R (2005)."
+"Caviar, capelin roe",Seafood,4.94,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal saltwater fish source, the aquaculture of salmon. Salmon feed data are obtained from FAO (2020b). Electricity data are obtained with own elaboration from Kim and Zhang (2018) to represent the electricity use in intensive aquaculture in cold climate."
+"Tuna, in water, canned",Seafood,4.5,Data on inputs and outputs of the food processing industry is modelled using: Hospido et al. (2006). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. 
+"Halibut, greenland, smoked",Seafood,3.81,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for tilapia aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal freshwater fish source, the aquaculture of tilapia. Tilapia feed data are obtained from FAO (2020e). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010)."
+"Fish fillet, breaded, deepfried",Seafood,3.19,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020k); ADEME (2020j). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+"Fish fingers, breaded, frozen",Seafood,2.77,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020k); ADEME (2020l). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. 
+"Rye flour, dark, whole meal",Cereals and cereal products,1.01,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Nielsen et al. (2003).
+"Wheat, flour, wholemeal",Cereals and cereal products,1.06,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Nielsen et al. (2003).
+"Rye kernels, whole/cracked",Cereals and cereal products,1.01,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Nielsen et al. (2003).
+"Wheat, kernels, whole/cracked",Cereals and cereal products,1.06,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Nielsen et al. (2003).
+Rice flour,Cereals and cereal products,4.74,Data on inputs and outputs of the food processing industry is modelled using: Blengini and Busto (2009); Nielsen et al. (2003).
+Corn flour,Cereals and cereal products,1.19,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Nielsen et al. (2003).
+"Eggs, free-range (indoor)","Milk, dairy products and eggs",0.98,The inputs to the Danish market and inputs and outputs to the animal activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Burbot,Seafood,7.1,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010). Data for this species is based on data for tilapia aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+Perch,Seafood,4.34,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Pikeperch,Seafood,3.84,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Pike,Seafood,3.84,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Bream,Seafood,7.48,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Charr,Seafood,6.9,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Trout,Seafood,2.11,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+Whitefish,Seafood,7.1,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for tilapia aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Data on electricity for aquaculture are obtained from Pelletier and Tyedmers (2010).
+"Fruit juice, mixed, sweetened, concentrated, plastic bottle",Beverages,2.34,Data on inputs and outputs of the food processing industry is modelled using: Jungbluth (2013); DTU (2019).
+"Elderberry juice, concentrated, plastic bottle",Beverages,3.44,Data on inputs and outputs of the food processing industry is modelled using: Jungbluth (2013); Aqua-Calc (2020b); DTU (2019).
+"Olives, green, pickled, canned",Vegetables and vegetable products,1.84,Data on inputs and outputs of the food processing industry is modelled using: Italian Kiwi (2018); Carlsson-Kanyama and Faist (2000).
+"Pear, canned",Fruits and fruit products,0.9,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Nut paste with cacao, spreads",Plant products and drinks,4.83,Data on inputs and outputs of the food processing industry is modelled using: Ferrero (2020a); Miah et al. (2018).
+"Orange juice, plastic bottle",Beverages,1.41,Data on inputs and outputs of the food processing industry is modelled using: Jungbluth (2013); Steiner and Frischknecht (2007).
+"Pineapple, canned",Fruits and fruit products,1.1,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+Strawberry jam,Fruits and fruit products,2.02,"Data on inputs and outputs of the food processing industry is modelled using: Ankara University (2018); Carlsson-Kanyama A, Faist M (2000)."
+"Raisins, seedless",Fruits and fruit products,3.16,Data on inputs and outputs of the food processing industry is modelled using: Vukoje et al. (2018).
+Raspberry marmalade,Fruits and fruit products,2.02,"Data on inputs and outputs of the food processing industry is modelled using: Ankara University (2018); Carlsson-Kanyama A, Faist M (2000)."
+"Hare, meat",Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+"Rabbit, meat",Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+"Pheasant, flesh and skin",Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+Squab (pigeon),Meat and poultry,3.26,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+Barley groats,Cereals and cereal products,1.35,Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003).
+"Oats, rolled, not enriched",Cereals and cereal products,1.48,Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003).
+Rice groats,Cereals and cereal products,4.72,"Data on inputs and outputs of the food processing industry is modelled using: Blengini A, Busto M (2009) The life cycle of rice: LCA of alternative agri-food chain management systems in Vercelli (Italy). J Environ Manage 90(3):1512–1522."
+Parsley,Vegetables and vegetable products,0.4,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Dill,Vegetables and vegetable products,0.4,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Garlic,Vegetables and vegetable products,1.13,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Chives,Vegetables and vegetable products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cress, garden",Vegetables and vegetable products,0.4,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Olives, black, without stones, in brine",Vegetables and vegetable products,1.84,Data on inputs and outputs of the food processing industry is modelled using: Italian Kiwi (2018); Carlsson-Kanyama and Faist (2000).
+"Hazelnut, dried",Nuts and seeds,6.04,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020m); Jekayinfa and Bamgboye (2006).
+"Sunflower seeds, decorticated, dried",Nuts and seeds,2.61,Data on inputs and outputs of the food processing industry is modelled using: Jekayinfa and Bamgboye (2006); Gamea (2013).
+"Sesame seeds, decorticated",Nuts and seeds,5.14,Data on inputs and outputs of the food processing industry is modelled using: Byzencyclopedia (2020); Jekayinfa and Bamgboye (2006).
+"Walnuts, dried",Nuts and seeds,4.83,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020n); Jekayinfa and Bamgboye (2006).
+"Cashew nuts, dry roasted",Nuts and seeds,9.94,Data on inputs and outputs of the food processing industry is modelled using: Jekayinfa and Bamgboye (2006); Dendena and Corsi (2014).
+"Pumpkin seeds, dried",Nuts and seeds,4.83,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+Honey,Seasonings and spices,0.79,Data on inputs and outputs of the food processing industry is modelled using: Moreira  et al. (2019).
+"Ice cream, dairy, (wholemilk based)","Milk, dairy products and eggs",2.91,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2018b).
+"Ice cream, dairy (cream based)","Milk, dairy products and eggs",2.91,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2018b).
+"Ice, popsickle, lemonade",Fruits and fruit products,1.2,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020u); Konstantas et al. (2018).
+Vinegar,Seasonings and spices,1.46,"Data on inputs and outputs of the food processing industry is modelled using: Aranda et al. (2005); Gazulla et al. (2010); Vázquez-Rowe et al. (2012, 2013); Point et al. (2012); Ardente et al. (2006); Benedetto (2013); Carta (2009); Bosco et al. (2011); Barry (2011); Neto et al. (2013)."
+"Salt, table",Seasonings and spices,0.44,Data are obtained from the EXIOBASE database.
+Rhubarb,Vegetables and vegetable products,0.33,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Celery,Vegetables and vegetable products,0.33,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Cauliflower,Vegetables and vegetable products,0.56,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Broccoli,Vegetables and vegetable products,0.56,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Kale,Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, white",Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Brussels sprouts,Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, red",Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, spring",Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Spinach,Vegetables and vegetable products,0.43,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Artichoke,Vegetables and vegetable products,0.84,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Asparagus, green",Vegetables and vegetable products,0.9,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Lettuce, iceberg (incl. crisphead types)",Vegetables and vegetable products,0.41,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Lettuce, looseleaf",Vegetables and vegetable products,0.41,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, Chinese, pak choi",Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, savoy",Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cauliflower, frozen",Vegetables and vegetable products,0.73,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+Leek,Vegetables and vegetable products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Spinach, chopped, frozen",Vegetables and vegetable products,0.58,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Broccoli, frozen",Vegetables and vegetable products,0.73,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Beans, wax",Legumes and legume products,0.9,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Peas, green",Vegetables and vegetable products,1.19,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Green lentils, dried",Legumes and legume products,2.46,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Peas, chick/garbanzo, dry",Legumes and legume products,2.94,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Green beans, haricot verts",Vegetables and vegetable products,0.9,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Bean sprouts, mung",Vegetables and vegetable products,0.9,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Bean sprouts,Vegetables and vegetable products,0.9,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Sugar pea, snow pea, mangetout",Vegetables and vegetable products,1.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Beans, soy, dried",Legumes and legume products,1.57,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Peas, green, frozen",Vegetables and vegetable products,1.52,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Water, carbonated, glass bottle",Beverages,0.19,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012).
+"Soft drink, sugar added",Beverages,0.56,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012).
+"Apple juice, plastic bottle",Beverages,1.63,Data on inputs and outputs of the food processing industry is modelled using: Khanali et al. (2020); FAO (2012).
+"Sherry, dry","Wine, beer and spirits",2.68,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for sherry. See comments field.
+"Liqueur, coffee with cream","Wine, beer and spirits",3.29,Data on inputs and outputs of the food processing industry is modelled using: Weidema et al. (2016); Amienyo et al. (2012).
+"Margarine, 70 % fat, table use, soft, vegetable fat",Plant products and drinks,2.88,Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2010); DTU (2019).
+Garfish,Seafood,3.44,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.  Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+"Salmon, Atlantic, wild",Seafood,2.98,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+Mackerel,Seafood,2.89,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+Plaice,Seafood,3.59,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+Herring,Seafood,3.1,Data on inputs and outputs of the food processing industry is modelled using:  Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+Saithe,Seafood,3.59,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+"Cod, fillet",Seafood,3.59,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.  Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+"Plaice, fillet, breaded, dybfrost",Seafood,2.83,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020k); ADEME (2020l). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased.
+"Saithe (UK), pollock (US), fillet, frozen",Seafood,3.51,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+Tuna,Seafood,3.85,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data for this species is based on data for salmon aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+"Salmon, Atlantic, aquaculture, cold smoked",Seafood,3.89,Data on inputs and outputs of the food processing industry is modelled using: The Feed Conversion Rate is drawn from Fry JP et al. (2018) .Data on changes of the dry mattter after smooking are obtained from Kiczorowska et al. (2019).
+"Salmon, atlantic, aquaculture, hot smoked",Seafood,4.2,Data on inputs and outputs of the food processing industry is modelled using: The Feed Conversion Rate is drawn from Fry JP et al. (2018). Data on changes of the dry mattter after smooking are obtained from Kiczorowska et al. (2019).
+"Salmon, atlantic, aquaculture",Seafood,2.98,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from Pelletier (2009) and SINTEF (2017).
+"Mayonnaise, low fat",Seasonings and spices,1.2,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020p); Hetherington et al. (2012).
+Mayonnaise,Seasonings and spices,3.48,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012).
+"Remoulade, average values",Seasonings and spices,1.85,Data on inputs and outputs of the food processing industry is modelled using: Style Blueprint (2020); Hetherington et al. (2012).
+Oyster,Seafood,0.85,Data on inputs and outputs of the food processing industry is modelled using: LCI data extracted from Appendix A and B in Williamson et al (2015) assuming 50% is farmed in bottom cages and 50% with floating rafts. Electricity data for aquaculture are obtained from Mungkung R (2005).
+Mussel,Seafood,0.19,Data on inputs and outputs of the food processing industry is modelled using: Diesel used are obtained from Tamburini (2020).
+Octopus,Seafood,0.38,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for mussels aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal molluscs source, the aquaculture of mussels. Mussels are naturally fed. Diesel used are obtained from Tamburini et al. (2020). "
+Mushroom,Mushrooms and mushroom products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Oyster mushroom,Mushrooms and mushroom products,0.37,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Almondmilk, unfortified",Plant products and drinks,0.37,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2023); Winans et al. (2020).
+"Ricemilk, with added calcium",Plant products and drinks,1.23,Data on inputs and outputs of the food processing industry is modelled using: Pereira (2019); Winans et al. (2020).
+"Oatmilk, with added calcium",Plant products and drinks,0.38,Data on inputs and outputs of the food processing industry is modelled using: SIK (2013).
+"Soymilk, with added calcium",Plant products and drinks,0.41,Data on inputs and outputs of the food processing industry is modelled using: Birgersson et al. 82009); FAO (2012); Grant and Hicks; Pérez López (2018).
+"Bouillon, chicken, prepared",Seasonings and spices,0.35,Data on inputs and outputs of the food processing industry is modelled using: DTU (2019); Milà i Canals et al. (2010).
+"Meat balls, beef/pork, canned",Meat and poultry,13.55,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020o); DEFRA (2009).
+"Bouillon, beef, prepared",Seasonings and spices,0.51,Data on inputs and outputs of the food processing industry is modelled using: DTU (2019); Milà i Canals et al. (2010).
+"Meat balls, beef/pork",Meat and poultry,13.55,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020o); DEFRA (2009).
+"Dumplings, average values",Cereals and cereal products,1.33,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020d); Onekitchenblog (2019).
+"Meat balls, beef/pork, frozen",Meat and poultry,13.21,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020c); ADEME (2020o); DEFRA (2009).
+"Soup, tomato, ready to eat",Ready meals,1.95,Data on inputs and outputs of the food processing industry is modelled using: Gould (1992); FAO (2012); Milà i Canals et al. (2010).
+"Bouillon, beef, concentrated, cube",Seasonings and spices,8.4,Data on inputs and outputs of the food processing industry is modelled using: Pentaor (2020); Milà i Canals et al. (2010).
+"Dumplings, frozen",Cereals and cereal products,1.37,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020d); Onekitchenblog (2019); ADEME (2020c).
+"Chicken, grilled, ready meal",Ready meals,4.7,"Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama A, Faist M (2000) Energy use in the food sector: a data survey. AFN report 291, Swedish Environmental Protection Agency, Stockholm, Sweden. Appendix 6.
+
+Carlsson-Kanyama A, Faist M (2000) Energy use in the food sector: a data survey. AFN report 291, Swedish Environmental Protection Agency, Stockholm, Sweden. Appendix 3.
+
+DEFRA (2009) Scenario building to test and inform the development of a BSI method for assessing GHG emissions from food. Project FO0404. http://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&Completed=0&ProjectID= 15650#RelatedDocuments
+."
+"Chicken, nuggets, deepfried, ready meals",Meat and poultry,4.25,Data on inputs and outputs of the food processing industry is modelled using: Vice (2017); Carlsson-Kanyama and Faist (2000); DEFRA (2009).
+"Pizza with tomato and cheese, ready meals",Ready meals,2.69,Data on inputs and outputs of the food processing industry is modelled using: Open Food facts (2020f); DEFRA (2009).
+"Pizza with seafood, tomato and cheese, ready meals",Ready meals,3.69,"Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009) Scenario building to test and inform the development of a BSI method for assessing GHG emissions from food. Project FO0404. http://randd.defra.gov.uk/Default.aspx?Menu=Menu&Module=More&Location=None&Completed=0&ProjectID= 15650#RelatedDocuments
+
+Ingredient waste rate of 3%, all other flows are increased by this rate. Waste is assumed organic only."
+"Pizza with salami, tomato and cheese, ready meals",Ready meals,3.08,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020g); DEFRA (2009).
+"Pizza with vegetables, fruit, tomato and cheese, ready meals",Ready meals,2.42,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020h); DEFRA (2009).
+"Pizza with meat, tomato and cheese, ready meals",Ready meals,4.33,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020i); Open Food Facts (2020j); DEFRA (2009).
+"Pizza with meat and seafood, tomato and cheese, ready meals",Ready meals,4.01,Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009).
+"Veal and pork, mince, 15-20% fat",Meat and poultry,18.33,Data on inputs and outputs of the food processing industry is modelled using: No specific sources on this product. See comments field.
+Goat milk,"Milk, dairy products and eggs",2.63,"Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b)
+."
+Marzipan,Bread and bakery products,9.98,Data on inputs and outputs of the food processing industry is modelled using: Noya et al. (2018); DEFRA (2009).
+"Syrup, kitchen",Candy and sugar products,1.42,Data on inputs and outputs of the food processing industry is modelled using: Renouf et al. (2008).
+Pasta,Cereals and cereal products,1.73,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020a); Open Food Facts (2020b); Jensen JK, Arlbjørn JS (2014); Bevilacqua et al. (2007)."
+Apple,Fruits and fruit products,0.58,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Pear,Fruits and fruit products,0.43,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Grape,Fruits and fruit products,0.8,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Pork, roast, collar with rind",Meat and poultry,4.64,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Pork, ham, topside (M. Semimembranosus), lean",Meat and poultry,4.64,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Pork, loin, lean",Meat and poultry,5.54,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Pork, tenderloin, trimmed",Meat and poultry,7.33,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Pork, mince, 5-10% fat",Meat and poultry,3.71,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Pork, collar, defatted",Meat and poultry,4.74,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Pork, mince, 15-20% fat",Meat and poultry,3.75,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Schmidt (2010); European Commission (2018); Holland et al. (2014); Riverdog Farm (2020).
+"Minced meat, spaghetti sauce type, average values, ready meals",Ready meals,16.27,Data on inputs and outputs of the food processing industry is modelled using: Scandinavian Today (2015); DEFRA (2009).
+"Turtle, fake, average values, ready meals",Ready meals,21.74,Data on inputs and outputs of the food processing industry is modelled using: ARLA (2020a); DEFRA (2009).
+"Spring roll, frozen, ready meals",Ready meals,2.97,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020v); Open Food Facts (2020w); Recipetineats (2018); DEFRA (2009).
+"Pork in curry sauce, frozen, ready meals",Ready meals,4.72,Data on inputs and outputs of the food processing industry is modelled using: GoodtoKnow (2020).
+"Pizza Romana, frozen, ready meals",Ready meals,2.86,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020k); Nielsen et al. (2003).
+"Liver, pig, in cream sauce, frozen, ready meals",Ready meals,3.11,Data on inputs and outputs of the food processing industry is modelled using: Porosenki (2020); DEFRA (2009).
+"Pizza Napolitana, frozen, ready meals",Ready meals,2.72,Data on inputs and outputs of the food processing industry is modelled using: Open Food facts (2020f); DEFRA (2009); Nielsen et al. (2003).
+"Spring roll, deepfried, ready meals",Ready meals,2.97,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020v); Open Food Facts (2020w); Recipetineats (2018); DEFRA (2009).
+"Pizza with broccoli, frozen, ready meals",Ready meals,2.45,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020h); DEFRA (2009); Nielsen et al. (2003).
+"Pizza with tuna, frozen, ready meals",Ready meals,2.53,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020l); Nielsen et al. (2003).
+"Pork, minced and bound with flour and egg, boiled, frozen, ready meals",Ready meals,2.26,Data on inputs and outputs of the food processing industry is modelled using: Alletiders Kogebog (2020); ADEME (2020c); DEFRA (2009).
+Potato,Vegetables and vegetable products,0.39,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Carrot,Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Radish,Vegetables and vegetable products,0.4,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Beet, red",Vegetables and vegetable products,0.32,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Celeriac, celery root",Vegetables and vegetable products,0.33,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Ginger root,Vegetables and vegetable products,1.11,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Fennel, root",Vegetables and vegetable products,0.33,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Turnip,Vegetables and vegetable products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Onions, chopped, frozen",Vegetables and vegetable products,0.36,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Carrot, frozen",Vegetables and vegetable products,0.36,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+Onion,Vegetables and vegetable products,0.25,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Onions, spring",Vegetables and vegetable products,0.7,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Cassava,Vegetables and vegetable products,0.64,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Parsley root,Vegetables and vegetable products,0.84,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cheese, semihard, Feta, 40 % fidm","Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+"Cheese, Danish Blue, 50 % fidm.","Milk, dairy products and eggs",6.63,Data on inputs and outputs of the food processing industry is modelled using: González-Garcíaet al. (2013a).
+"Lamb, leg, unspecified",Meat and poultry,32.22,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); European Commission (2018).
+"Lamb, meat, average values",Meat and poultry,32.22,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); European Commission (2018).
+Crayfish,Seafood,2.75,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for shrimps aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal shellfish source, the aquaculture of shrimps. Electricity data for aquaculture are obtained from Mungkung R (2005)."
+"Shrimps, boiled, shell removed",Seafood,8.8,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from Mungkung R (2005).
+Lobster,Seafood,2.75,"Data on inputs and outputs of the food processing industry is modelled using: Data for this species is based on data for shrimps aquaculture because it is currently fished to its carrying capacity and wild catch cannot be increased. Therefore, an increasing demand affects the marginal shellfish source, the aquaculture of shrimps. Electricity data for aquaculture are obtained from Mungkung R (2005)."
+"Crab, boiled",Seafood,4.88,"Data on inputs and outputs of the food processing industry is modelled using: Feed data from Unnikrishnan & Paulraj (2010). The Feed Conversion Rate of giant tiger prawn is used as a proxy, drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from from Mungkung R (2005)."
+"Prawn, giant tiger, aquaculture, boiled, frozen",Seafood,10.13,Data on inputs and outputs of the food processing industry is modelled using: The Feed Conversion Rate is drawn from Fry JP et al. (2018).  Electricity data for aquaculture are obtained from from Mungkung R (2005).
+"Shrimp, boiled, in brine",Seafood,8.8,Data on inputs and outputs of the food processing industry is modelled using: Data source on edible portion: FAO (1989). The Feed Conversion Rate is drawn from Fry JP et al. (2018). Electricity data for aquaculture are obtained from from Mungkung R (2005).
+"Pop corn, oil and salt added, traditional",Cereals and cereal products,1.49,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020x); Expondo (2020).
+"Peanuts, oilroasted and salted",Nuts and seeds,3.12,Data on inputs and outputs of the food processing industry is modelled using: EKO (2020); Open Food Facts (2020x).
+Strawberry,Fruits and fruit products,0.57,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Raspberry,Fruits and fruit products,1.03,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Currant, black",Fruits and fruit products,0.69,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Blueberries,Fruits and fruit products,1.03,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Blackberry,Fruits and fruit products,1.17,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Rose hip,Fruits and fruit products,0.64,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Elderberry,Fruits and fruit products,1.17,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Currant, red",Fruits and fruit products,0.69,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Gooseberry,Fruits and fruit products,0.89,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Strawberries, frozen, unsweetened",Fruits and fruit products,0.57,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+Cranberry,Fruits and fruit products,0.73,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Blueberry, frozen, unsweetened",Fruits and fruit products,0.91,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Raspberry, frozen",Fruits and fruit products,1.12,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Cheese, Cream, 60 % fidm.","Milk, dairy products and eggs",6.63,Data on inputs and outputs of the food processing industry is modelled using: González-Garcíaet al. (2013a).
+"Cheese, Brie, 45 % fidm.","Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+"Cheese, cottage, 20 % fidm.","Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+"Bulgur, parboiled",Cereals and cereal products,1.54,"Data on inputs and outputs of the food processing industry is modelled using: Blengini A, Busto M (2009) The life cycle of rice: LCA of alternative agri-food chain management systems in Vercelli (Italy). J Environ Manage 90(3):1512–1522."
+"Sweetcorn, kernels, canned",Vegetables and vegetable products,0.65,Data on inputs and outputs of the food processing industry is modelled using: Miller (2017).
+"Rice, parboiled",Cereals and cereal products,4.7,"Data on inputs and outputs of the food processing industry is modelled using: Blengini A, Busto M (2009) The life cycle of rice: LCA of alternative agri-food chain management systems in Vercelli (Italy). J Environ Manage 90(3):1512–1522."
+"Quinoa, black",Cereals and cereal products,3.65,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Pepper, black",Seasonings and spices,4.69,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Mustard, yellow, ready made",Seasonings and spices,1.8,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020) Yellow Mustard Sweet - Heinz - 240g - 220ml. https://world.openfoodfacts.org/product/50157556/yellow-mustard-sweet-heinz
+
+Open Food Facts (2020) Moutarde de Dijon Forte - Auchan. https://world.openfoodfacts.org/product/3596710473298/moutarde-de-dijon-forte-auchan
+
+Andersson K, Ohlsson T, Olsson P (1998) Screening life cycle assessment (LCA) of tomato ketchup: a case study. Journal of Cleaner Production, 6(3–4): 277-288.
+."
+Curry powder,Seasonings and spices,5.53,Data on inputs and outputs of the food processing industry is modelled using: No specfic sources on this product. See comments field.
+"BITTER, Gammel Dansk Bitter Dram","Wine, beer and spirits",2.51,Data on inputs and outputs of the food processing industry is modelled using: Amienyo (2012); Graham (2019).
+"Brandy, cognac","Wine, beer and spirits",5.21,Data on inputs and outputs of the food processing industry is modelled using: FAO (2012); Amienyo (2012).
+Vodka,"Wine, beer and spirits",2.51,Data on inputs and outputs of the food processing industry is modelled using: Amienyo (2012); Graham (2019).
+"Aquavit, 40 % vol., average values","Wine, beer and spirits",2.51,Data on inputs and outputs of the food processing industry is modelled using: Amienyo (2012); Graham (2019).
+Plum,Fruits and fruit products,0.76,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Cherry,Fruits and fruit products,1.01,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Chestnut,Nuts and seeds,2.04,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Prune, dried plum",Fruits and fruit products,2.24,Data on inputs and outputs of the food processing industry is modelled using: Vukoje et al. (2018).
+"Apricot, dried",Fruits and fruit products,2.24,Data on inputs and outputs of the food processing industry is modelled using: Vukoje et al. (2018).
+Apricot,Fruits and fruit products,0.79,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Peach,Fruits and fruit products,0.66,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Nectarine,Fruits and fruit products,0.66,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Avocado,Fruits and fruit products,1.1,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Sugar, sucrose, white",Candy and sugar products,2.41,Data on inputs and outputs of the food processing industry is modelled using: Klenk et al. (2012); Jungbluth et al. (2007).
+"Sugar, brown",Candy and sugar products,2.24,Data on inputs and outputs of the food processing industry is modelled using: The Spruce Eats (2020) Make Your Own Brown Sugarhttps://www.thespruceeats.com/how-to-make-your-own-brown-sugar-995823.
+"Chocolate, milk",Candy and sugar products,5.28,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2018a).
+Nougat,Bread and bakery products,5.63,Data on inputs and outputs of the food processing industry is modelled using: German Cooking (2016); Konstantas et al. (2018).
+"Chewing gum, no sugar added, all types",Candy and sugar products,5.95,Data on inputs and outputs of the food processing industry is modelled using: Natural Chewing Gum (2020); Carlsson-Kanyama and Faist (2000).
+"Toffees, mixed",Candy and sugar products,2.91,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020y); Carlsson-Kanyama and Faist (2000).
+"Chocolate, bitter",Candy and sugar products,6.27,Data on inputs and outputs of the food processing industry is modelled using: Recanati et al. (2018).
+"Liquorice, salt",Candy and sugar products,2.45,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020z); Open Food Facts (2020aa); Carlsson-Kanyama and Faist (2000).
+Fruit gums,Candy and sugar products,2.4,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ab); Carlsson-Kanyama and Faist (2000).
+Banana,Fruits and fruit products,0.81,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Lemon,Fruits and fruit products,0.64,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Watermelon,Fruits and fruit products,0.39,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Orange,Fruits and fruit products,0.53,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Melon, honeydew",Fruits and fruit products,0.55,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Lime,Fruits and fruit products,0.56,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Pineapple,Fruits and fruit products,0.53,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Mango,Fruits and fruit products,0.89,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Grapefruit,Fruits and fruit products,0.72,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Tangerine,Fruits and fruit products,0.62,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Kiwi fruit,Fruits and fruit products,0.71,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Turkey, breast, boiled/smoked, sliced",Meat and poultry,4.3,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020d); Davis and Sonesson (2008).
+"Turkey, meat",Meat and poultry,4.66,Data on inputs and outputs of the food processing industry is modelled using: Miller (1968).
+"Turkey, mince, 5-10% fat",Meat and poultry,4.67,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Milk, whole, 3.5 % fat","Milk, dairy products and eggs",0.65,"Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b)
+."
+"Milk, partly skimmed, 1.5 % fat","Milk, dairy products and eggs",0.59,"Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b)
+."
+"Milk, skimmed, 0.5 % fat","Milk, dairy products and eggs",0.55,"Data on inputs and outputs of the food processing industry is modelled using: Nielsen et al. (2003); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b)
+."
+"Milk, skimmed, with chocolate (UHT)","Milk, dairy products and eggs",0.78,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020e); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b)
+."
+"Cream, whipping, 38 % fat","Milk, dairy products and eggs",2.03,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014).
+"Veal, meat, medium fat",Meat and poultry,61.04,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); European Commission (2018).
+Peanut butter,Legumes and legume products,3.48,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020m); Miah et al. (2018).
+Sunflower oil,Plant products and drinks,3.71,"Schmidt (2015), Schmidt and De Rosa (2020) and EXIOBASE."
+Olive oil,Plant products and drinks,4.63,Data on inputs and outputs of the food processing industry is modelled using: Avraamides and Fatta (2008); Tawarah (2018); Tsarouhas et al. (2015); Molero (2006).
+"Oil, rape seed (no eruca acid)",Plant products and drinks,3.8,"Schmidt (2015), Schmidt and De Rosa (2020) and EXIOBASE."
+"Onions, chopped and deepfried",Vegetables and vegetable products,4.42,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ac); Foster et al. (2006); Kitrusy (2020).
+"Potato crisps, coarse",Vegetables and vegetable products,4.37,"Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2011); Carlsson-Kanyama and Faist (2000)
+."
+"Tofu, soy bean curd",Legumes and legume products,1.91,"Data on inputs and outputs of the food processing industry is modelled using: Ecoinvent (2020)
+."
+"Lentils, sprouted",Vegetables and vegetable products,2.38,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Cabbage, red, canned, no sugar added",Vegetables and vegetable products,0.75,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Tomatojuice, canned",Beverages,1,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Gherkin, pickled",Vegetables and vegetable products,2.87,"Data on inputs and outputs of the food processing industry is modelled using: Godt (2020) Syltet agurk. https://www.godt.no/oppskrift/8136/syltet-agurk
+
+ADEME (2020) Boiling, industrial, 1kg of boiled product, for cooking/ FR U. Data set retrieved from AGRIBALYSE v3.0: the French agricultural and food LCI database."
+"Potatoes, mashed, instant powder with dry milk",Vegetables and vegetable products,5.44,Data on inputs and outputs of the food processing industry is modelled using: BilkaToGo (2020b); Saunier F (2015); Carlsson-Kanyama and Faist (2000); ADEME (2020d).
+"Pepper, hot chili, canned",Vegetables and vegetable products,1.43,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Cucumber, large, pickled",Vegetables and vegetable products,2.87,"Data on inputs and outputs of the food processing industry is modelled using: Godt (2020) Syltet agurk. https://www.godt.no/oppskrift/8136/syltet-agurk
+
+ADEME (2020) Boiling, industrial, 1kg of boiled product, for cooking/ FR U. Data set retrieved from AGRIBALYSE v3.0: the French agricultural and food LCI database."
+"Tomato, peeled, canned",Vegetables and vegetable products,1,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Beet, red, canned",Vegetables and vegetable products,0.85,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Potato, canned",Vegetables and vegetable products,0.96,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+Potato crisps,Vegetables and vegetable products,4.37,"Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2011); Carlsson-Kanyama and Faist (2000)
+."
+"Bamboo shoots, canned, nonsalted",Vegetables and vegetable products,1.3,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"Mushroom, canned",Mushrooms and mushroom products,0.61,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+"French fries, deepfried, fast food",Vegetables and vegetable products,2.93,"Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2011); Carlsson-Kanyama and Faist (2000)
+."
+"Tomato paste, concentrated",Vegetables and vegetable products,2.48,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Andersson et al. (1998).
+"Tomato ketchup, bottled",Seasonings and spices,1.9,"Data on inputs and outputs of the food processing industry is modelled using: ChefSteps (2020) Homemade Heinz-Style Ketchup. https://www.chefsteps.com/activities/homemade-heinz-style-ketchup
+Andersson K, Ohlsson T, Olsson P (1998) Screening life cycle assessment (LCA) of tomato ketchup: a case study. Journal of Cleaner Production, 6(3–4): 277-288."
+"Beans, baked i tomato sauce, canned",Legumes and legume products,1.59,Data on inputs and outputs of the food processing industry is modelled using: Recipetineats (2020).
+Potato flour,Vegetables and vegetable products,1.6,Data on inputs and outputs of the food processing industry is modelled using: Nemecek et al. (2007).
+"Peas, green, canned",Vegetables and vegetable products,2.23,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+Soya sauce,Seasonings and spices,1.64,Data on inputs and outputs of the food processing industry is modelled using: Ariza (2020ad); Open Food Facts (2020); Andersson et al. (1998); FAO (2012).
+"Sauce, barbeque",Seasonings and spices,2.09,Data on inputs and outputs of the food processing industry is modelled using: Tasty (2020b); Andersson et al. (1998).
+"Wine, white, average values","Wine, beer and spirits",1.74,"Data on inputs and outputs of the food processing industry is modelled using: Aranda et al. (2005); Gazulla et al. (2010); Vázquez-Rowe et al. (2012, 2013); Point et al. (2012); Ardente et al. (2006); Benedetto (2013); Carta (2009); Bosco et al. (2011); Barry (2011); Neto et al. (2013)."
+"Wine, rosé","Wine, beer and spirits",1.74,"Data on inputs and outputs of the food processing industry is modelled using: Aranda et al. (2005); Gazulla et al. (2010); Vázquez-Rowe et al. (2012, 2013); Point et al. (2012); Ardente et al. (2006); Benedetto (2013); Carta (2009); Bosco et al. (2011); Barry (2011); Neto et al. (2013)."
+"Wine, red","Wine, beer and spirits",1.74,"Data on inputs and outputs of the food processing industry is modelled using: Aranda et al. (2005); Gazulla et al. (2010); Vázquez-Rowe et al. (2012, 2013); Point et al. (2012); Ardente et al. (2006); Benedetto (2013); Carta (2009); Bosco et al. (2011); Barry (2011); Neto et al. (2013)."
+"Wine, white, sparkling, champagne","Wine, beer and spirits",1.74,"Data on inputs and outputs of the food processing industry is modelled using: Aranda et al. (2005); Gazulla et al. (2010); Vázquez-Rowe et al. (2012, 2013); Point et al. (2012); Ardente et al. (2006); Benedetto (2013); Carta (2009); Bosco et al. (2011); Barry (2011); Neto et al. (2013)."
+"Yeast, baker`s, compressed",Bread and bakery products,1.41,Data on inputs and outputs of the food processing industry is modelled using: Muñoz et al. (2015).
+"Pork, cocktail sausages",Meat and poultry,2.13,Data on inputs and outputs of the food processing industry is modelled using: Davis and Sonesson (2008).
+Pesto,Seasonings and spices,4.42,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020q); Hetherington et al. (2012).
+"Lasagne, beef, ready meals",Ready meals,10.17,Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009); Puck (2020); Pequerecetas (2020).
+"Lasagne, vegetarian, ready meals",Ready meals,1.55,Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009); Puck (2020); Pequerecetas (2020).
+"Daal, ready meals",Ready meals,1.95,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2010).
+"Sushi, ready meals",Ready meals,2.3,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ae); Blengini and Busto (2009).
+"Chicken, minced",Meat and poultry,5.62,Data on inputs and outputs of the food processing industry is modelled using: Australian Chicken Meat Federation (2020) Common Cuts of Raw Chicken. https://www.chicken.org.au/chicken-cuts/.
+Pizza dough,Bread and bakery products,0.88,Data on inputs and outputs of the food processing industry is modelled using: Epicurious (2012).
+"Fresh pasta, fettucine spinach",Cereals and cereal products,1.28,Data on inputs and outputs of the food processing industry is modelled using: Bevilacqua et al. (2007); Open Food Facts (2020af).
+Tuna salad,Seasonings and spices,2.36,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020d); BilkaToGo (2020d); Christian Chefs International (2020).
+Egg salad,Seasonings and spices,1.56,Data on inputs and outputs of the food processing industry is modelled using: Allrecipes (2020); ADEME (2020d).
+"Pork, meatballs",Meat and poultry,3.62,Data on inputs and outputs of the food processing industry is modelled using: Clausen I (2000); DEFRA (2009); ADEME (2020c).
+"Hummus, done",Legumes and legume products,1.83,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020e); Hetherington et al. (2012).
+"Lasagne, vegan, ready meals",Ready meals,1.44,Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009); Puck (2020); Pequerecetas (2020).
+"Pancakes, ready meals",Ready meals,2.39,Data on inputs and outputs of the food processing industry is modelled using: Open Food facts (2020ah);Sweetest Menu (2020); Konstantas et al. (2019).
+Potato gratin / cream potatoes,Vegetables and vegetable products,1.09,Data on inputs and outputs of the food processing industry is modelled using: Valdemarsro (2020b); BilkaToGo (2020c); Carlsson-Kanyama and Faist (2000); ADEME (2020r); ADEME (2020d).
+"Oksekød, kebab",Meat and poultry,44.05,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020q); ADEME (2020c).
+"Icetea, peach, tetra brik",Beverages,0.87,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012); Nemlig (2020j).
+"Energy drink, canned",Beverages,0.55,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012); Higgins et al. (2010); Open Food Facts (2020c); Aqua-Calc (2020a).
+"Alcoholic soda, 4% vol.","Wine, beer and spirits",0.76,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012); USDA (2020a).
+"Salsa, hot",Seasonings and spices,1.38,Data on inputs and outputs of the food processing industry is modelled using: A spicy perspective (2020); Andersson et al. (1998).
+"Tortilla bread, wheat",Bread and bakery products,0.94,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+Pizzasauce,Vegetables and vegetable products,1.83,Data on inputs and outputs of the food processing industry is modelled using: Joy Food Sunshine (2020); Andersson et al. (1998).
+Pastasauce,Vegetables and vegetable products,1.83,Data on inputs and outputs of the food processing industry is modelled using: Joy Food Sunshine (2020); Andersson et al. (1998).
+Coconut milk,Vegetables and vegetable products,5.44,Data on inputs and outputs of the food processing industry is modelled using: Zah and Hischier (2007); Carlsson-Kanyama and Faist (2000); World bank (1986).
+"Garlic baguette, frozen",Bread and bakery products,1.33,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+"Muesli bar, chocolate",Cereals and cereal products,2.82,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020s).
+Cup noodles chicken,Ready meals,1.6,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ai).
+Sliced mushrooms,Mushrooms and mushroom products,0.31,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); ADEME (2020f); ADEME (2020g).
+Microwave popcorn,Cereals and cereal products,1.84,"Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product, see comments field."
+"Thai meal panang curry chicken, ready meal",Ready meals,3.37,"Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020aj); DEFRA (2009)
+."
+"French fries, frost",Vegetables and vegetable products,0.75,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Milà i Canals L et al. (2008).
+Pancake puffs,Bread and bakery products,1.49,Data on inputs and outputs of the food processing industry is modelled using: Nordic Food Living (2019); Konstantas et al. (2019).
+"Chickpeas, canned",Legumes and legume products,1,Data on inputs and outputs of the food processing industry is modelled using: Miller (2017).
+"Green beans, haricot verts, frozen",Vegetables and vegetable products,1.72,Data on inputs and outputs of the food processing industry is modelled using: Milà i Canals et al. (2008).
+"Tortilla chips, cheese",Cereals and cereal products,2.27,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ak); Open Food Facts (2020al); Guzmán-Soria et al. (2019).
+Asparagus slices,Vegetables and vegetable products,1.56,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Nemlig (2020r); ADEME (2020v); ADEME (2020w).
+Corn cob,Vegetables and vegetable products,0.82,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Arugula salad, rinsed",Vegetables and vegetable products,0.52,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Olive tapenade,Vegetables and vegetable products,2.51,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020p); Andersson et al. (1998).
+Stuffed fresh pasta,Cereals and cereal products,1.86,Data on inputs and outputs of the food processing industry is modelled using: Bevilacqua et al. (2007); BilkaToGo (2020a).
+"Grisekød, pepperoni",Meat and poultry,5.9,Data on inputs and outputs of the food processing industry is modelled using: Shaw (2014); ADEME (2020b).
+"Kidney beans, canned",Legumes and legume products,1.1,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020am); ADEME (2020d).
+"Chicken, whole",Meat and poultry,3.26,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Pontoppidan and Hansen (2000); Nielsen et al. (2003).
+"Grisekød, chorizo, sliced",Meat and poultry,6.17,Data on inputs and outputs of the food processing industry is modelled using: Shaw (2014); ADEME (2020b).
+Potato salad,Vegetables and vegetable products,1.26,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020d); Foodiecrush (2020).
+Cider 4.5% vol.,"Wine, beer and spirits",1.1,Data on inputs and outputs of the food processing industry is modelled using: Amienyo et al. (2012).
+"Falafel, frost",Plant products and drinks,1.88,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020q); ADEME (2020c); ADEME (2020d).
+"Potato hotchpotch, beef, ready meals",Ready meals,15.7,Data on inputs and outputs of the food processing industry is modelled using: Madvaerstedet (2020); ADEME (2020d); ADEME (2020c).
+"Potato hotchpotch, mixed meat, ready meals",Ready meals,10.89,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020l); ADEME (2020d); ADEME (2020c).
+Vegetable steaks,Plant products and drinks,1.4,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020d); ADEME (2020c); Todays parent (2020).
+"Spring rolls, vegetables, ready meals",Ready meals,2.97,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020v); Open Food Facts (2020w); Recipetineats (2018); DEFRA (2009).
+"Spring rolls, chicken, ready meals",Ready meals,2.47,"Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009);ADEME (2020c); Christian Chefs International (2020); Nemlig (2020d); Open Food Facts (2020v); Open Food Facts (2020w)
+."
+"Spring rolls, beef, ready meals",Ready meals,4.64,"Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009);ADEME (2020c); Christian Chefs International (2020); Nemlig (2020d); Open Food Facts (2020v); Open Food Facts (2020w)
+."
+"Meatballs in curry with rice and curry sauce, ready meals",Ready meals,2.35,Data on inputs and outputs of the food processing industry is modelled using: Voresmad (2020);DEFRA (2009); ADEME (2020c); Christian Chefs International (2020); Clausen I (2000).
+"Leek pie with bacon, ready meals",Ready meals,1.47,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020r); ADEME (2020c); Valdemarsro (2020a).
+"Croque monsieur, ready meals",Ready meals,1.77,Data on inputs and outputs of the food processing industry is modelled using: Directo al Paladar (2019); ADEME (2020r).
+Capers,Vegetables and vegetable products,0.98,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+Baby corn,Vegetables and vegetable products,0.65,Data on inputs and outputs of the food processing industry is modelled using: Miller (2017).
+"Black beans, canned",Legumes and legume products,1.1,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020am); ADEME (2020d).
+Half peaches in juice,Fruits and fruit products ,1.56,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Open Food Facts (2020an); ADEME (2020s).
+Marinated artichokes,Vegetables and vegetable products,3.93,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist M (2000); Open Food Facts (2020ao); ADEME (2020t).
+Cornichons,Vegetables and vegetable products,2.87,"Data on inputs and outputs of the food processing industry is modelled using: Godt (2020) Syltet agurk. https://www.godt.no/oppskrift/8136/syltet-agurk
+
+ADEME (2020) Boiling, industrial, 1kg of boiled product, for cooking/ FR U. Data set retrieved from AGRIBALYSE v3.0: the French agricultural and food LCI database."
+Garlic in oil,Vegetables and vegetable products,2.62,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Open Food Facts (2020ap); Christian Chefs International (2020).
+Half pears in juice,Fruits and fruit products,1.16,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Open Food Facts (2020ap); Christian Chefs International (2020).
+Marinated grilled peppers,Vegetables and vegetable products,2.81,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000); Christian Chefs International (2020); Open Food Facts (2020aq); ADEME (2020r).
+"Tahin, sesame paste",Seasonings and spices,5.54,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012).
+Sundried tomatoes,Vegetables and vegetable products,2.33,Data on inputs and outputs of the food processing industry is modelled using: Wikipedia (2020); Bahçıvanoğlu (2020).
+"Red lentils, dried",Legumes and legume products,2.46,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Ajvar, relish",Vegetables and vegetable products,2.84,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020r); ADEME (2020j); Nemlig (2020s); Christian Chefs International (2020).
+Vegan bean paste,Plant products and drinks,1.89,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); Lund L (2019).
+"Plant paste, pea protein and mushroom",Plant products and drinks,0.82,Data on inputs and outputs of the food processing industry is modelled using: Veganske Opskrifter (2020); Hetherington et al. (2012).
+Chilli cheese tops,"Milk, dairy products and eggs",1.64,Data on inputs and outputs of the food processing industry is modelled using: One Kitchen (2018); Mc Donalds (2020); ADEME (2020c); ADEME (2020j).
+Mozarella sticks,"Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+"Chili con carne, ready meals",Ready meals,25.05,Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020u); DEFRA (2009).
+"Vegan ball, soy based",Plant products and drinks,0.82,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2020b);ADEME (2020); Davis and Sonesson (2008).
+"Vegan schnitzel, soy based",Plant products and drinks,1.95,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2020c); ADEME (2020); Davis and Sonesson U (2008).
+"Vegan burger, soy based",Plant products and drinks,0.83,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2020d); ADEME (2020); Davis and Sonesson (2008).
+"Vegan minced, pea based",Plant products and drinks,0.84,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); Naturli (2020e).
+"Vegan sausage, soy based",Plant products and drinks,1.58,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2020f);ADEME (2020c);Davis and Sonesson (2008).
+"Vegan nugget, soy based",Plant products and drinks,2.06,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020t); ADEME (2020c); Davis and Sonesson (2008).
+Vegan pulled beans,Plant products and drinks,2.15,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); ADEME (2020c); Nemlig (2020m).
+"Pork, pulled pork",Meat and poultry,4.52,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020n); DEFRA (2009).
+"Beef, pulled beef",Meat and poultry,46.07,Data on inputs and outputs of the food processing industry is modelled using: DEFRA (2009); Tulip (2020).
+Vegan chorizo,Plant products and drinks,1.82,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020k); ADEME (2020b); ADEME (2020c).
+Rice noodles,Cereals and cereal products,4.59,Data on inputs and outputs of the food processing industry is modelled using: Bevilacqua et al. (2007).
+Jalapenos,Vegetables and vegetable products,1.43,Data on inputs and outputs of the food processing industry is modelled using: Carlsson-Kanyama and Faist (2000).
+Taco shells,Cereals and cereal products,2.19,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ak); Open Food Facts (2020al); Guzmán-Soria et al. (2019).
+Mango chutney,Fruits and fruit products,2.85,"Data on inputs and outputs of the food processing industry is modelled using: Simply recipes (2020b); ADEME (2020d); Nemlig (2020g)
+."
+Green curry paste,Seasonings and spices,1.98,Data on inputs and outputs of the food processing industry is modelled using: Minimalist Baker (2020); Andersson et al. (1998).
+"Noodles, eggs",Cereals and cereal products,1.43,Data on inputs and outputs of the food processing industry is modelled using: Bevilacqua et al. (2007); ADEME (2020a).
+Rice pancakes,Cereals and cereal products,4.21,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020w); Konstantas et al. (2019); Bevilacqua et al. (2007).
+"Vegan ice cream, oats",Plant products and drinks,1.98,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2018b); Nemlig (2020c).
+Vegan mayo,Seasonings and spices,2.93,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); Planteæderen (2017); Nemlig (2020o).
+Vegan mushroom burger,Plant products and drinks,1.44,Data on inputs and outputs of the food processing industry is modelled using: Hetherington et al. (2012); Open Food Facts (2020ar).
+Vegan cold cuts,Plant products and drinks,2.73,Data on inputs and outputs of the food processing industry is modelled using: Danish Crown Foods (2020); Davis and Sonesson (2008); Christian Chefs International (2020).
+Vegan block,Plant products and drinks,2.95,Data on inputs and outputs of the food processing industry is modelled using: Naturli (2020a).
+Magarine,Plant products and drinks,2.88,Data on inputs and outputs of the food processing industry is modelled using: Nilsson et al. (2010); DTU (2019).
+Vegan bacon,Plant products and drinks,0.24,Data on inputs and outputs of the food processing industry is modelled using: Wheaty (2020); Hetherington et al. (2012).
+Vegan fillet pieces,Plant products and drinks,1.98,Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020h); ADEME (2020c); Hetherington et al. (2012).
+Falafel mince,Plant products and drinks,1.83,"Data on inputs and outputs of the food processing industry is modelled using: ADEME (2020q); ADEME (2020d)
+."
+Pea drink,Plant products and drinks,0.55,"Data on inputs and outputs of the food processing industry is modelled using: SIK (2013); Open food Facts (2020r)
+."
+Portobello mushroom,Mushrooms and mushroom products,0.26,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Food grain, kamut",Cereals and cereal products,1.54,"Data on inputs and outputs of the food processing industry is modelled using: Blengini A, Busto M (2009) The life cycle of rice: LCA of alternative agri-food chain management systems in Vercelli (Italy). J Environ Manage 90(3):1512–1522."
+Chili Sauce,Seasonings and spices,1.94,Data on inputs and outputs of the food processing industry is modelled using: Blue Dragon (2020); Andersson et al. (1998).
+Red onion,Vegetables and vegetable products,0.7,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Basil, fresh",Vegetables and vegetable products,0.33,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+"Basil, dried",Seasonings and spices,7.34,The inputs to the Danish market and inputs and outputs to the crop cultivation activities are consistently modelled using data from e.g. FAOSTAT and emission models from IPCC.
+Cold buttermilk soup,"Milk, dairy products and eggs",0.96,Data on inputs and outputs of the food processing industry is modelled using: BilkaToGo (2020e); Arla (2020c); Hospido et al. (2003); Djekic et al. (2014); González-García et al. (2013b).
+"Beef, low fat ",Meat and poultry,43.21,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Pork, grilled sausages",Meat and poultry,2.13,Data on inputs and outputs of the food processing industry is modelled using: Davis and Sonesson (2008).
+"Apple juice, from concentrate, plastic bottle",Beverages,1.63,Data on inputs and outputs of the food processing industry is modelled using: Khanali et al. (2020); FAO (2012).
+"Lamb, minced",Meat and poultry,30.4,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+Burger bun,Bread and bakery products,0.94,Data on inputs and outputs of the food processing industry is modelled using: Espinoza-Orias et al. (2011).
+Blue cheese,"Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+Goat cheese,"Milk, dairy products and eggs",2.24,Data on inputs and outputs of the food processing industry is modelled using: Djekic et al. (2014); Nielsen et al. (2003).
+"Vegan cheese, grated or sliced",Plant products and drinks,0.92,Data on inputs and outputs of the food processing industry is modelled using: Open Food Facts (2020ag); Hetherington et al. (2012).
+"Samosa, vegetarian frost",Ready meals,1.27,Data on inputs and outputs of the food processing industry is modelled using: Indian Healthy Recipes (2020); Nemlig (2020i); ADEME (2020c); ADEME (2020j); Carlsson-Kanyama and Faist (2000).
+Cold chocolate,Candy and sugar products,5.28,Data on inputs and outputs of the food processing industry is modelled using: Konstantas et al. (2018a).
+"Nutella, nut cream",Candy and sugar products,4.83,Data on inputs and outputs of the food processing industry is modelled using: Ferrero (2020a); Miah et al. (2018).
+"Smoothie, strawberry/blueberry",Beverages,1.74,"Data on inputs and outputs of the food processing industry is modelled using: Nemlig (2020a); Jungbluth (2013)
+."
+"Pork, meat, average",Meat and poultry,4.7,Data on inputs and outputs of the food processing industry is modelled using: No specific sources for this product. See comments field.
+"Chicken, meat, average",Meat and poultry,3.26,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); Pontoppidan and Hansen (2000); Nielsen et al. (2003).
+"Beef, meat, average",Meat and poultry,61.04,Data on inputs and outputs of the food processing industry is modelled using: Blonk (2015); European Commission (2018).

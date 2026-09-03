@@ -1,0 +1,258 @@
+﻿Process,Category,EF3.1,kg CO2e
+"Lamb, conventional, indoor production system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,1.811,15.83
+"Lamb, conventional, Roquefort system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.579,4.29
+"Seaweed non-optimized production, 1kg algae (Laminaria), fresh weight {FR} U",Agricultural\Plant production\Other\Transformation,0.123,0.84
+"Optimized seaweed production, 1kg algae (Laminaria), fresh weight {FR} U",Agricultural\Plant production\Other\Transformation,0.012,0.1
+"Pineapple, mixed production, Reunion Island average, at production site {RE} U",Agricultural\Plant production\Fruits\Transformation,0.094,0.87
+"European Anchovy, ECA, Seine, average, at landing {MA} U",Agricultural\Animal production\Fish\Transformation,0.091,0.44
+"Oat grain, national average, animal feed, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.08,0.55
+"Banana, mixed production, West Indies, at farm gate {WI} U",Agricultural\Plant production\Fruits\Transformation,0.05,0.22
+"Sea bass or sea bream, 200-500g, conventional, in cage, at farm gate {FR} U",Agricultural\Animal production\Fish\Transformation,0.752,4.77
+"Beetroot for juice, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.022,0.08
+"Sugar beet roots, conventional, national average, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.006,0.04
+"Durum wheat grain, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.101,0.72
+"Soft wheat grain, conventional, protein improved quality, 15% moisture, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.091,0.64
+"Soft wheat grain, conventional, national average, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Cereals\Transformation,0.066,0.47
+"Soft wheat grain, conventional, breadmaking quality, 15% moisture, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.066,0.47
+"Soft wheat grain, systematic cover cropping scenario, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.062,0.44
+"Soft wheat grain, protein crop scenario, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.06,0.43
+"Soft wheat grain, basis scenario without lever,at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.062,0.44
+"Beef cattle, national average, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.302,13.55
+"Cull ewe, conventional, indoor production system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,1.851,17.68
+"Cull ewe, conventional, Roquefort system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.958,6.65
+"Duck for roasting, conventional, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.554,3.44
+"Fattening duck, conventional, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.727,4.39
+"Carrot, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.027,0.07
+"Carrot, conventional, fall, Creances, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.01,0.05
+"Carrot, conventional, fall, Mont St. Michel, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.008,0.05
+"Carrot, conventional, fall, Val de Saire, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.008,0.05
+"Carrot, conventional, main season, Aquitaine, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.029,0.05
+"Carrot, conventional, winter, Aquitaine, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.024,0.06
+"Carrot, conventional, winter, Creances, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.037,0.12
+"Carrot, conventional, winter, Mont St. Michel, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.011,0.06
+"Carrot, conventional, winter, Val de Saire, Lower Normandie, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.01,0.06
+"Carrot, conventional, early, Aquitaine, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.037,0.08
+"Cherry, conventional, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.353,0.43
+"Hemp, straw, ret, Champagne, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.03,0.15
+"Kid goat, conventional, intensive forage area, at farm gate {FR} U",Agricultural\Animal production\Caprine\Transformation,0.376,2.55
+"Cull goat, conventional, intensive forage area, at farm gate {FR} U",Agricultural\Animal production\Caprine\Transformation,1.251,7.57
+"Chicory witloof, season, conventional, refrigerant loss 300%, storage and forcing, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.044,0.85
+"Cauliflower, summer, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.032,0.22
+"Cauliflower, winter, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.26
+"Cauliflower, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.26
+"Cauliflower, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.26
+"Cauliflower, winter, conventional, with previous crop seeded under clover, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.032,0.2
+"Cauliflower, winter, conventional, N management with Pilazo and electrical harvesting assistance, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.028,0.16
+"Cauliflower, winter, conventional, N management with Pilazo and use of electric tractor, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.043,0.21
+"Cauliflower, winter, conventional, nitrogen management with decision support tool Pilazo at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.029,0.17
+"Cauliflower, winter, conventional, with harvesting electrical assistance, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.23
+"Cauliflower, winter, conventional, replacement of part of mineral nitrogen by organic manure, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.043,0.21
+"Clementine, export quality, Souss, at orchard {MA} U",Agricultural\Plant production\Fruits\Transformation,0.199,0.3
+"Rapeseed, conventional, 9% moisture, national average, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.16,1.3
+"Rapeseed, systematic covercropping scenario, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.133,0.9
+"Rapeseed, protein crop scenario, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.138,0.91
+"Rapeseed, basis scenario without lever, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.137,0.91
+"Great Scallop, BSBrieuc, Dredge, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.132,0.67
+"Zucchini, autumn, under tunnel, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.063,0.3
+"Zucchini, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.039,0.16
+"Zucchini, open field, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.13
+"Zucchini, springtime, under tunnel, conventionel, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.04,0.17
+"Zucchini, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.039,0.16
+"Turkey, conventional, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.558,4.07
+"Turkey, Label Rouge, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.817,5.66
+"Turkey, national average, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.566,4.11
+"Chicory witloof, conventional, national average at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.06,0.39
+"Chicory witloof, early, conventional at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.067,0.4
+"Chicory witloof, season, conventional at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.049,0.35
+"Chicory witloof, late, conventional at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.068,0.41
+"Chicory witloof, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.06,0.39
+"Spring faba bean, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.048,0.3
+"Spring faba bean, conventional, reduced protection, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.047,0.29
+"Hemp fibre, without processing {FR} U",Agricultural\Plant production\Cereals\Transformation,0.074,0.37
+"Strawberry, soilless protected crops, frost protection, conventional, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.133,0.84
+"Strawberry, soilless protected crops, heated, conventional, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.297,2.92
+"Strawberry, soilless protected crops, non-heated, conventional, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.161,0.72
+"Strawberry, national average, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.148,1.03
+"Strawberry, open field, conventional, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.089,0.18
+"Strawberry, soil protected crops, non-heated, conventional, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.086,0.47
+"Strawberry for processing, open field, conventional, at farm gate {MA} U",Agricultural\Plant production\Fruits\Transformation,0.091,0.17
+"Strawberry for processing, open field, conventional, at farm gate {ES} U",Agricultural\Plant production\Fruits\Transformation,0.101,0.23
+"Strawberry for processing, open field, conventional, at farm gate {PL} U",Agricultural\Plant production\Fruits\Transformation,0.098,0.17
+"Gadidae, CelticSea, Bottom Trawl, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.614,3.25
+"Suckler heifer, conventional, fattening system, more than 1.2 LU per ha, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.596,16.65
+"Coffee bean (Robusta), depulped, Brazil, at farm gate {BR} U",Agricultural\Plant production\Fruits\Transformation,0.418,1.65
+"Hemp, grain, Champagne, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.169,0.85
+"Sunflower grain, conventional, 9% moisture, national average, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.136,1.02
+"Sunflower grain, systematic covercropping scenario, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.113,0.77
+"Sunflower grain, protein crop scenario, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.119,0.79
+"Sunflower grain, basis scenario without lever, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.118,0.78
+"Flaxseed extruded, Bleu Blanc Coeur feed, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.176,1.12
+"Flaxseed, straw, ret, Normandie, at farm gate {FR} U",Agricultural\Plant production\Oil seeds\Transformation,0.044,0.28
+"Large trout, 2-4kg, conventional, at farm gate {FR} U",Agricultural\Animal production\Fish\Transformation,0.604,2.53
+"Atlantic Herring, NEA, Pelagic Trawl, average, at landing {NL} U",Agricultural\Animal production\Fish\Transformation,0.094,0.52
+"French bean, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.068,0.09
+"Lobster, 1 kg of product, at landing {FR} U",Agricultural\Animal production\Seafood\Transformation,2.803,14.1
+"Kiwi FR, conventional, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.123,0.32
+"Wool, conventional, Roquefort system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.565,4.24
+"Wool, conventional, indoor production system, at farm gate {FR} U",Agricultural\Animal production\Ovine\Transformation,0.433,4.19
+"Sheep milk, conventional, Roquefort system, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.222,1.69
+"Goat milk, conventional, intensive forage area, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.17,1.11
+"Cow milk, national average, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.101,1.1
+"Cow milk, conventional, lowland milk system, silage maize 10 to 30%, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.102,1.08
+"Cow milk, conventional, lowland milk system, silage maize 5 to 10%, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.102,1.16
+"Cow milk, conventional, lowland milk system, silage maize more than 30%, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.098,1.08
+"Cow milk, conventional, highland milk system, grass fed, at farm gate {FR} U",Agricultural\Animal production\Dairy\Transformation,0.115,1.2
+"Lettuce, autumn under tunnel, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.028,0.11
+"Lettuce, winter under tunnel, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.032,0.15
+"Lettuce, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.036,0.16
+"Lettuce, open field, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.045,0.21
+"Cull rabbit, conventional, in cage, at farm gate {FR} U",Agricultural\Animal production\Other\Transformation,0.752,9.03
+"Rabbit, conventional, in cage, at farm gate {FR} U",Agricultural\Animal production\Other\Transformation,0.255,2.76
+"Spring lupin, 2013, conventional, national average, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.125,0.9
+"Spring lupin, 2015, conventional, national average, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.241,0.86
+"Winter lupin, 2013, conventional, national average, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.09,0.61
+"Winter lupin, 2015, conventional, national average, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.091,0.54
+"Lupin, conventional, national average, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.116,0.66
+"Alfalfa, conventional, for dehydration, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Roughage\Transformation,0.026,0.18
+"Alfalfa, conventional, for animal feeding, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.026,0.24
+"Alfalfa, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.026,0.22
+"Maize grain, conventional, 28% moisture, national average, animal feed, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.083,0.39
+"Maize grain, conventional, 28% moisture, national average, with water footprint, animal feed, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.086,0.39
+"Grain maize, systematic cover cropping scenario, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.105,0.36
+"Grain maize, protein crop scenario, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.103,0.34
+"Grain maize, basis scenario without lever, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,0.107,0.37
+"Atlantic Mackerel, NEA, Pelagic Trawl, average, at landing {NL} U",Agricultural\Animal production\Fish\Transformation,0.095,0.53
+"Melon, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.058,0.17
+"Melon, open field, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.056,0.15
+"Melon, under low tunnel, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.072,0.25
+"Melon, protected crop, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.069,0.32
+"Melon, national average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.058,0.17
+"Mussels, with shell, at farm gate {FR} U",Agricultural\Animal production\Seafood\Transformation,0.056,0.44
+"Walnut, dried inshell, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Nuts\Transformation,0.42,1.47
+"Walnut, dried inshell, varieties with lateral fructification, conventional, at farm gate {FR} U",Agricultural\Plant production\Nuts\Transformation,0.313,1.14
+"Walnut, dried inshell, traditional varieties, conventional, at farm gate {FR} U",Agricultural\Plant production\Nuts\Transformation,0.456,1.58
+"Walnut, dried inshell, national average, at farm gate {FR} U",Agricultural\Plant production\Nuts\Transformation,0.426,1.47
+"Egg, Bleu Blanc Coeur, outdoor system, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.412,2.17
+"Egg, national average, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.399,2.21
+"Egg, conventional, indoor production, cage 2012 rules, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.403,2.2
+"Egg, conventional, outdoor system, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.467,2.75
+"Egg, conventional, indoor system, non-cage, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.489,2.85
+"Egg, conventional, indoor system, cage, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.385,2.13
+"Onion, short day sown, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.028,0.07
+"Onion, long-day planted, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.075,0.15
+"Onion, long-day sown, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.029,0.06
+"Onion, national average, at farm {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.033,0.07
+"Palm fruit bunch, average, animal feed, at farm gate {MY} U",Agricultural\Plant production\Oil seeds\Transformation,0.055,1.06
+"Palm fruit bunch, with deforestation, on land recently transformed, animal feed, at farm gate {MY} U",Agricultural\Plant production\Oil seeds\Transformation,0.067,1.56
+"Palm fruit bunch, without deforestation, animal feed, at farm gate {MY} U",Agricultural\Plant production\Oil seeds\Transformation,0.031,0.11
+"Peach, conventional, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.128,0.19
+"Peach, production mix, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.129,0.19
+"Annual vining pea for industry, Conventional, National average, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.081,0.4
+"Small trout, 250-350g, conventional, at farm gate {FR} U",Agricultural\Animal production\Fish\Transformation,1.423,1.88
+"Pear, conventional, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.06,0.09
+"Pear, national average, at farm gate {FR} U",Agricultural\Plant production\Fruits\Transformation,0.064,0.09
+"Pear, at farm {NL} U",Agricultural\Plant production\Fruits\Transformation,0.024,0.05
+"Autumn irrigated leek, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.073,0.41
+"Leek, winter non-irrigated, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.028,0.2
+"Leek, national average, at plant {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.05,0.29
+"Leek, early planted, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.082,0.38
+"Leek, early sown, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.075,0.38
+"Spring pea, conventional, 15% moisture, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Legumes\Transformation,0.062,0.34
+"Winter pea, conventional, 15% moisture, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.07,0.38
+"Black pepper, conventional, at farm gate {VN} U",Agricultural\Plant production\Fruits\Transformation,0.415,2.38
+"Cider apple, conventional, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.015,0.08
+"Apple, conventional, rain cover, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.037,0.1
+"Apple, conventional, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.034,0.09
+"Apple, conventional, non scab-tolerant, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.034,0.09
+"Apple, conventional, electric platform, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.029,0.06
+"Apple, conventional, fixed spraying system and electric platform, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.028,0.06
+"Apple, conventional, fixed spraying system, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.03,0.08
+"Apple, conventional, scab-tolerant, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.034,0.08
+"Starch potato, conventional, national average, at farm gate {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.012,0.08
+"Apple, production mix, national average, at orchard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.034,0.09
+"Ware potato, conventional, for industrial use, at farm gate {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.018,0.09
+"Ware potato, conventional, variety mix, national average, at farm gate {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.017,0.09
+"Ware potato, conventional, for fresh market, other varieties, at farm gate {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.018,0.09
+"Ware potato, conventional, for fresh market, firm flesh varieties, at farm gate {FR} U",Agricultural\Plant production\Roots and tubers\Transformation,0.021,0.11
+"Pig, conventionnal, Bleu Blanc Coeur, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.369,2.53
+"Pig, conventional, on-farm feed supply, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.392,2.79
+"Pig, conventional, fed rapeseed meal, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.367,2.62
+"Pig, conventional, fed soybean meal, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.377,2.88
+"Pig, conventional, excess slurry treatment, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.36,2.63
+"Pig, Label Rouge, pig with run system, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.439,3.52
+"Pig, Label Rouge, outdoor system, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.518,2.82
+"Pig, conventional, national average, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,0.375,2.72
+"Cull hen, conventional, indoor system, non-cage, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.887,6.28
+"Cull hen, conventional, indoor production, cage 2012 rules, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,2.215,13.71
+"Cull hen, conventional, indoor system, cage, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.792,5.64
+"Cull hen, conventional, national average, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.807,5.74
+"Cull hen, conventional, outdoor system, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.879,6.22
+"Broiler, Bleu Blanc Coeur, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.309,1.89
+"Broiler, conventional, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.359,2.57
+"Broiler, Label Rouge, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.54,3.68
+"Broiler, national average, at farm gate {FR} U",Agricultural\Animal production\Avian\Transformation,0.382,2.7
+"Chicory witloof, early, conventional, root production, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.03,0.13
+"Chicory witloof, season, conventional, root production, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.017,0.1
+"Chicory witloof, late, conventional, root production, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.015,0.09
+"Quinoa FR, conventional, at farm gate {FR} U",Agricultural\Plant production\Cereals\Transformation,1.034,6.46
+"Chicory roots, conventional, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.012,0.07
+"Grapefruit for juice, conventional, at farm gate {US} U",Agricultural\Plant production\Fruits\Transformation,0.46,0.29
+"Grape, integrated, french mix {FR} U",Agricultural\Plant production,0.086,0.39
+"Grape, integrated, AOC, Beaujolais, at vineyard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.139,0.61
+"Grape, integrated, variety mix, Languedoc-Roussillon, at vineyard {FR} U",Agricultural\Plant production\Fruits\Transformation,0.085,0.38
+"Jasmine rice, national average, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.517,3.58
+"Jasmine rice, North, Irrigated, Wet season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.502,4.94
+"Jasmine rice, North, Irrigated, Dry season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.605,3.04
+"Jasmine rice, North, Rainfed, Wet season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.427,4.12
+"Jasmine rice, North East, Irrigated, Wet season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.638,5.22
+"Jasmine rice, North East, Irrigated, Dry season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,1.114,6.29
+"Jasmine rice, North East, Rainfed, Wet season, at farm gate {TH} U",Agricultural\Plant production\Cereals\Transformation,0.435,2.94
+"Saithe, NorthSea, Bottom Trawl, average, frozen, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.759,4.23
+"Saithe, NorthSea, Bottom Trawl, average, fresh, at landing {EU} U",Agricultural\Animal production\Fish\Transformation,0.39,2.06
+"European Pilchard, ECA, Seine, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.027,0.14
+"European Pilchard, BBiscay, Seine, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.066,0.34
+"Salmon farmed, conventional, at farm gate {NO} U",Agricultural\Animal production\Fish\Transformation,0.331,2.46
+"Soybean, national average, animal feed, at farm gate {FR} U",Agricultural\Plant production\Legumes\Transformation,0.068,0.46
+"Common Sole, BBiscay, Trammel Net, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.446,2.14
+"Silage sorghum, national average, animal feed, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.039,0.19
+"Sorghum grain, conventional, national average, animal feed, at farm gate {FR} U",Agricultural\Plant production\Roughage\Transformation,0.06,0.4
+"Young suckler bull, conventional, fattening system, less than 1.2 LU per ha, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.581,16.24
+"Young suckler bull, conventional, fattening system, more than 1.2 LU per ha, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.445,14.82
+"Young dairy bull, conventional, fattening system, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.769,7.62
+"Yellowfin Tuna, ECA, Seine, average, at landing {CI} U",Agricultural\Animal production\Fish\Transformation,0.36,1.89
+"Albacore, NEA, Pelagic trawl, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.799,4.18
+"Skipjack Tuna, ECA, Seine, average, at landing {CI} U",Agricultural\Animal production\Fish\Transformation,0.358,1.87
+"Bluefin Tuna, MedSea, Longline, average, at landing {FR} U",Agricultural\Animal production\Fish\Transformation,0.411,1.8
+"Bluefin Tuna, MedSea, Seine, average, at cage gate {FR} U",Agricultural\Animal production\Fish\Transformation,0.257,1.06
+"Tomato, medium size, conventional, soil based, non-heated greenhouse, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.028,0.15
+"Tomato, medium size, conventional, heated greenhouse, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.122,1.67
+"Tomato, average basket, conventional, heated greenhouse, national average, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.172,2.36
+"Tomato, average basket, conventional, soil based, non-heated greenhouse, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.029,0.16
+"Tomato, conventional, old glasshouse, natural gas, no runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.155,1.91
+"Tomato, conventional, new glasshouse, biomass and natural gas, runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.115,0.67
+"Tomato, conventional, new glasshouse, unavoidable energy and natural gas, runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.06,0.61
+"Tomato, conventional, new glasshouse, natural gas, runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.107,1.62
+"Tomato, conventional, new glasshouse, natural gas, runoff recycling, with water footprint, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.107,1.62
+"Tomato, conventional, new glasshouse, natural gas, no runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.112,1.61
+"Tomato, conventional, new glasshouse, natural gas, no runoff recycling, with water footprint, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.111,1.61
+"Tomato, conventional, new closed glasshouse,  unavoidable energy and biomass, runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.077,0.56
+"Tomato, conventional, new closed glasshouse,  unavoidable energy and biomass, no liquid CO2, runoff recycling, at farm gate {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.051,0.21
+"Tomato, production mix, greenhouse production, national average, at greenhouse {FR} U",Agricultural\Plant production\Vegetables\Transformation,0.17,2.33
+"Brown crab, 1 kg of product, at landing {FR} U",Agricultural\Animal production\Seafood\Transformation,0.501,2.52
+"Brown crab, 1 kg of product, at landing {GB} U",Agricultural\Animal production\Seafood\Transformation,0.881,4.54
+"Brown crab, 1 kg of product, at landing {IE} U",Agricultural\Animal production\Seafood\Transformation,0.792,4.14
+"Triticale grain, conventional, national average, animal feed, at farm gate, production {FR} U",Agricultural\Plant production\Cereals\Transformation,0.069,0.54
+"Cull sow, conventional, on-farm feed supply, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.638,11.28
+"Cull sow, conventional, national average, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.583,11.08
+"Cull sow, conventional, fed rapeseed meal, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.506,10.61
+"Cull sow, conventional, fed soybean meal, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.567,11.62
+"Cull sow, conventional, excess slurry treatment, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.54,10.87
+"Cull sow, Label Rouge, pig with run system, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.617,11.46
+"Cull sow, Label Rouge, outdoor system, at farm gate {FR} U",Agricultural\Animal production\Procine\Transformation,1.575,9.01
+"Suckler cull cow, conventional, suckler cow system, less than 1.2 LU per ha, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.72,17.94
+"Suckler cull cow, conventional, suckler cow system, more than 1.2 LU per ha, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.46,15.42
+"Cull cow, conventional, highland milk system, grass fed, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.2,13
+"Cull cow, conventional, lowland milk system, silage maize 10 to 30%, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.016,10.48
+"Cull cow, conventional, lowland milk system, silage maize 5 to 10%, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,1.211,11.8
+"Cull cow, conventional, lowland milk system, silage maize more than 30%, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.792,8.53
+"Veal, conventional, fattening system, calves from lowland milk system, at farm gate {FR} U",Agricultural\Animal production\Bovine\Transformation,0.945,9.91

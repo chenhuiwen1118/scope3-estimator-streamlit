@@ -1,0 +1,24 @@
+{
+  "gold_standard": "匿名採購品名訓練清單 procurement_training_items.csv",
+  "gold_pool_file": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/evaluation/procurement_item_gold_pool_75.csv",
+  "detail_file": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/evaluation/procurement_item_gold_kpi_results.csv",
+  "n": 75,
+  "unique_standard_names_available": 150,
+  "top3_hits": 37,
+  "top3_recall": 0.4933,
+  "first_choice_hits": 30,
+  "first_choice_precision": 0.4,
+  "first_choice_recall": 0.4,
+  "first_choice_f1": 0.4,
+  "mean_latency_sec": 0.3926,
+  "p95_latency_sec": 0.457,
+  "targets": {
+    "top3_recall": 0.85,
+    "first_choice_f1": 0.7
+  },
+  "meets_targets": {
+    "top3_recall": false,
+    "first_choice_f1": false
+  },
+  "notes": "Gold labels are item-level procurement classes, not exact emission-factor IDs. A hit is counted when retrieved factor metadata contains controlled acceptable terms."
+}

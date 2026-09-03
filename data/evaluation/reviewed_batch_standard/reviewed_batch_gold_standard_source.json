@@ -1,0 +1,10 @@
+{
+  "gold_standard": "批次排放係數匹配結果2",
+  "source_type": "Apple Numbers",
+  "source_file": "/Users/sashachen/Library/Mobile Documents/com~apple~CloudDocs/論文與報告專區/範疇三相關/115範疇三排放源輔助系統/批次排放係數匹配結果2.numbers",
+  "local_copy": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/evaluation/reviewed_batch_standard/批次排放係數匹配結果2.numbers",
+  "status": "pending_export",
+  "required_export_format": "xlsx or csv",
+  "reason": "The Numbers file stores table data in Apple IWA format. The current environment has no Numbers app automation and no numbers_parser package, so row-level table data cannot be safely extracted directly.",
+  "intended_use": "Reviewed row-level gold standard for batch emission-factor matching regression and KPI evaluation."
+}
