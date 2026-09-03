@@ -88,6 +88,7 @@ SCOPE3_COEFFICIENT_NEEDS_FILE = (
     / "reference_data"
     / "scope3_coefficient_needs.json"
 )
+TIER1_UNIFIED_FILE = PROJECT_ROOT / "data" / "emission_factors" / "tier1_local" / "tier1_unified.csv"
 
 
 SCOPE3_CATEGORY_OPTIONS = [
@@ -562,6 +563,15 @@ def load_scope3_coefficient_needs():
         return []
 
 
+def _csv_record_count(path):
+    if not path.exists():
+        return None
+    try:
+        return max(sum(1 for _ in path.open("r", encoding="utf-8-sig")) - 1, 0)
+    except Exception:
+        return None
+
+
 def _clean_detail_value(value):
     if value is None:
         return None
@@ -937,10 +947,15 @@ stats = retriever.get_stats()
 
 if stats['tier1']:
     st.sidebar.metric(
-        "Tier 1 (台灣本地)",
+        "Tier 1 去重檢索索引",
         f"{stats['tier1']['total_records']:,} 筆",
-        help="環保署本地排放係數"
+        help="實際用於搜尋配對的台灣本地係數索引；已合併同名、同單位、同係數的重複資料。"
     )
+    raw_tier1_count = _csv_record_count(TIER1_UNIFIED_FILE)
+    if raw_tier1_count and raw_tier1_count != stats['tier1']['total_records']:
+        st.sidebar.caption(
+            f"原始整合資料 {raw_tier1_count:,} 筆；檢索索引已去重。"
+        )
 
 if stats['tier2']:
     st.sidebar.metric(
@@ -963,9 +978,9 @@ moenv_status = load_moenv_cfp_status()
 if moenv_status:
     st.sidebar.caption(f"最後更新：{moenv_status.get('updated_at', '-')}")
     st.sidebar.metric(
-        "Tier 1 總筆數",
+        "原始整合資料",
         f"{int(moenv_status.get('tier1_total_rows', 0)):,} 筆",
-        help="更新腳本匯入環境部產品碳足跡資料後的本地 Tier 1 總筆數"
+        help="資料匯入後的原始 Tier 1 整合筆數；不等於實際檢索索引筆數。"
     )
     st.sidebar.caption("來源：環境部產品碳足跡資訊網本地快取")
 else:
@@ -980,6 +995,10 @@ if official_status:
         st.sidebar.caption(f"{status.get('source', '-')}")
         st.sidebar.caption(f"更新：{status.get('updated_at', '-')}")
         st.sidebar.caption(f"匯入：{int(status.get('normalized_rows', 0)):,} 筆")
+        if status.get("tier1_total_rows"):
+            st.sidebar.caption(
+                f"原始整合後：{int(status.get('tier1_total_rows', 0)):,} 筆"
+            )
 else:
     st.sidebar.info("尚未匯入排放係數管理表或年度電力係數。")
 
