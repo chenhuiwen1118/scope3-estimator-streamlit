@@ -1275,7 +1275,7 @@ with batch_tab:
         "上傳 Excel 或 CSV 檔案",
         type=["xlsx", "xls", "csv"],
         accept_multiple_files=True,
-        help="支援 Excel、CSV 檔案格式"
+        help="支援 Excel、CSV；檔案只要包含品名、數量、單位三類欄位即可"
     )
     if uploaded_files:
         st.caption(
@@ -1284,7 +1284,7 @@ with batch_tab:
         )
 
     st.markdown(
-        '<p class="small-note">系統會自動辨識檔案格式，將每列資料轉成檢索文字，配對排放係數，並追加 CO2e 計算結果。批次產業類別會套用到本次上傳的所有資料列。</p>',
+        '<p class="small-note">系統會自動辨識 Excel/CSV 欄位；只要每列有品名、數量、單位，即可轉成檢索文字、配對排放係數，並追加 CO2e 計算結果。批次產業類別會套用到本次上傳的所有資料列。</p>',
         unsafe_allow_html=True
     )
     training_count = len(load_procurement_training_items())
@@ -1367,7 +1367,7 @@ with batch_tab:
                         file_stem = Path(uploaded_file.name).stem
                         if not sheets:
                             st.warning(
-                                f"{uploaded_file.name} 未產生批次結果。請確認 Excel 是否包含採購資料欄位，或 CSV 是否為表 4-1 活動資料格式。"
+                                f"{uploaded_file.name} 未產生批次結果。請確認檔案是否包含品名、數量、單位三類欄位。"
                             )
                         for sheet_name, df in sheets.items():
                             combined_sheets[f"{file_stem}_{sheet_name}"] = df
@@ -1406,7 +1406,7 @@ with batch_tab:
                     use_container_width=True,
                 )
             else:
-                st.error("本次批次配對沒有產生可下載結果。請確認上傳檔案欄位格式，或先用單筆查詢確認檢索器是否可用。")
+                st.error("本次批次配對沒有產生可下載結果。請確認上傳檔案是否包含品名、數量、單位三類欄位，或先用單筆查詢確認檢索器是否可用。")
 
 st.divider()
 st.header("使用說明")
@@ -1424,8 +1424,9 @@ with st.expander("資料與計算說明", expanded=False):
 
     ### 批次檔案
 
-    - 支援 Excel 檔案格式
-    - 支援 CSV 檔案格式
+    - 支援 Excel、CSV 檔案格式
+    - 批次檔案只要包含「品名、數量、單位」三類欄位即可；欄位名稱可使用中文或英文，例如：品名/採購品名/產品名稱/Item Name、數量/Qty/Quantity、單位/Unit/UOM。
+    - 若檔案另有規格、材質、用途、類別、會計科目或產業別欄位，系統會作為輔助語意，不會取代主品名。
     - 已載入匿名採購品名訓練資料與同義詞參考資料，可用於品名正規化與檢索語意擴充
     - 輸出保留原始欄位，並追加準則判斷 Scope 3 類別、是否固定資產、判斷依據、匹配層級、係數名稱、排放係數、單位、來源、相似度、生命週期階段、資料品質、審查/查驗狀態、適用性分數、綜合分數、信心等級、CO2e 計算量與計算依據
 

@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import BinaryIO, Dict, Iterable, List, Optional, Tuple, Union
 
 import math
+import re
 import pandas as pd
 
 try:
@@ -113,6 +114,63 @@ AMOUNT_COLUMNS = [
     "採購金額",
     "決標金額(元)",
     "Amount",
+]
+GENERIC_ITEM_COLUMNS = [
+    "品名",
+    "採購品名",
+    "品項",
+    "採購品項",
+    "產品名稱",
+    "商品名稱",
+    "物品名稱",
+    "項目名稱",
+    "名稱",
+    "原燃物料或產品名稱",
+    "Item Name",
+    "Item",
+    "Product Name",
+    "Product",
+    "Description",
+    "Material",
+    "Service",
+]
+GENERIC_QUANTITY_COLUMNS = [
+    "數量",
+    "採購數量",
+    "使用量",
+    "活動數據",
+    "用量",
+    "重量",
+    "Qty",
+    "Quantity",
+    "Amount Used",
+    "Activity Data",
+    "Activity Amount",
+]
+GENERIC_UNIT_COLUMNS = [
+    "單位",
+    "採購單位",
+    "活動數據單位",
+    "計量單位",
+    "保存單位",
+    "Unit",
+    "UOM",
+    "Measure Unit",
+    "Activity Unit",
+]
+GENERIC_HINT_COLUMNS = [
+    "規格",
+    "規格型號",
+    "材質",
+    "說明",
+    "用途",
+    "類別",
+    "產業別",
+    "會計科目",
+    "Spec/Grade",
+    "Specification",
+    "Category",
+    "Mapping Hint",
 ]
 
 
@@ -644,10 +702,115 @@ def _read_excel_with_detected_header(file: FileLike, sheet_name: str) -> pd.Data
     header_row = 0
     for idx, row in preview.iterrows():
         values = {str(v).strip() for v in row.tolist() if pd.notna(v)}
-        if {"Item Name", "Spec/Grade"}.issubset(values):
+        if {"Item Name", "Spec/Grade"}.issubset(values) or _has_generic_column_set(values):
             header_row = int(idx)
             break
     return pd.read_excel(file, sheet_name=sheet_name, header=header_row).dropna(how="all")
+
+
+def _column_key(value: object) -> str:
+    text = _string_or_empty(value).lower()
+    return re.sub(r"[\s\u3000_()（）/／\\-]+", "", text)
+
+
+def _find_column(columns: Iterable[object], candidates: Iterable[str]) -> Optional[str]:
+    column_lookup = {_column_key(column): str(column) for column in columns}
+    for candidate in candidates:
+        key = _column_key(candidate)
+        if key in column_lookup:
+            return column_lookup[key]
+
+    for column in columns:
+        column_text = _column_key(column)
+        for candidate in candidates:
+            candidate_key = _column_key(candidate)
+            if candidate_key and candidate_key in column_text:
+                return str(column)
+    return None
+
+
+def _has_generic_column_set(columns: Iterable[object]) -> bool:
+    columns = list(columns)
+    return bool(
+        _find_column(columns, GENERIC_ITEM_COLUMNS)
+        and _find_column(columns, GENERIC_QUANTITY_COLUMNS)
+        and _find_column(columns, GENERIC_UNIT_COLUMNS)
+    )
+
+
+def _generic_column_mapping(df: pd.DataFrame) -> Dict[str, str]:
+    columns = list(df.columns)
+    item_col = _find_column(columns, GENERIC_ITEM_COLUMNS)
+    quantity_col = _find_column(columns, GENERIC_QUANTITY_COLUMNS)
+    unit_col = _find_column(columns, GENERIC_UNIT_COLUMNS)
+    if not item_col or not quantity_col or not unit_col:
+        missing = []
+        if not item_col:
+            missing.append("品名")
+        if not quantity_col:
+            missing.append("數量")
+        if not unit_col:
+            missing.append("單位")
+        raise ValueError(f"通用批次檔缺少必要欄位: {', '.join(missing)}")
+
+    mapping = {
+        "item": item_col,
+        "quantity": quantity_col,
+        "unit": unit_col,
+    }
+    hint_cols = [
+        column for column in columns
+        if str(column) not in {item_col, quantity_col, unit_col}
+        and _find_column([column], GENERIC_HINT_COLUMNS)
+    ]
+    if hint_cols:
+        mapping["hint"] = hint_cols[0]
+    return mapping
+
+
+def _normalize_generic_batch_dataframe(df: pd.DataFrame) -> Tuple[pd.DataFrame, Dict[str, str]]:
+    mapping = _generic_column_mapping(df)
+    normalized = df.copy()
+    normalized["batch_item_name"] = normalized[mapping["item"]]
+    normalized["batch_quantity"] = normalized[mapping["quantity"]]
+    normalized["batch_unit"] = normalized[mapping["unit"]]
+    normalized["Item Name"] = normalized["batch_item_name"]
+    normalized["Qty"] = normalized["batch_quantity"]
+    normalized["Unit"] = normalized["batch_unit"]
+    if "Spec/Grade" not in normalized.columns:
+        normalized["Spec/Grade"] = normalized[mapping["hint"]] if mapping.get("hint") else ""
+    if "Mapping Hint" not in normalized.columns:
+        def build_hint(row: pd.Series) -> str:
+            return _compact_join([
+                row.get(mapping["hint"]) if mapping.get("hint") else "",
+                row.get("會計科目"),
+                row.get("類別"),
+                row.get("產業別"),
+            ])
+
+        normalized["Mapping Hint"] = normalized.apply(build_hint, axis=1)
+    return normalized, mapping
+
+
+def _is_generic_batch_row(row: pd.Series) -> bool:
+    return bool(
+        _string_or_empty(row.get("batch_item_name") or row.get("Item Name"))
+        and _to_float(row.get("batch_quantity") or row.get("Qty")) is not None
+        and _string_or_empty(row.get("batch_unit") or row.get("Unit"))
+    )
+
+
+def _generic_batch_query(row: pd.Series) -> str:
+    item = row.get("batch_item_name") or row.get("Item Name")
+    parts = [
+        item,
+        row.get("Spec/Grade"),
+        row.get("Mapping Hint"),
+        row.get("batch_unit") or row.get("Unit"),
+    ]
+    if _is_capital_goods_row(row):
+        parts.append("machinery equipment capital goods")
+    return enrich_procurement_query(item, parts)
 
 
 def _is_procurement_row(row: pd.Series) -> bool:
@@ -773,25 +936,118 @@ def process_procurement_workbook(
             outputs[sheet_name] = matched
             summary_rows.append(_summary_row(sheet_name, matched))
             continue
-        if "Item Name" not in df.columns or "Spec/Grade" not in df.columns:
-            continue
-        df = _attach_lookup_matches(df, lookup_df)
 
+        if "Item Name" in df.columns and "Spec/Grade" in df.columns:
+            df = _attach_lookup_matches(df, lookup_df)
+            matched = _match_dataframe(
+                df,
+                retriever,
+                config,
+                query_builder=_procurement_query,
+                row_filter=_is_procurement_row,
+                preferred_tier_builder=lambda row: 3 if _is_capital_goods_row(row) else None,
+                lookup_first=True,
+                source_type="procurement_workbook",
+                source_sheet=sheet_name,
+            )
+            outputs[sheet_name] = matched
+            summary_rows.append(_summary_row(sheet_name, matched))
+            continue
+
+        if _has_generic_column_set(df.columns):
+            df, mapping = _normalize_generic_batch_dataframe(df)
+            df = _attach_lookup_matches(df, lookup_df)
+            matched = _match_dataframe(
+                df,
+                retriever,
+                config,
+                query_builder=_generic_batch_query,
+                row_filter=_is_generic_batch_row,
+                preferred_tier_builder=lambda row: 3 if _is_capital_goods_row(row) else None,
+                lookup_first=True,
+                source_type="generic_procurement_table",
+                source_sheet=sheet_name,
+            )
+            matched["detected_item_column"] = mapping["item"]
+            matched["detected_quantity_column"] = mapping["quantity"]
+            matched["detected_unit_column"] = mapping["unit"]
+            outputs[sheet_name] = matched
+            summary_rows.append(_summary_row(sheet_name, matched))
+            continue
+
+    return outputs, pd.DataFrame(summary_rows)
+
+
+def _read_csv_with_fallback(file: FileLike) -> pd.DataFrame:
+    last_error = None
+    for encoding in ("utf-8-sig", "utf-8", "big5", "cp950"):
+        try:
+            if hasattr(file, "seek"):
+                file.seek(0)
+            return pd.read_csv(file, encoding=encoding)
+        except UnicodeDecodeError as exc:
+            last_error = exc
+    if hasattr(file, "seek"):
+        file.seek(0)
+    if last_error:
+        raise last_error
+    return pd.read_csv(file)
+
+
+def process_generic_batch_table(
+    file_or_df: Union[FileLike, pd.DataFrame],
+    retriever,
+    config: Optional[BatchMatchConfig] = None,
+    sheet_name: Optional[str] = None,
+) -> Tuple[Dict[str, pd.DataFrame], pd.DataFrame]:
+    config = config or BatchMatchConfig()
+    df = file_or_df.copy() if isinstance(file_or_df, pd.DataFrame) else _read_csv_with_fallback(file_or_df)
+    df, mapping = _normalize_generic_batch_dataframe(df)
+    output_name = sheet_name or "通用批次匹配結果"
+    matched = _match_dataframe(
+        df,
+        retriever,
+        config,
+        query_builder=_generic_batch_query,
+        row_filter=_is_generic_batch_row,
+        preferred_tier_builder=lambda row: 3 if _is_capital_goods_row(row) else None,
+        source_type="generic_procurement_table",
+        source_sheet=output_name,
+    )
+    matched["detected_item_column"] = mapping["item"]
+    matched["detected_quantity_column"] = mapping["quantity"]
+    matched["detected_unit_column"] = mapping["unit"]
+    return {output_name: matched}, pd.DataFrame([_summary_row(output_name, matched)])
+
+
+def process_table4_csv(
+    file: FileLike,
+    retriever,
+    config: Optional[BatchMatchConfig] = None,
+    sheet_name: Optional[str] = None,
+) -> Tuple[Dict[str, pd.DataFrame], pd.DataFrame]:
+    config = config or BatchMatchConfig()
+    df = _read_csv_with_fallback(file)
+    if TABLE4_REQUIRED_COLUMNS.issubset(set(df.columns)):
+        output_name = sheet_name or "表4-1匹配結果"
         matched = _match_dataframe(
             df,
             retriever,
             config,
-            query_builder=_procurement_query,
-            row_filter=_is_procurement_row,
-            preferred_tier_builder=lambda row: 3 if _is_capital_goods_row(row) else None,
-            lookup_first=True,
-            source_type="procurement_workbook",
-            source_sheet=sheet_name,
+            query_builder=_table4_query,
+            source_type="table4_activity_csv",
+            source_sheet=output_name,
         )
-        outputs[sheet_name] = matched
-        summary_rows.append(_summary_row(sheet_name, matched))
+        return {output_name: matched}, pd.DataFrame([_summary_row(output_name, matched)])
 
-    return outputs, pd.DataFrame(summary_rows)
+    if _has_generic_column_set(df.columns):
+        return process_generic_batch_table(df, retriever, config, sheet_name=sheet_name or Path("通用批次").stem)
+
+    table4_missing = TABLE4_REQUIRED_COLUMNS - set(df.columns)
+    raise ValueError(
+        "批次 CSV 無法辨識欄位。請至少提供「品名、數量、單位」三類欄位；"
+        f"若使用表 4-1 格式，缺少欄位: {', '.join(sorted(table4_missing))}"
+    )
 
 
 def _read_lookup_table(file: FileLike, sheet_names: List[str]) -> Optional[pd.DataFrame]:
@@ -837,30 +1093,6 @@ def _attach_lookup_matches(df: pd.DataFrame, lookup_df: Optional[pd.DataFrame]) 
             df.at[idx, "lookup_factor_unit"] = clean_value(matched.get("factor_unit"))
 
     return df
-
-
-def process_table4_csv(
-    file: FileLike,
-    retriever,
-    config: Optional[BatchMatchConfig] = None,
-    sheet_name: Optional[str] = None,
-) -> Tuple[Dict[str, pd.DataFrame], pd.DataFrame]:
-    config = config or BatchMatchConfig()
-    df = pd.read_csv(file)
-    missing = TABLE4_REQUIRED_COLUMNS - set(df.columns)
-    if missing:
-        raise ValueError(f"表 4-1 CSV 缺少必要欄位: {', '.join(sorted(missing))}")
-
-    output_name = sheet_name or "表4-1匹配結果"
-    matched = _match_dataframe(
-        df,
-        retriever,
-        config,
-        query_builder=_table4_query,
-        source_type="table4_activity_csv",
-        source_sheet=output_name,
-    )
-    return {output_name: matched}, pd.DataFrame([_summary_row(output_name, matched)])
 
 
 def process_batch_file(
