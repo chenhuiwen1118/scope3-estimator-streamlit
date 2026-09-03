@@ -13,7 +13,7 @@ Scope 3 Estimator 是一個基於 **三層級聯 RAG（Retrieval-Augmented Gener
 
 ### 🎯 核心特色
 
-- **🟢 Tier 1 (台灣本地)**: 環保署本地排放係數，最高品質（1,108 筆）
+- **🟢 Tier 1 (台灣本地)**: 台灣本地排放係數，原始資料 2,446 筆；檢索索引去重後 1,604 筆
 - **🟡 Tier 2 (國際產業)**: 國際產業資料庫，產品特定係數（6,949 筆）
 - **🟠 Tier 3 (EEIO 模型)**: EXIOBASE 多國 EEIO 模型，產業平均（1,200 筆）
 - ✅ **完全本地端運行**: 不依賴雲端 API，保護企業隱私
@@ -45,8 +45,8 @@ Streamlit Web UI (app.py)
     ↕
 CascadeRetriever (三層級聯)
     ├── Tier1LocalRetriever (台灣本地)
-    │   ├── Embeddings: tier1_embeddings.npy (1,108 × 384)
-    │   └── Metadata: tier1_metadata.csv
+    │   ├── Embeddings: tier1_embeddings_deduped.npy (1,604 × 384)
+    │   └── Metadata: tier1_metadata_deduped.csv
     │
     ├── Tier2InternationalRetriever (國際產業)
     │   ├── Embeddings: tier2_embeddings.npy (6,949 × 384)
@@ -63,11 +63,12 @@ Shared Components:
 
 ## 📊 資料來源
 
-### Tier 1 - 台灣本地 (1,108 筆)
-- **來源**: 台灣環境部（原環保署）
-- **年度**: 2013-2023
+### Tier 1 - 台灣本地 (原始 2,446 筆；檢索索引 1,604 筆)
+- **來源**: 台灣環境部、環境部產品碳足跡資料、氣候變遷署溫室氣體排放係數管理表、經濟部/台電電力係數
+- **年度**: 2013-2025
 - **類型**: 本地產品與服務排放係數
-- **檔案**: `TWMOEPA_Preview_Data.csv`
+- **原始整合檔**: `tier1_unified.csv`
+- **檢索用去重檔**: `tier1_unified_deduped.csv`
 
 ### Tier 2 - 國際產業 (6,949 筆)
 - **AGRIBALYSE 3.1.1** (2,518 筆): 法國食品生命週期資料庫
@@ -144,8 +145,10 @@ scope3_estimator/
 │       ├── tier1_local/              # Tier 1 台灣環保署資料
 │       │   ├── TWMOEPA_Preview_Data.csv
 │       │   ├── tier1_unified.csv
-│       │   ├── tier1_embeddings.npy   (1,108 vectors × 384 dim)
-│       │   └── tier1_metadata.csv
+│       │   ├── tier1_unified_deduped.csv
+│       │   ├── tier1_embeddings_deduped.npy   (1,604 vectors × 384 dim)
+│       │   ├── tier1_metadata_deduped.csv
+│       │   └── tier1_deduplication_report.csv
 │       │
 │       ├── tier2_international/       # Tier 2 國際資料庫
 │       │   ├── AGRIBALYSE3.1.1_*.csv
@@ -259,12 +262,17 @@ python scripts/prepare_tier1_rag_data.py
 
 # 生成 Embedding 向量
 python scripts/build_tier1_embeddings.py
+
+# 建立去重後檢索索引（保留原始資料，不刪除 tier1_unified.csv）
+python scripts/dedupe_tier1_retrieval_index.py
 ```
 
 **輸出**:
-- `tier1_unified.csv` (1,108 records)
-- `tier1_embeddings.npy` (1.62 MB)
-- `tier1_metadata.csv` (118 KB)
+- `tier1_unified.csv` (2,446 original records)
+- `tier1_unified_deduped.csv` (1,604 retrieval records)
+- `tier1_embeddings_deduped.npy` (1,604 vectors × 384 dim)
+- `tier1_metadata_deduped.csv`
+- `tier1_deduplication_report.csv`
 
 ### 2. Tier 2 處理
 

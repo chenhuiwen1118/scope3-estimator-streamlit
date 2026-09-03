@@ -21,6 +21,9 @@ Make sure these files are committed to GitHub:
 - `data/emission_factors/tier1_local/tier1_unified.csv`
 - `data/emission_factors/tier1_local/tier1_metadata.csv`
 - `data/emission_factors/tier1_local/tier1_embeddings.npy`
+- `data/emission_factors/tier1_local/tier1_unified_deduped.csv`
+- `data/emission_factors/tier1_local/tier1_metadata_deduped.csv`
+- `data/emission_factors/tier1_local/tier1_embeddings_deduped.npy`
 - `data/emission_factors/tier2_international/tier2_unified.csv`
 - `data/emission_factors/tier2_international/tier2_metadata.csv`
 - `data/emission_factors/tier2_international/tier2_embeddings.npy`
@@ -79,5 +82,7 @@ changes can be made by pushing new commits to the same GitHub repository.
 - `requirements.txt` is intentionally limited to runtime dependencies for the
   Streamlit app. Developer and API-server packages are listed in
   `requirements-dev.txt`.
+- Tier 1 retrieval uses the de-duplicated index by default. The original
+  `tier1_unified.csv` remains in the repository for auditability.
 - If the app exceeds memory limits, deploy a reduced demo dataset first or move
   large datasets to controlled cloud storage.

@@ -59,6 +59,7 @@ models/*.onnx
 # Embedding 向量檔（可由腳本重建）
 *.npy
 !data/emission_factors/tier1_local/tier1_embeddings.npy
+!data/emission_factors/tier1_local/tier1_embeddings_deduped.npy
 !data/emission_factors/tier2_international/tier2_embeddings.npy
 !data/emission_factors/tier3_eeio/tier3_eeio_embeddings.npy
 

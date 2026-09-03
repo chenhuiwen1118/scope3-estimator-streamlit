@@ -171,8 +171,8 @@ class Tier1LocalRetriever:
     def __init__(
         self,
         data_dir: Optional[Path] = None,
-        embeddings_file: str = "tier1_embeddings.npy",
-        metadata_file: str = "tier1_metadata.csv",
+        embeddings_file: str = "tier1_embeddings_deduped.npy",
+        metadata_file: str = "tier1_metadata_deduped.csv",
         embedding_engine: Optional[EmbeddingEngine] = None
     ):
         """
@@ -190,6 +190,11 @@ class Tier1LocalRetriever:
         self.data_dir = Path(data_dir)
 
         logger.info("🔧 初始化 Tier 1 本地檢索器")
+
+        if not (self.data_dir / metadata_file).exists():
+            metadata_file = "tier1_metadata.csv"
+        if not (self.data_dir / embeddings_file).exists():
+            embeddings_file = "tier1_embeddings.npy"
 
         # 載入元資料
         metadata_path = self.data_dir / metadata_file
