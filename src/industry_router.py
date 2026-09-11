@@ -43,11 +43,25 @@ ROUTES = [
     },
     {
         "code": "C-261",
-        "label": "半導體製造業",
-        "tier3_product_code": "C_OFMA",
-        "keywords_any": ["半導體", "mcu", "主晶片", "晶片", "客製化ic", "ic", "semiconductor", "chip"],
-        "query_hint": "Computer, Electronic and optical products semiconductor components MCU IC chip 半導體 電子零組件",
-        "reason": "描述含半導體、MCU、主晶片或 IC，屬電子零組件與半導體相關採購。",
+        "label": "電子零組件與半導體製造業",
+        "tier3_product_code": "C_ELMA",
+        "keywords_any": [
+            "半導體", "mcu", "主晶片", "晶片", "客製化ic", "ic", "發光二極體", "光電二極體", "二極體",
+            "semiconductor", "chip", "optoelectronic", "diode",
+        ],
+        "query_hint": "Electrical machinery and electronic components semiconductor MCU IC chip 半導體 電子零組件",
+        "reason": "描述含半導體、MCU、主晶片、二極體或 IC，屬電子零組件與半導體相關採購。",
+    },
+    {
+        "code": "C-29",
+        "label": "機械設備製造業",
+        "tier3_product_code": "C_MACH",
+        "keywords_any": [
+            "反應釜", "儲槽", "泵浦", "壓縮機", "鍋爐", "冷凍櫃", "機械設備", "生產設備",
+            "reactor", "pressure vessel", "storage tank", "pump", "compressor", "boiler", "machinery equipment",
+        ],
+        "query_hint": "Machinery and equipment C-29 機械設備 生產設備 反應釜 儲槽 泵浦 壓縮機",
+        "reason": "描述含反應釜、儲槽、泵浦、壓縮機或生產設備，適合先以機械設備製造業係數估算。",
     },
     {
         "code": "M-70/74",

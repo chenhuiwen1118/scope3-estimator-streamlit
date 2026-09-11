@@ -29,6 +29,8 @@ sys.path.insert(0, str(SRC_DIR))
 
 from procurement_reference import enrich_procurement_query
 from retrieval.cascade_retriever import CascadeRetriever
+from lifecycle_stage import infer_lifecycle_boundary, infer_lifecycle_stage
+from applicability_framework import evaluate_factor_applicability
 
 EVALUATION_DIR = PROJECT_ROOT / "data" / "evaluation"
 TRAINING_FILE = PROJECT_ROOT / "data" / "reference_data" / "procurement_training_items.csv"
@@ -167,6 +169,38 @@ def is_item_hit(match: Dict, acceptable_terms: Sequence[str]) -> Tuple[bool, str
     return False, ""
 
 
+def rerank_result(result: Dict, procurement_item_name: str) -> Dict:
+    matches = result.get("matches") or []
+    if not matches:
+        return result
+
+    result = dict(result)
+    result["procurement_item_name"] = procurement_item_name
+    enriched = []
+    for match in matches:
+        updated = dict(match)
+        updated["lifecycle_stage"] = infer_lifecycle_stage(updated, result.get("tier"))
+        updated["lifecycle_boundary"] = infer_lifecycle_boundary(updated, result.get("tier"))
+        applicability = evaluate_factor_applicability(updated, result)
+        updated["applicability_score"] = applicability.get("overall_score")
+        updated["final_score"] = applicability.get("final_score")
+        updated["name_match_score"] = applicability.get("name_match_score")
+        updated["name_match_status"] = applicability.get("name_match_status")
+        enriched.append(updated)
+
+    enriched = sorted(
+        enriched,
+        key=lambda item: (
+            item.get("final_score") or 0.0,
+            item.get("similarity") or 0.0,
+        ),
+        reverse=True,
+    )
+    result["matches"] = enriched
+    result["best_match"] = enriched[0]
+    return result
+
+
 def build_item_pool(training: pd.DataFrame, n: int) -> pd.DataFrame:
     unique = (
         training.sort_values(["大類", "標準品名", "Training ID"])
@@ -225,6 +259,9 @@ def evaluate_item_rows(retriever: CascadeRetriever, rows: pd.DataFrame, output_f
             tier3_threshold=0.60,
             country_priority="TW",
         )
+        result["original_query"] = query
+        result["query"] = enriched_query
+        result = rerank_result(result, query)
         latency = time.perf_counter() - started
         latencies.append(latency)
         matches = result.get("matches") or []
@@ -313,6 +350,9 @@ def evaluate_reviewed_batch(retriever: CascadeRetriever, rows: pd.DataFrame, out
             tier3_threshold=0.60,
             country_priority="TW",
         )
+        result["original_query"] = query
+        result["query"] = enrich_procurement_query(query)
+        result = rerank_result(result, query)
         latency = time.perf_counter() - started
         latencies.append(latency)
         matches = result.get("matches") or []

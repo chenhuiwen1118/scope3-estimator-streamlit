@@ -116,7 +116,7 @@ class CascadeRetriever:
         """
         logger.info(f"\n🔍 查詢: {query}")
         industry_routes = detect_industry_routes(query)
-        early_route_codes = {"H-49", "F-41", "M-70/74", "J-63"}
+        early_route_codes = {"H-49", "F-41", "C-29", "M-70/74", "J-63"}
         early_industry_routes = [
             route for route in industry_routes if route.code in early_route_codes
         ]

@@ -330,6 +330,11 @@ def _normalize_match_result(result: Dict, mode: str) -> Dict:
         "matched_context_boost": best.get("context_boost"),
         "applicability_score": applicability.get("overall_score"),
         "final_score": applicability.get("final_score"),
+        "name_match_score": applicability.get("name_match_score"),
+        "name_match_status": applicability.get("name_match_status"),
+        "name_match_evidence": applicability.get("name_match_evidence"),
+        "name_match_terms": applicability.get("name_match_terms"),
+        "name_match_conflicts": applicability.get("name_match_conflicts"),
         "confidence_level": applicability.get("confidence_level"),
         "suitability_decision": applicability.get("decision"),
         "suitability_watch_items": applicability.get("watch_items"),
@@ -389,6 +394,11 @@ def _lookup_result(row: pd.Series) -> Optional[Dict]:
         "matched_lifecycle_boundary": lifecycle_boundary,
         "applicability_score": applicability.get("overall_score"),
         "final_score": applicability.get("final_score"),
+        "name_match_score": applicability.get("name_match_score"),
+        "name_match_status": applicability.get("name_match_status"),
+        "name_match_evidence": applicability.get("name_match_evidence"),
+        "name_match_terms": applicability.get("name_match_terms"),
+        "name_match_conflicts": applicability.get("name_match_conflicts"),
         "confidence_level": applicability.get("confidence_level"),
         "suitability_decision": applicability.get("decision"),
         "suitability_watch_items": applicability.get("watch_items"),
@@ -524,6 +534,10 @@ def _is_capital_goods_row(row: pd.Series) -> bool:
             row.get("ERP ID"),
             row.get("Mapping Hint"),
             row.get("Item Name"),
+            row.get("Spec/Grade"),
+            row.get("batch_item_name"),
+            row.get("品名"),
+            row.get("名稱"),
         ]
     ).lower()
     return (
@@ -531,6 +545,7 @@ def _is_capital_goods_row(row: pd.Series) -> bool:
         or "capital goods" in values
         or "asset" in values
         or "epa/eeio asset method" in values
+        or any(term in values for term in ["反應釜", "儲槽", "泵浦", "壓縮機", "冷凍櫃", "設備", "機械"])
     )
 
 
@@ -578,10 +593,14 @@ def _criteria_classification(row: pd.Series) -> Dict:
     }
 
 
-def _enrich_and_rerank_result(result: Dict) -> Dict:
+def _enrich_and_rerank_result(result: Dict, procurement_item_name: Optional[str] = None) -> Dict:
     matches = result.get("matches") or []
     if not matches:
         return result
+
+    if procurement_item_name:
+        result = dict(result)
+        result["procurement_item_name"] = procurement_item_name
 
     enriched = []
     for match in matches:
@@ -598,6 +617,11 @@ def _enrich_and_rerank_result(result: Dict) -> Dict:
         updated["review_status"] = applicability.get("review_status")
         updated["auditability_note"] = applicability.get("auditability_note")
         updated["dqr_basis"] = applicability.get("dqr_basis")
+        updated["name_match_score"] = applicability.get("name_match_score")
+        updated["name_match_status"] = applicability.get("name_match_status")
+        updated["name_match_evidence"] = applicability.get("name_match_evidence")
+        updated["name_match_terms"] = applicability.get("name_match_terms")
+        updated["name_match_conflicts"] = applicability.get("name_match_conflicts")
         enriched.append(updated)
 
     enriched = sorted(
@@ -614,7 +638,13 @@ def _enrich_and_rerank_result(result: Dict) -> Dict:
     return result
 
 
-def _run_search(retriever, query: str, config: BatchMatchConfig, preferred_tier: Optional[int] = None) -> Dict:
+def _run_search(
+    retriever,
+    query: str,
+    config: BatchMatchConfig,
+    preferred_tier: Optional[int] = None,
+    procurement_item_name: Optional[str] = None,
+) -> Dict:
     if not query:
         return _normalize_match_result({"success": False}, "standard")
 
@@ -641,7 +671,7 @@ def _run_search(retriever, query: str, config: BatchMatchConfig, preferred_tier:
                 ),
                 context_values,
             )
-            result = _enrich_and_rerank_result(result)
+            result = _enrich_and_rerank_result(result, procurement_item_name)
             return _normalize_match_result(
                 result,
                 "standard",
@@ -665,7 +695,7 @@ def _run_search(retriever, query: str, config: BatchMatchConfig, preferred_tier:
                     ),
                 context_values,
             )
-                fallback_result = _enrich_and_rerank_result(fallback_result)
+                fallback_result = _enrich_and_rerank_result(fallback_result, procurement_item_name)
                 return _normalize_match_result(
                     fallback_result,
                     "fallback",
@@ -680,7 +710,7 @@ def _run_search(retriever, query: str, config: BatchMatchConfig, preferred_tier:
         country_priority=config.country_priority,
     )
     result = apply_context_to_result(result, context_values)
-    result = _enrich_and_rerank_result(result)
+    result = _enrich_and_rerank_result(result, procurement_item_name)
     if result.get("success") or not config.use_fallback:
         return _normalize_match_result(result, "standard")
 
@@ -693,7 +723,7 @@ def _run_search(retriever, query: str, config: BatchMatchConfig, preferred_tier:
         country_priority=config.country_priority,
     )
     fallback = apply_context_to_result(fallback, context_values)
-    fallback = _enrich_and_rerank_result(fallback)
+    fallback = _enrich_and_rerank_result(fallback, procurement_item_name)
     return _normalize_match_result(fallback, "fallback")
 
 
@@ -888,10 +918,25 @@ def _match_dataframe(
         base = {str(col): clean_value(row.get(col)) for col in df.columns}
         criteria = _criteria_classification(row)
         base_query = query_builder(row)
+        procurement_item_name = _compact_join([
+            row.get("batch_item_name"),
+            row.get("Item Name"),
+            row.get("原燃物料或產品名稱"),
+            row.get("原始採購品名"),
+            row.get("標準品名"),
+            row.get("品名"),
+            row.get("名稱"),
+        ])
         match = _lookup_result(row) if lookup_first else None
         preferred_tier = preferred_tier_builder(row) if preferred_tier_builder else None
         if match is None:
-            match = _run_search(retriever, base_query, config, preferred_tier=preferred_tier)
+            match = _run_search(
+                retriever,
+                base_query,
+                config,
+                preferred_tier=preferred_tier,
+                procurement_item_name=procurement_item_name,
+            )
         calculation = _calculate_emissions(row, match, config)
         match["base_query_text"] = base_query
         match["query_text"] = base_query

@@ -671,10 +671,13 @@ def _context_values(*selected_options):
     return parts
 
 
-def _enrich_and_rerank_result(result):
+def _enrich_and_rerank_result(result, procurement_item_name=None):
     matches = result.get("matches") or []
     if not matches:
         return result
+
+    if procurement_item_name:
+        result["procurement_item_name"] = procurement_item_name
 
     enriched = []
     for match in matches:
@@ -691,6 +694,11 @@ def _enrich_and_rerank_result(result):
         updated["review_status"] = applicability.get("review_status")
         updated["auditability_note"] = applicability.get("auditability_note")
         updated["dqr_basis"] = applicability.get("dqr_basis")
+        updated["name_match_score"] = applicability.get("name_match_score")
+        updated["name_match_status"] = applicability.get("name_match_status")
+        updated["name_match_evidence"] = applicability.get("name_match_evidence")
+        updated["name_match_terms"] = applicability.get("name_match_terms")
+        updated["name_match_conflicts"] = applicability.get("name_match_conflicts")
         updated["_applicability"] = applicability
         enriched.append(updated)
 
@@ -731,6 +739,9 @@ def _detail_rows(match, result):
         ("生命週期階段", match.get("lifecycle_stage") or infer_lifecycle_stage(match, result.get("tier"))),
         ("包含生命週期邊界", match.get("lifecycle_boundary") or infer_lifecycle_boundary(match, result.get("tier"))),
         ("相似度", _format_similarity(match.get("similarity"))),
+        ("品名相容性", f"{match.get('name_match_status', '-')}（{_format_similarity(match.get('name_match_score'))}）"),
+        ("品名判斷依據", match.get("name_match_evidence")),
+        ("品名衝突群組", match.get("name_match_conflicts")),
         ("適用性分數", _format_similarity(match.get("applicability_score"))),
         ("綜合分數", _format_similarity(match.get("final_score"))),
         ("信心等級", match.get("confidence_level")),
@@ -905,6 +916,11 @@ def _single_result_download_df(result):
             "lifecycle_stage": lifecycle_stage,
             "lifecycle_boundary": lifecycle_boundary,
             "similarity": match.get("similarity"),
+            "name_match_score": applicability.get("name_match_score"),
+            "name_match_status": applicability.get("name_match_status"),
+            "name_match_evidence": applicability.get("name_match_evidence"),
+            "name_match_terms": applicability.get("name_match_terms"),
+            "name_match_conflicts": applicability.get("name_match_conflicts"),
             "original_similarity": match.get("original_similarity"),
             "context_boost": match.get("context_boost"),
             "applicability_score": applicability.get("overall_score"),
@@ -1107,13 +1123,14 @@ with single_tab:
                 )
                 result["original_query"] = query
                 result["query"] = enriched_query
+                result["procurement_item_name"] = query
                 if scope3_category["query_hint"]:
                     result["scope3_category"] = scope3_category["label"]
                 if taiwan_industry["query_hint"]:
                     result["taiwan_industry"] = taiwan_industry["label"]
                 context_values = _context_values(scope3_category, taiwan_industry)
                 result = apply_context_to_result(result, context_values)
-                result = _enrich_and_rerank_result(result)
+                result = _enrich_and_rerank_result(result, procurement_item_name=query)
                 result["assist_note"] = (
                     "已套用兩階段輔助排序：主檢索使用原始輸入，類別/產業只做小幅加權。"
                     if context_values

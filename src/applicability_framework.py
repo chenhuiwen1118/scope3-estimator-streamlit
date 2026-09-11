@@ -5,6 +5,11 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
+try:
+    from name_matching import evaluate_name_compatibility
+except ImportError:
+    from .name_matching import evaluate_name_compatibility
+
 
 CRITERIA = [
     ("activity_product_compatibility", "Activity/Product compatibility", "活動或產品相容性"),
@@ -280,11 +285,24 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
         ghg = _text(match.get("name") or match.get("product_name"))
 
     criteria: List[Dict] = []
+    name_match = evaluate_name_compatibility(
+        result.get("procurement_item_name") or result.get("original_query") or result.get("query"),
+        _lower_text(
+            match.get("name") or match.get("product_name") or match.get("matched_name"),
+            match.get("industry_code"),
+            match.get("industry_label"),
+            match.get("route_query_hint"),
+        ),
+    )
+    activity_score = (similarity_score * 0.55) + (name_match["score"] * 0.45)
+    if name_match["score"] < 0.35:
+        activity_score = min(activity_score, 0.45)
+
     criteria.append(_criterion(
         "Activity/Product compatibility",
         "活動或產品相容性",
-        min(1.0, max(similarity_score, 0.35)),
-        "以主檢索相似度與名稱命中程度判斷；需確認採購品名、規格與匹配名稱是否一致。",
+        min(1.0, max(activity_score, 0.20)),
+        name_match["evidence"],
     ))
 
     unit_score, unit_evidence = _unit_score(unit, tier)
@@ -392,6 +410,15 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
     )
 
     final_score = round((similarity_score * 0.45) + (weighted_score * 0.55), 2)
+    if name_match["score"] < 0.20:
+        final_score = min(final_score, 0.30)
+        weighted_score = min(weighted_score, 0.42)
+    elif name_match["score"] < 0.35:
+        final_score = min(final_score, 0.42)
+        weighted_score = min(weighted_score, 0.50)
+    elif name_match["score"] < 0.45:
+        final_score = min(final_score, 0.58)
+
     if weighted_score >= 0.80:
         decision = "建議採用"
     elif weighted_score >= 0.65:
@@ -406,9 +433,16 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
         for item in criteria
         if item["score"] < 0.65
     ]
+    if name_match["score"] < 0.45 and "品名相容性" not in watch_items:
+        watch_items.insert(0, "品名相容性")
     return {
         "overall_score": weighted_score,
         "final_score": final_score,
+        "name_match_score": name_match["score"],
+        "name_match_status": name_match["status"],
+        "name_match_evidence": name_match["evidence"],
+        "name_match_terms": name_match["matched_terms"],
+        "name_match_conflicts": name_match["conflict_groups"],
         "confidence_level": (
             "高" if final_score >= 0.80 else
             "中" if final_score >= 0.65 else
