@@ -1,0 +1,76 @@
+﻿training_id,query,standard_name,major_category,top3_hit,first_choice_hit,hit_terms,result_tier,best_name,best_source,best_similarity,latency_sec
+PI-0505,LED發光二極體,LED發光二極體,光電材料,False,False,,2,LED light bulb 8 watt.,Idemat,0.825253963470459,0.12034712499999856
+PI-0517,光學透鏡,光學透鏡,光電材料,True,False,3:optical,2,Glass,Defra UK 2025,0.7331445217132568,0.08812983299999999
+PI-0513,光電二極體,光電二極體,光電材料,False,False,,2,LED light bulb 8 watt.,FootprintCalc,0.753404974937439,0.0866816669999988
+PI-0525,導光板,導光板,光電材料,False,False,,2,LED light bulb 8 watt.,Idemat,0.7873454093933105,0.08760441700000143
+PI-0521,擴散板,擴散板,光電材料,False,False,,2,Electrical items - small,Defra UK 2025,0.7768867015838623,0.08657445799999941
+PI-0221,切斷砂輪,切斷砂輪,刀具磨料,False,False,,2,Cutting Al. shears,FootprintCalc,0.703231692314148,0.0940040419999999
+PI-0233,拋光輪,拋光輪,刀具磨料,False,False,,2,Metal: aluminium cans and foil (excl. forming),Defra UK 2025,0.7006844282150269,0.09227204199999939
+PI-0225,百葉砂輪片,百葉砂輪片,刀具磨料,False,False,,3,Ceramic goods,EXIOBASE,0.8456325531005859,0.10915841699999973
+PI-0217,砂輪片,砂輪片,刀具磨料,False,False,,3,Ceramic goods,EXIOBASE,0.8473364114761353,0.10877254200000053
+PI-0229,研磨帶,研磨帶,刀具磨料,False,False,,3,Additives/Blending Components,EXIOBASE,0.8210619688034058,0.10610074999999952
+PI-0421,EPE珍珠棉,EPE珍珠棉,包裝材料,True,False,2:paper,2,PLA (polylactide) pellets,Idemat,0.7749730348587036,0.0862350420000002
+PI-0413,PE塑膠袋,PE塑膠袋,包裝材料,True,True,1:plastic | 2:paper,2,"Flexible Polymeer Foam (PE), chemical upcycled",Idemat,0.7864344120025635,0.08663725000000078
+PI-0425,伸縮膜,伸縮膜,包裝材料,True,True,1:伸縮膜,1,伸縮膜(LLDPE),Taiwan EPA,1.0,0.07917129100000153
+PI-0405,彩盒,彩盒,包裝材料,True,True,1:paper | 2:paper | 3:paper,2,"Corrugated board box making,  (excl the paper)",Idemat,0.7728062868118286,0.08660595799999982
+PI-0429,打包帶,打包帶,包裝材料,True,True,1:paper | 2:paper | 3:paper,2,"Corrugated board box making,  (excl the paper)",Idemat,0.7657140493392944,0.08627933299999846
+PI-0241,切削油,切削油,化學與潤滑,True,True,1:industrial | 2:lubricant | 3:lubricant,1,事業廢棄物 / Industrial Wastes 固定燃燒排放係數,CCA GHG Factor Table,1.0,0.0920875419999998
+PI-0261,工業清洗劑,工業清洗劑,化學與潤滑,True,True,1:industrial | 2:lubricant | 3:lubricant,1,事業廢棄物 / Industrial Wastes 固定燃燒排放係數,CCA GHG Factor Table,1.0,0.09220333400000058
+PI-0245,水溶性切削液,水溶性切削液,化學與潤滑,True,True,1:industrial | 2:lubricant | 3:lubricant,1,事業廢棄物 / Industrial Wastes 固定燃燒排放係數,CCA GHG Factor Table,1.0,0.09275954199999958
+PI-0249,液壓油,液壓油,化學與潤滑,True,True,1:industrial | 2:lubricant | 3:lubricant,1,事業廢棄物 / Industrial Wastes 固定燃燒排放係數,CCA GHG Factor Table,1.0,0.09217604200000018
+PI-0277,矽脂,矽脂,化學與潤滑,True,True,1:industrial | 2:lubricant | 3:lubricant,1,事業廢棄物 / Industrial Wastes 固定燃燒排放係數,CCA GHG Factor Table,1.0,0.09198258300000006
+PI-0533,UV油墨,UV油墨,印刷耗材,True,True,1:ink,1,熟料（Clinker） CO2（公噸/公噸熟料）,CCA GHG Factor Table,0.925,0.09256120799999934
+PI-0537,印刷用PS版,印刷用PS版,印刷耗材,True,True,1:ink,1,熟料（Clinker） CO2（公噸/公噸熟料）,CCA GHG Factor Table,0.925,0.09277333400000032
+PI-0529,大豆油墨,大豆油墨,印刷耗材,True,True,1:ink,1,熟料（Clinker） CO2（公噸/公噸熟料）,CCA GHG Factor Table,0.925,0.09217641600000093
+PI-0549,水性上光油,水性上光油,印刷耗材,True,True,1:ink,1,熟料（Clinker） CO2（公噸/公噸熟料）,CCA GHG Factor Table,0.925,0.09269662500000031
+PI-0541,銅版紙,銅版紙,印刷耗材,True,True,1:ink,1,熟料（Clinker） CO2（公噸/公噸熟料）,CCA GHG Factor Table,0.925,0.09275491600000052
+PI-0281,ABS塑膠粒,ABS塑膠粒,塑膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09562108300000105
+PI-0301,PA66尼龍塑膠粒,PA66尼龍塑膠粒,塑膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.13995458299999974
+PI-0297,PA6尼龍塑膠粒,PA6尼龍塑膠粒,塑膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.0947825420000008
+PI-0293,PC聚碳酸酯塑膠粒,PC聚碳酸酯塑膠粒,塑膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.0941290420000005
+PI-0313,PET再生塑膠粒,PET再生塑膠粒,塑膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09405008300000084
+PI-0445,CNC車床加工費,CNC車床加工費,委外加工,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09098545800000046
+PI-0449,CNC銑床加工費,CNC銑床加工費,委外加工,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.0912401669999987
+PI-0453,沖壓加工費,沖壓加工費,委外加工,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09086729200000043
+PI-0457,焊接加工費,焊接加工費,委外加工,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09046600000000105
+PI-0473,熱處理加工費,熱處理加工費,委外加工,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.11391424999999877
+PI-0553,PVC電線管,PVC電線管,工程廠務,True,True,1:electrical | 2:materials | 3:materials,2,PVDC (Polyvinyliden chloride) co-firing in electrical power plant,Idemat,0.8226097822189331,0.10197658300000079
+PI-0573,安全防護手套,安全防護手套,工程廠務,False,False,,2,Ammunition (except Small Arms) Manufacturing,EPA Supply Chain v1.3.0,0.7073327302932739,0.08827487499999975
+PI-0569,工業排風扇,工業排風扇,工程廠務,True,False,2:construction,2,Rolling Mill and Other Metalworking Machinery Manufacturing,EPA Supply Chain v1.3.0,0.7475228309631348,0.08791358299999885
+PI-0565,無塵室濾網,無塵室濾網,工程廠務,True,True,1:construction | 2:construction | 3:construction,3,Construction work (45),EXIOBASE,0.77,0.0007266250000004248
+PI-0045,內六角螺絲,內六角螺絲,標準扣件,True,True,1:螺絲 | 2:螺絲,1,螺絲(含球化與表面皮膜處理及電鍍),Taiwan EPA,1.0,0.0934803329999987
+PI-0057,六角螺帽,六角螺帽,標準扣件,True,True,1:steel | 2:steel | 3:steel,2,Steel (21% sec = standard mix average) EU hot rolled coil,Idemat,0.7648613452911377,0.0919067499999997
+PI-0041,六角螺絲,六角螺絲,標準扣件,True,True,1:螺絲 | 2:螺絲,1,螺絲(含球化與表面皮膜處理及電鍍),Taiwan EPA,1.0,0.09059120799999931
+PI-0049,十字機械螺絲,十字機械螺絲,標準扣件,True,True,1:螺絲 | 2:螺絲,1,螺絲(含球化與表面皮膜處理及電鍍),Taiwan EPA,1.0,0.09254104200000057
+PI-0393,CNC模具加工費,CNC模具加工費,模具與治具,True,True,1:金屬製品 | 3:金屬製品,3,"Fabricated metal products, except machinery and equipment (28)",EXIOBASE,0.77,0.09450100000000106
+PI-0373,司筒,司筒,模具與治具,True,True,1:金屬製品 | 3:金屬製品,3,"Fabricated metal products, except machinery and equipment (28)",EXIOBASE,0.77,0.09185574999999879
+PI-0385,定位環,定位環,模具與治具,True,True,1:金屬製品 | 3:金屬製品,3,"Fabricated metal products, except machinery and equipment (28)",EXIOBASE,0.77,0.09082387499999989
+PI-0377,導柱導套,導柱導套,模具與治具,True,True,1:金屬製品 | 3:金屬製品,3,"Fabricated metal products, except machinery and equipment (28)",EXIOBASE,0.77,0.09058412499999946
+PI-0325,丁腈橡膠NBR,丁腈橡膠NBR,橡膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09306195799999983
+PI-0329,三元乙丙橡膠EPDM,三元乙丙橡膠EPDM,橡膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09252658299999972
+PI-0321,天然橡膠NR,天然橡膠NR,橡膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09188175000000065
+PI-0353,橡膠促進劑,橡膠促進劑,橡膠原料,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09216295899999949
+PI-0145,PU氣管,PU氣管,氣油壓元件,True,True,1:machinery,2,Oil and Gas Field Machinery and Equipment Manufacturing,EPA Supply Chain v1.3.0,0.8139077425003052,0.09474604199999881
+PI-0141,快速接頭,快速接頭,氣油壓元件,True,True,1:machinery,2,Oil and Gas Field Machinery and Equipment Manufacturing,EPA Supply Chain v1.3.0,0.8146078586578369,0.09450295899999972
+PI-0121,標準氣缸,標準氣缸,氣油壓元件,True,True,1:machinery,2,Oil and Gas Field Machinery and Equipment Manufacturing,EPA Supply Chain v1.3.0,0.8295888900756836,0.09439391700000144
+PI-0153,油壓泵,油壓泵,氣油壓元件,True,True,1:machinery,2,Oil and Gas Field Machinery and Equipment Manufacturing,EPA Supply Chain v1.3.0,0.8287855386734009,0.09447395800000002
+PI-0581,塑膠棧板,塑膠棧板,物流批發,False,False,,2,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers,EPA Supply Chain v1.3.0,0.7915700674057007,0.09165883400000041
+PI-0593,封箱膠帶,封箱膠帶,物流批發,False,False,,2,Men's and Boys' Clothing and Furnishings Merchant Wholesalers,EPA Supply Chain v1.3.0,0.7779651880264282,0.08615387499999905
+PI-0585,條碼標籤紙,條碼標籤紙,物流批發,False,False,,2,Printing and Writing Paper Merchant Wholesalers,EPA Supply Chain v1.3.0,0.771909773349762,0.08748670800000014
+PI-0589,熱轉印碳帶,熱轉印碳帶,物流批發,True,False,3:equipment,2,Carbon and Graphite Product Manufacturing,EPA Supply Chain v1.3.0,0.8345376253128052,0.08850962500000037
+PI-0101,V型皮帶,V型皮帶,軸承傳動,True,False,3:components,2,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,EPA Supply Chain v1.3.0,0.7591032981872559,0.09450625000000024
+PI-0097,同步皮帶,同步皮帶,軸承傳動,False,False,,2,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",EPA Supply Chain v1.3.0,0.7101521492004395,0.0867422919999985
+PI-0093,圓錐滾子軸承,圓錐滾子軸承,軸承傳動,False,False,,2,Rolled Steel Shape Manufacturing,EPA Supply Chain v1.3.0,0.7310647964477539,0.09740541599999908
+PI-0081,深溝滾珠軸承,深溝滾珠軸承,軸承傳動,True,False,3:machinery,2,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing,EPA Supply Chain v1.3.0,0.7739918231964111,0.0944938749999995
+PI-0013,SUS304不鏽鋼板,SUS304不鏽鋼板,金屬原料,True,True,1:steel | 2:steel | 3:steel,2,"Steel beams, pipes, sheet (from trade mix 44% recycled)",Idemat,0.8153676986694336,0.08626199999999962
+PI-0017,SUS316不鏽鋼板,SUS316不鏽鋼板,金屬原料,True,False,2:steel | 3:steel,2,GS-X40CrNiSi 25 12,Idemat,0.806460976600647,0.08684404199999918
+PI-0033,不鏽鋼圓棒,不鏽鋼圓棒,金屬原料,True,True,1:steel | 2:steel | 3:steel,2,"Steel beams, pipes, sheet (from trade mix 44% recycled)",Idemat,0.8356579542160034,0.08556508299999876
+PI-0001,冷軋鋼板,冷軋鋼板,金屬原料,True,True,1:鋼 | 2:鋼 | 3:鋼,1,不鏽鋼冷軋鋼捲,Taiwan EPA,1.0,0.09058229199999879
+PI-0493,功率電感,功率電感,電子材料,False,False,,2,"Electricity Low Voltage, domestic use General",Idemat,0.8211244940757751,0.08675779200000022
+PI-0501,印刷電路板PCB,印刷電路板PCB,電子材料,True,True,1:electronic | 2:printed,2,PCB = Printed Circuit Board (empty),Idemat,0.8399347066879272,0.08750449999999965
+PI-0481,晶片電阻,晶片電阻,電子材料,True,True,1:晶片電阻,1,晶片電阻,Taiwan EPA,1.0,0.08055999999999841
+PI-0497,板對板連接器,板對板連接器,電子材料,True,True,1:electronic | 2:board | 3:electronic,2,PCB = Printed Circuit Board (empty),Idemat,0.7531594038009644,0.0863687500000001
+PI-0161,三相感應馬達,三相感應馬達,電機電控,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.0892564999999994
+PI-0165,伺服馬達,伺服馬達,電機電控,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.09188858399999944
+PI-0181,光電感測器,光電感測器,電機電控,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.08934416700000014
+PI-0177,可程式控制器PLC,可程式控制器PLC,電機電控,False,False,,3,Office machinery and computers (30),EXIOBASE,0.77,0.08945491599999755

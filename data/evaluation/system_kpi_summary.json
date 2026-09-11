@@ -1,0 +1,70 @@
+{
+  "evaluated_at": "2026-09-11 11:57:13 +0800",
+  "standards": {
+    "item_pool": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/reference_data/procurement_training_items.csv",
+    "reviewed_batch": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/evaluation/reviewed_batch_standard/reviewed_batch_gold_standard.csv",
+    "batch_benchmark_source": "/Users/sashachen/Documents/Codex/scope3_estimator-working-20260729/data/synthetic/synthetic_procurement_zh_1000.csv"
+  },
+  "targets": {
+    "item_pool_top3_recall": 0.85,
+    "tender_pressure_top3_recall": 0.85,
+    "first_choice_f1": 0.7,
+    "single_query_latency_sec": 2.0,
+    "batch_1000_sec": 7200.0,
+    "memory_gb": 8.0
+  },
+  "initialization_sec": 6.688,
+  "item_pool_top3_n75": {
+    "n": 75,
+    "top3_hits": 41,
+    "top3_recall": 0.5467,
+    "first_choice_hits": 34,
+    "first_choice_precision": 0.4533,
+    "first_choice_recall": 0.4533,
+    "first_choice_f1": 0.4533,
+    "mean_latency_sec": 0.0915,
+    "p95_latency_sec": 0.1089
+  },
+  "tender_language_pressure_n288": {
+    "n": 288,
+    "top3_hits": 148,
+    "top3_recall": 0.5139,
+    "first_choice_hits": 122,
+    "first_choice_precision": 0.4236,
+    "first_choice_recall": 0.4236,
+    "first_choice_f1": 0.4236,
+    "mean_latency_sec": 0.0944,
+    "p95_latency_sec": 0.1153
+  },
+  "reviewed_batch_standard": {
+    "n": 934,
+    "top3_hits": 139,
+    "top3_recall": 0.1488,
+    "first_choice_hits": 89,
+    "first_choice_precision": 0.0953,
+    "first_choice_recall": 0.0953,
+    "first_choice_f1": 0.0953,
+    "mean_latency_sec": 0.0922,
+    "p95_latency_sec": 0.1203
+  },
+  "batch_1000_benchmark": {
+    "n": 1000,
+    "elapsed_sec": 82.5923,
+    "estimated_hours": 0.0229,
+    "mean_latency_sec": 0.0826
+  },
+  "peak_memory_gb": 0.8098,
+  "meets_targets": {
+    "item_pool_top3_recall": false,
+    "tender_pressure_top3_recall": false,
+    "first_choice_f1_item_pool": false,
+    "single_query_latency_item_pool_p95": true,
+    "batch_1000": true,
+    "memory": true
+  },
+  "notes": [
+    "Item-pool hits use controlled acceptable terms from the anonymized procurement training list.",
+    "Reviewed-batch hits compare expected factor names and EEIO industry codes against the current retriever output.",
+    "The F1 score is computed as binary first-choice correctness over the evaluated rows."
+  ]
+}
