@@ -27,6 +27,8 @@ MATERIAL_GROUPS = {
     "construction": {"營建", "工程", "裝潢", "混凝土", "瀝青", "鋼筋", "construction", "renovation", "concrete", "asphalt"},
     "process_equipment": {"反應釜", "儲槽", "泵浦", "壓縮機", "鍋爐", "冷凍櫃", "設備", "機械", "vessel", "reactor", "pump", "compressor", "boiler", "equipment", "machinery"},
     "wood": {"木材", "木板", "木製", "木料", "wood", "timber", "poplar"},
+    "stationery": {"鉛筆", "原子筆", "鋼筆", "彩色筆", "螢光筆", "自動鉛筆", "文具", "書寫用品", "pencil", "stationery", "office supplies"},
+    "paper_product": {"紙張", "影印紙", "書寫紙", "紙製品", "paper", "copy paper"},
 }
 
 COMPATIBLE_GROUPS = {

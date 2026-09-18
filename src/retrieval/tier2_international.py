@@ -9,12 +9,26 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 import logging
+import re
 
 from utils.embedding import EmbeddingEngine
 from utils.similarity import fast_cosine_similarity_with_norms, precompute_norms
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+# Short Chinese procurement names are not always aligned with the English-only
+# Tier 2 embeddings. These mappings select an existing official industry row;
+# they do not create a new emission factor.
+CONTROLLED_CATEGORY_MAPPINGS = (
+    {
+        "query_terms": {"鉛筆", "原子筆", "鋼筆", "彩色筆", "螢光筆", "自動鉛筆", "文具", "書寫用品"},
+        "preferred_names": ("Office Supplies (except Paper) Manufacturing",),
+        "score": 0.92,
+        "reason": "採購品名屬非紙類文具，映射至辦公用品製造業係數。",
+    },
+)
 
 
 class Tier2InternationalRetriever:
@@ -100,6 +114,8 @@ class Tier2InternationalRetriever:
         Returns:
             符合條件的排放係數清單
         """
+        controlled_results = self._controlled_category_matches(query, top_k)
+
         # 1. 查詢向量化
         query_vector = self.engine.encode_single(query)
 
@@ -114,7 +130,7 @@ class Tier2InternationalRetriever:
         mask = similarities >= threshold
         filtered_indices = np.where(mask)[0]
 
-        if len(filtered_indices) == 0:
+        if len(filtered_indices) == 0 and not controlled_results:
             logger.warning(f"   ⚠️  無符合門檻的結果（threshold={threshold}）")
             return []
 
@@ -125,7 +141,7 @@ class Tier2InternationalRetriever:
         top_indices = filtered_indices[top_indices_in_filtered]
 
         # 5. 組裝結果
-        results = []
+        results = list(controlled_results)
         for idx in top_indices:
             row = self.metadata.iloc[idx]
 
@@ -147,9 +163,36 @@ class Tier2InternationalRetriever:
             if 'scope3_category' in row and pd.notna(row['scope3_category']):
                 result['scope3_category'] = str(row['scope3_category'])
 
-            results.append(result)
+            if not any(item.get("index") == result["index"] for item in results):
+                results.append(result)
 
-        return results
+        return sorted(results, key=lambda item: item.get("similarity", 0.0), reverse=True)[:top_k]
+
+    def _controlled_category_matches(self, query: str, top_k: int) -> List[Dict]:
+        """Return exact industry rows for controlled Chinese procurement terms."""
+        normalized = re.sub(r"\s+", "", str(query or "").lower())
+        selected = []
+        for mapping in CONTROLLED_CATEGORY_MAPPINGS:
+            if not any(term.lower() in normalized for term in mapping["query_terms"]):
+                continue
+            rows = self.metadata[self.metadata[self.name_col].isin(mapping["preferred_names"])]
+            for idx, row in rows.head(top_k).iterrows():
+                selected.append({
+                    "index": int(idx),
+                    "name": row[self.name_col],
+                    "emission_factor": float(row["emission_factor"]),
+                    "unit": row.get("unit", "unknown"),
+                    "source": row[self.source_col],
+                    "category": row.get(self.category_col, "General"),
+                    "region": row.get("region", row.get("geographic_scope", "Global")),
+                    "base_year": int(row["base_year"]) if pd.notna(row.get("base_year")) else None,
+                    "tier": int(row["tier"]) if pd.notna(row.get("tier")) else 2,
+                    "similarity": float(mapping["score"]),
+                    "controlled_category_match": True,
+                    "controlled_match_reason": mapping["reason"],
+                    "scope3_category": str(row["scope3_category"]) if pd.notna(row.get("scope3_category")) else "",
+                })
+        return selected
 
     def get_stats(self) -> Dict:
         """
