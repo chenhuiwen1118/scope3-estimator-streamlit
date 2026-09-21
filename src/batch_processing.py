@@ -19,6 +19,7 @@ import re
 import pandas as pd
 
 try:
+    from factor_quality import quality_export
     from search_assistance import apply_context_to_result
     from greenhouse_gas import infer_greenhouse_gas_category
     from lifecycle_stage import infer_lifecycle_stage, infer_lifecycle_boundary
@@ -26,6 +27,7 @@ try:
     from procurement_reference import enrich_procurement_query
     from classification.ghg_classifier import GHGCategoryClassifier
 except ImportError:
+    from .factor_quality import quality_export
     from .search_assistance import apply_context_to_result
     from .greenhouse_gas import infer_greenhouse_gas_category
     from .lifecycle_stage import infer_lifecycle_stage, infer_lifecycle_boundary
@@ -341,7 +343,7 @@ def _normalize_match_result(result: Dict, mode: str) -> Dict:
         "data_quality_level": applicability.get("data_quality_level"),
         "review_status": applicability.get("review_status"),
         "auditability_note": applicability.get("auditability_note"),
-        "dqr_basis": applicability.get("dqr_basis"),
+        **quality_export(applicability),
         "matched_context_terms": best.get("matched_context_terms"),
         "assisted_rerank_applied": best.get("assisted_rerank_applied"),
         "alternate_version_count": best.get("alternate_version_count"),
@@ -405,7 +407,7 @@ def _lookup_result(row: pd.Series) -> Optional[Dict]:
         "data_quality_level": applicability.get("data_quality_level"),
         "review_status": applicability.get("review_status"),
         "auditability_note": applicability.get("auditability_note"),
-        "dqr_basis": applicability.get("dqr_basis"),
+        **quality_export(applicability),
     })
     return match
 

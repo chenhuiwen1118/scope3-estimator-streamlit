@@ -60,6 +60,7 @@ from search_assistance import apply_context_to_result
 from greenhouse_gas import infer_greenhouse_gas_category
 from lifecycle_stage import infer_lifecycle_stage, infer_lifecycle_boundary
 from applicability_framework import evaluate_factor_applicability
+from factor_quality import quality_export
 from procurement_reference import (
     enrich_procurement_query,
     load_procurement_training_items,
@@ -742,9 +743,6 @@ def _detail_rows(match, result):
         ("品名相容性", f"{match.get('name_match_status', '-')}（{_format_similarity(match.get('name_match_score'))}）"),
         ("品名判斷依據", match.get("name_match_evidence")),
         ("品名衝突群組", match.get("name_match_conflicts")),
-        ("適用性分數", _format_similarity(match.get("applicability_score"))),
-        ("綜合分數", _format_similarity(match.get("final_score"))),
-        ("信心等級", match.get("confidence_level")),
         ("適用性判斷", match.get("suitability_decision")),
         ("需覆核項目", match.get("suitability_watch_items")),
         ("資料品質等級", match.get("data_quality_level")),
@@ -821,36 +819,26 @@ def render_match_details(match, result):
 
     applicability = match.get("_applicability") or evaluate_factor_applicability(match, result)
     st.markdown("##### 適用性與資料品質")
-    score_cols = st.columns(4)
-    score_cols[0].metric("綜合分數", _format_similarity(applicability.get("final_score")))
-    score_cols[1].metric("適用性分數", _format_similarity(applicability.get("overall_score")))
-    score_cols[2].metric("信心等級", applicability.get("confidence_level", "-"))
-    score_cols[3].metric("判斷", applicability.get("decision", "-"))
-    st.caption(f"需覆核項目：{applicability.get('watch_items', '-')}")
+    st.metric("適用性建議", applicability.get("decision", "-"))
+    quality_items = applicability.get("factor_quality_criteria", [])
+    quality_watch_items = [item["指標"] for item in quality_items if item["手冊評級"] is None or item["手冊評級"] >= 3]
+    st.caption(f"需覆核項目：{'、'.join(quality_watch_items) or '無明顯低分項目'}")
     st.caption(f"資料品質：{applicability.get('data_quality_level', '-')}；{applicability.get('dqr_basis', '')}")
+    st.caption("手冊評級為1–5級，越低越佳；缺乏佐證時標示待確認。以下為係數品質指標，並非產品整體DQR。")
+    assessment_rows = []
+    for item in quality_items:
+        level = item["手冊評級"]
+        assessment_rows.append({
+            "評估項目": item["指標"],
+            "手冊評級": f"第{level}級" if level is not None else "待確認",
+            "狀態": item["狀態"],
+            "判斷依據": item["判斷依據"],
+        })
     st.dataframe(
-        pd.DataFrame(applicability.get("criteria", [])),
+        pd.DataFrame(assessment_rows),
         use_container_width=True,
         hide_index=True,
-        column_config={
-            "criterion": "Criterion",
-            "criterion_zh": "覆核準則",
-            "score": st.column_config.ProgressColumn("分數", min_value=0.0, max_value=1.0, format="%.2f"),
-            "status": "狀態",
-            "evidence": "判斷依據",
-        },
     )
-
-    st.markdown("##### 覆核重點")
-    review_rows = pd.DataFrame(
-        [
-            {"項目": "名稱是否相符", "確認方式": "採購品名、規格或服務內容應與匹配名稱一致或高度接近。"},
-            {"項目": "單位是否可用", "確認方式": "係數分母需能對應採購數量、重量、體積、金額或其他活動數據。"},
-            {"項目": "系統邊界是否一致", "確認方式": "商品通常確認搖籃到大門；服務通常確認搖籃到墳墓；不一致時需註明調整。"},
-            {"項目": "來源是否適合", "確認方式": "優先使用台灣本地、較新、品質級或已查驗資料；國際或 EEIO 係數需註明估算限制。"},
-        ]
-    )
-    st.dataframe(review_rows, use_container_width=True, hide_index=True)
 
     alternate_versions = match.get("alternate_versions") or []
     if alternate_versions:
@@ -931,7 +919,7 @@ def _single_result_download_df(result):
             "data_quality_level": applicability.get("data_quality_level"),
             "review_status": applicability.get("review_status"),
             "auditability_note": applicability.get("auditability_note"),
-            "dqr_basis": applicability.get("dqr_basis"),
+            **quality_export(applicability),
             "industry_code": match.get("industry_code"),
             "industry_label": match.get("industry_label"),
             "route_reason": match.get("route_reason"),
@@ -1205,7 +1193,7 @@ with single_tab:
                         st.metric("溫室氣體類別", infer_greenhouse_gas_category(best))
 
                     with info_cols[3]:
-                        st.metric("綜合分數", _format_similarity(best.get("final_score")))
+                        st.metric("檢索信心", _format_similarity(best.get("similarity")), help="檢索匹配分數，可能包含詞彙或類別規則加權；不代表係數正確率或數據品質。")
 
                     st.markdown(
                         f"""
@@ -1256,9 +1244,6 @@ with single_tab:
                             'lifecycle_stage',
                             'factor_source',
                             'similarity',
-                            'applicability_score',
-                            'final_score',
-                            'confidence_level',
                             'suitability_decision',
                             'data_quality_level',
                             'review_status',
@@ -1281,9 +1266,6 @@ with single_tab:
                             "lifecycle_stage": "生命週期階段",
                             "factor_source": "係數來源",
                             "similarity": "相似度",
-                            "applicability_score": "適用性分數",
-                            "final_score": "綜合分數",
-                            "confidence_level": "信心等級",
                             "suitability_decision": "適用性判斷",
                             "data_quality_level": "資料品質",
                             "review_status": "審查/查驗狀態",
@@ -1471,7 +1453,7 @@ with st.expander("資料與計算說明", expanded=False):
     - 若 Tier 1 有合理匹配，通常優先採用。
     - 係數引用前需確認活動/產品相容性、宣告單位、生命週期範疇、地理範疇、盤查年度、技術路徑、GHG 種類、資料品質、審查揭露與授權限制。
     - Tier 2、Tier 3 結果仍需依供應商、製程、地區與盤查邊界覆核。
-    - 綜合分數會同時考量文字相似度、產品相容性、單位、地理、年度、系統邊界、Scope 3 類別、資料來源品質與可稽核性。
+    - 適用性判斷參考手冊的可靠性、完整性、時間、地理、技術相關性。評級須有證據，缺資料則需覆核；檢索信心不代表係數正確率或產品整體DQR。
     - 標示為 `待人工確認` 的列，代表單位或係數不宜自動換算，申報前需人工確認。
     """)
 

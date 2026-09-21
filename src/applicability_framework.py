@@ -6,8 +6,10 @@ from datetime import datetime
 from typing import Dict, List, Optional, Tuple
 
 try:
+    from factor_quality import assess_factor_quality
     from name_matching import evaluate_name_compatibility
 except ImportError:
+    from .factor_quality import assess_factor_quality
     from .name_matching import evaluate_name_compatibility
 
 
@@ -20,7 +22,6 @@ CRITERIA = [
     ("technology_production_route", "Technology/Production route", "技術或製程路徑"),
     ("ghg_species", "GHG species", "溫室氣體種類"),
     ("scope3_category", "Scope 3 category", "Scope 3 類別"),
-    ("data_quality_source", "Data quality and source", "資料品質與來源"),
     ("licence_auditability", "Licence and auditability", "授權與可稽核性"),
 ]
 
@@ -33,22 +34,9 @@ CRITERION_WEIGHTS = {
     "Technology/Production route": 0.10,
     "GHG species": 0.08,
     "Scope 3 category": 0.06,
-    "Data quality and source": 0.10,
     "Licence and auditability": 0.04,
-}
-
-SOURCE_RANK = {
-    "moenv cfp": 0.90,
-    "環境部產品碳足跡": 0.90,
-    "cca ghg factor table": 0.86,
-    "環境部氣候變遷署": 0.86,
-    "moea/taipower electricity factor": 0.84,
-    "台電": 0.84,
-    "taiwan epa/moe": 0.82,
-    "taiwan epa": 0.82,
-    "agribalyse": 0.72,
-    "idemat": 0.70,
-    "exiobase": 0.58,
+    "Reliability": 0.05,
+    "Completeness": 0.05,
 }
 
 SERVICE_TERMS = [
@@ -89,20 +77,6 @@ def _criterion(label_en: str, label_zh: str, score: float, evidence: str) -> Dic
         "status": _score_status(score),
         "evidence": evidence,
     }
-
-
-def _source_score(source: str, tier: Optional[int]) -> float:
-    source_lower = source.lower()
-    for key, score in SOURCE_RANK.items():
-        if key.lower() in source_lower:
-            return score
-    if tier == 1:
-        return 0.78
-    if tier == 2:
-        return 0.66
-    if tier == 3:
-        return 0.50
-    return 0.46
 
 
 def _reference_year_score(year) -> float:
@@ -211,28 +185,12 @@ def _technology_score(tier: Optional[int], name_text: str, source: str, route_re
     return 0.60, "技術或製程路徑未完整揭露；需檢視原始資料表。"
 
 
-def _quality_label_and_score(source: str, tier: Optional[int], data_quality: str) -> Tuple[str, float]:
-    text = _lower_text(source, data_quality)
-    if any(term in text for term in ["high quality", "高品質", "品質級"]):
-        return "品質級/高品質", 0.92
-    if any(term in text for term in ["basic quality", "基本品質"]):
-        return "品質級/基本品質", 0.84
-    if any(term in text for term in ["data estimate", "初估品質", "參考級", "estimated"]):
-        return "參考級/初估品質", 0.58
-    if any(term in text for term in OFFICIAL_SOURCE_TERMS):
-        return "官方來源，審查等級需回原始揭露表確認", 0.78
-    if tier == 3:
-        return "產業平均估算，未揭露產品級 DQR", 0.50
-    return "未揭露品質級別", 0.46
-
-
 def _auditability_score(
     source: str,
     unit: str,
     year,
     geography: str,
     boundary: str,
-    data_quality_label: str,
 ) -> Tuple[float, str]:
     evidence_fields = [
         bool(source),
@@ -240,7 +198,6 @@ def _auditability_score(
         bool(year),
         bool(geography),
         bool(boundary),
-        data_quality_label != "未揭露品質級別",
     ]
     completeness = sum(evidence_fields) / len(evidence_fields)
     source_lower = source.lower()
@@ -342,7 +299,7 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
         "Reference year",
         "基準年度",
         year_score,
-        f"基準年度：{year or '未標示'}；依 DQR 時間相關性，與盤查年度差距越小越佳。",
+        f"基準年度：{year or '未標示'}；此為檢索排序的年度提示，DQR時間相關性需依研究年度另行評估。",
     ))
 
     tech_score, tech_evidence = _technology_score(tier, name_text, source, _text(match.get("route_reason")))
@@ -382,20 +339,19 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
         f"使用者選擇：{_text(result.get('scope3_category')) or '未指定'}；資料分類：{_text(match.get('scope3_category') or match.get('category')) or '未標示'}。",
     ))
 
-    data_quality = _text(match.get("data_quality") or match.get("matched_data_quality") or match.get("quality_level"))
-    data_quality_label, quality_score = _quality_label_and_score(source, tier, data_quality)
-    source_score = max(_source_score(source, tier), quality_score)
-    criteria.append(_criterion(
-        "Data quality and source",
-        "資料品質與來源",
-        source_score,
-        (
-            f"來源：{source or '未標示'}；資料品質：{data_quality_label}。"
-            "依可靠性、完整性、時間、地理、技術五項 DQR 指標檢視。"
-        ),
-    ))
+    quality = assess_factor_quality(match, result)
+    handbook_labels = {"Re": "Reliability", "Co": "Completeness", "Ti": "Reference year", "Ge": "Geography", "Te": "Technology/Production route"}
+    criteria = [item for item in criteria if item["criterion"] not in handbook_labels.values()]
+    for row in quality["factor_quality_criteria"]:
+        level = row["手冊評級"]
+        # Internal suitability normalization, not handbook DQR.
+        score = (6 - level) / 5 if level is not None else 0.4
+        item = _criterion(handbook_labels[row["code"]], row["指標"], score, row["判斷依據"])
+        item["handbook_grade"] = level
+        item["status"] = row["狀態"]
+        criteria.append(item)
 
-    audit_score, audit_evidence = _auditability_score(source, unit, year, geography, boundary, data_quality_label)
+    audit_score, audit_evidence = _auditability_score(source, unit, year, geography, boundary)
     criteria.append(_criterion(
         "Licence and auditability",
         "授權與可稽核性",
@@ -428,6 +384,14 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
     else:
         decision = "不建議直接採用"
 
+    if quality["factor_quality_weak"]:
+        decision = "不建議直接採用"
+        final_score = min(final_score, 0.49)
+    elif quality["factor_quality_missing"]:
+        if decision == "建議採用":
+            decision = "可採用但需人工覆核"
+        final_score = min(final_score, 0.64)
+
     watch_items = [
         item["criterion_zh"]
         for item in criteria
@@ -451,9 +415,8 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
         ),
         "decision": decision,
         "watch_items": "、".join(watch_items) if watch_items else "無明顯低分項目",
-        "data_quality_level": data_quality_label,
-        "review_status": "需回原始揭露表確認品質級/參考級與第三方查驗狀態",
+        "review_status": "需覆核五項指標" if quality["factor_quality_missing"] or quality["factor_quality_weak"] else "五項證據已提供",
         "auditability_note": audit_evidence,
-        "dqr_basis": "依可靠性、完整性、時間相關性、地理相關性、技術相關性五項指標檢視。",
+        **quality,
         "criteria": criteria,
     }
