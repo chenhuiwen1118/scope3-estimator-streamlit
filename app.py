@@ -860,8 +860,16 @@ def render_match_details(match, result):
         )
 
     st.markdown("##### 欄位摘要")
+    summary_rows = [
+        ("係數來源", row_map.get("係數來源") or "未揭露"),
+        ("基準年度", row_map.get("基準年度") or "未揭露"),
+        ("地區/國家", row_map.get("地區/國家") or "未揭露"),
+        ("係數單位", _clean_detail_value(match.get("unit") or match.get("unit_standard")) or "未揭露"),
+        ("生命週期階段", row_map.get("生命週期階段") or "未揭露"),
+        ("生命週期邊界", row_map.get("包含生命週期邊界") or "未揭露"),
+    ]
     st.dataframe(
-        pd.DataFrame(rows, columns=["欄位", "內容"]),
+        pd.DataFrame(summary_rows, columns=["欄位", "內容"]),
         use_container_width=True,
         hide_index=True,
     )
