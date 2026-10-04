@@ -820,6 +820,7 @@ def render_match_details(match, result):
     applicability = match.get("_applicability") or evaluate_factor_applicability(match, result)
     st.markdown("##### 適用性與資料品質")
     st.metric("適用性建議", applicability.get("decision", "-"))
+    st.caption(f"判斷原因：{applicability.get('suitability_reason', '需確認採購情境。')}")
     quality_items = applicability.get("factor_quality_criteria", [])
     quality_watch_items = [item["指標"] for item in quality_items if item["手冊評級"] is None or item["手冊評級"] >= 3]
     st.caption(f"需覆核項目：{'、'.join(quality_watch_items) or '無明顯低分項目'}")

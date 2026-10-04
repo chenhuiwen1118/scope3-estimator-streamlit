@@ -48,7 +48,7 @@ def assess_factor_quality(match, context=None):
         elif code == "Te":
             evidence = "需比對研究企業、製程、材料及技術；名稱相近或產業路由不足以證明技術一致。"
         rows.append({"code": code, "指標": label, "手冊評級": value,
-                     "狀態": "待確認" if value is None else "條件相近" if value <= 2 else "需覆核" if value <= 4 else "適用性不足",
+                     "狀態": "待確認" if value is None else "條件相近" if value <= 2 else "需覆核" if value <= 4 else "品質限制，需覆核",
                      "判斷依據": evidence})
     missing = [r["指標"] for r in rows if r["手冊評級"] is None]
     weak = [r["指標"] for r in rows if r["手冊評級"] is not None and r["手冊評級"] >= 4]
@@ -60,6 +60,7 @@ def assess_factor_quality(match, context=None):
 
 def quality_export(assessment):
     result = {"data_quality_level": assessment["data_quality_level"], "dqr_basis": assessment["dqr_basis"],
+              "suitability_reason": assessment.get("suitability_reason", ""),
               "factor_quality_missing": assessment["factor_quality_missing"], "factor_quality_weak": assessment["factor_quality_weak"]}
     for row in assessment["factor_quality_criteria"]:
         result[f'factor_quality_{row["code"]}_grade'] = row["手冊評級"]

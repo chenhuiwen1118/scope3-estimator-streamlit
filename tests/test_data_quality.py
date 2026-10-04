@@ -80,9 +80,35 @@ def test_source_and_tier_do_not_invent_quality_evidence():
 def test_handbook_weakness_changes_suitability():
     match = {"name": "鉛筆", "similarity": .98, "unit": "kg", **record(factor=(1, 1, 1, 1, 5))}
     assessed = evaluate_factor_applicability(match, {"query": "鉛筆"})
-    assert assessed["decision"] == "不建議直接採用"
-    assert assessed["final_score"] <= .49
+    assert assessed["decision"] == "可作為初估，需覆核"
+    assert assessed["final_score"] <= .64
     assert "技術相關性" in assessed["factor_quality_weak"]
+
+
+def test_missing_evidence_is_not_rejection():
+    result = evaluate_factor_applicability({"name": "不鏽鋼螺絲", "similarity": 1.0}, {"query": "不鏽鋼螺絲"})
+    assert result["decision"] == "需補充資料確認"
+
+
+def test_real_material_conflict_still_rejected():
+    result = evaluate_factor_applicability({"name": "焦糖烤布丁", "similarity": 1.0}, {"query": "石灰粉"})
+    assert result["decision"] == "不建議直接採用"
+
+
+def test_old_matching_factor_not_rejected():
+    match = {"name": "不鏽鋼螺絲", "similarity": 1.0, "base_year": 2012}
+    result = evaluate_factor_applicability(match, {"query": "不鏽鋼螺絲", "study_year": 2026})
+    assert result["decision"] == "可作為初估，需覆核"
+    assert "14年" in result["suitability_reason"]
+    assert match["similarity"] == 1.0
+
+
+def test_raw_steel_is_not_a_finished_fastener():
+    match = {"name": "不鏽鋼冷軋鋼捲", "similarity": 1.0, "base_year": 2013}
+    result = evaluate_factor_applicability(match, {"original_query": "不鏽鋼螺絲"})
+    assert result["decision"] == "不建議直接採用"
+    assert "金屬原料" in result["suitability_reason"]
+    assert match["similarity"] == 1.0
 
 
 def test_time_age_and_boundary_use_declared_study_year():

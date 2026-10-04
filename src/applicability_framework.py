@@ -375,22 +375,43 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
     elif name_match["score"] < 0.45:
         final_score = min(final_score, 0.58)
 
-    if weighted_score >= 0.80:
-        decision = "建議採用"
-    elif weighted_score >= 0.65:
-        decision = "可採用但需人工覆核"
-    elif weighted_score >= 0.50:
-        decision = "僅適合初估"
-    else:
-        decision = "不建議直接採用"
+    conflicts = []
+    procurement_name = _lower_text(result.get("procurement_item_name") or result.get("original_query") or result.get("query"))
+    fastener_terms = ("螺絲", "螺栓", "螺帽", "screw", "bolt", "fastener")
+    raw_metal_terms = ("鋼捲", "鋼卷", "鋼板", "鋼胚", "steel coil", "steel sheet", "steel billet")
+    if (any(term in procurement_name for term in fastener_terms)
+            and any(term in name_text for term in raw_metal_terms)
+            and not any(term in name_text for term in fastener_terms)):
+        conflicts.append("採購品為緊固件成品，候選係數為金屬原料；未確認成形、加工等製程是否納入，不能直接代表成品排放")
+    if name_match["conflict_groups"] and name_match["score"] < 0.35:
+        conflicts.append("品名材料或活動類別明確不相符")
+    for key, label in (("unit_compatible", "活動單位與係數單位不相容"),
+                       ("boundary_compatible", "係數邊界與盤查範圍不相容")):
+        if match.get(key) is False and match.get(key + "_evidence"):
+            conflicts.append(f"{label}：{match[key + '_evidence']}")
 
-    if quality["factor_quality_weak"]:
+    if conflicts:
         decision = "不建議直接採用"
+        decision_reason = "；".join(conflicts)
         final_score = min(final_score, 0.49)
-    elif quality["factor_quality_missing"]:
-        if decision == "建議採用":
-            decision = "可採用但需人工覆核"
+    elif name_match["score"] < 0.65:
+        decision = "需補充資料確認"
+        decision_reason = "品名相容性尚未確認，請核對產品、材質及規格。"
         final_score = min(final_score, 0.64)
+    elif quality["factor_quality_weak"]:
+        decision = "可作為初估，需覆核"
+        limits = [f"{r['指標']}：{r['判斷依據']}" for r in quality["factor_quality_criteria"] if r["手冊評級"] is not None and r["手冊評級"] >= 4]
+        decision_reason = "；".join(limits)
+        if quality["factor_quality_missing"]:
+            decision_reason += f"；另需補充{quality['factor_quality_missing']}的證據。"
+        final_score = min(final_score, 0.64)
+    elif quality["factor_quality_missing"]:
+        decision = "需補充資料確認"
+        decision_reason = f"缺少{quality['factor_quality_missing']}的評估證據；缺資料不等同係數不適用。"
+        final_score = min(final_score, 0.64)
+    else:
+        decision = "可採用但需人工覆核"
+        decision_reason = "五項品質證據已提供，仍需確認實際採購規格、活動單位與盤查邊界。"
 
     watch_items = [
         item["criterion_zh"]
@@ -414,6 +435,7 @@ def evaluate_factor_applicability(match: Dict, result: Optional[Dict] = None) ->
             "需人工確認"
         ),
         "decision": decision,
+        "suitability_reason": decision_reason,
         "watch_items": "、".join(watch_items) if watch_items else "無明顯低分項目",
         "review_status": "需覆核五項指標" if quality["factor_quality_missing"] or quality["factor_quality_weak"] else "五項證據已提供",
         "auditability_note": audit_evidence,
