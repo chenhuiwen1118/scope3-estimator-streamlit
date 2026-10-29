@@ -35,6 +35,8 @@ CONFLICT_TERMS = {
 }
 
 QUERY_SYNONYMS = {
+    "cement": ["水泥"],
+    "水泥": ["cement"],
     "自攻螺絲": ["螺絲", "fastener"],
     "六角螺絲": ["螺絲", "fastener"],
     "內六角螺絲": ["螺絲", "fastener"],
@@ -452,12 +454,32 @@ class Tier1LocalRetriever:
                 for term in terms
             )
             lexical_miss_penalty = 0.0
-            if has_specific_query and not strong_matched_terms:
+            candidate_name = str(item.get("name", "")).lower()
+            cross_language = (
+                bool(re.search(r"[a-z]", query_lower))
+                and not re.search(r"[\u4e00-\u9fff]", query_lower)
+                and bool(re.search(r"[\u4e00-\u9fff]", candidate_name))
+            ) or (
+                bool(re.search(r"[\u4e00-\u9fff]", query_lower))
+                and not re.search(r"[a-z]", query_lower)
+                and bool(re.search(r"[a-z]", candidate_name))
+                and not re.search(r"[\u4e00-\u9fff]", candidate_name)
+            )
+            # Different scripts cannot provide literal overlap; retain semantic
+            # evidence while still applying explicit domain conflict penalties.
+            if has_specific_query and not strong_matched_terms and not cross_language:
                 lexical_miss_penalty = 0.30
 
             mineral_query = any(term in query_lower or term in terms for term in MINERAL_QUERY_TERMS)
             food_candidate = any(term in text for term in FOOD_CANDIDATE_TERMS)
             domain_conflict_penalty = 0.0
+            if ("水泥" in terms or "cement" in terms) and not any(
+                term in query_lower for term in ("爐碴粉", "熟料", "混凝土", "砂漿", "纖維", "clinker", "concrete", "mortar", "fiber", "fibre")
+            ):
+                if ("水泥" not in candidate_name and "cement" not in candidate_name) or any(
+                    term in candidate_name for term in ("爐碴粉", "熟料", "混凝土", "砂漿", "纖維水泥")
+                ):
+                    domain_conflict_penalty = 0.30
             if mineral_query and food_candidate:
                 domain_conflict_penalty = 0.45
             material_query = self._is_material_query(query_lower, terms)
