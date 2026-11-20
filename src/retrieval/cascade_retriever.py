@@ -11,6 +11,7 @@ import logging
 from .tier1_local import Tier1LocalRetriever
 from .tier2_international import Tier2InternationalRetriever
 from .tier3_eeio import Tier3EEIORetriever
+from .approved_aliases import search_variants
 from utils.embedding import EmbeddingEngine
 from industry_router import IndustryRoute, detect_industry_routes, route_to_dict
 
@@ -136,7 +137,7 @@ class CascadeRetriever:
         # Tier 1: 台灣本地
         if self.tier1 is not None:
             logger.info("   → 嘗試 Tier 1 (台灣本地) ...")
-            results_t1 = self.tier1.search(
+            results_t1 = search_variants(self.tier1,
                 query=query,
                 top_k=top_k,
                 threshold=tier1_threshold
@@ -164,7 +165,7 @@ class CascadeRetriever:
         # Tier 2: 國際產業
         if self.tier2 is not None:
             logger.info("   → 嘗試 Tier 2 (國際產業) ...")
-            results_t2 = self.tier2.search(
+            results_t2 = search_variants(self.tier2,
                 query=query,
                 top_k=top_k,
                 threshold=tier2_threshold
