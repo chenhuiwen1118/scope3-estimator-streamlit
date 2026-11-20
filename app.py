@@ -530,7 +530,7 @@ st.caption(f"模型模式：{model_mode_label}")
 
 # 初始化檢索器（使用 session_state 避免重複載入）
 @st.cache_resource
-def load_retriever():
+def load_retriever(release_version):
     """載入檢索器（僅初始化一次）"""
     with st.spinner("🔧 初始化檢索系統..."):
         return CascadeRetriever()
@@ -948,7 +948,7 @@ def _dataframe_to_xlsx_bytes(df):
 
 # 載入檢索器
 try:
-    retriever = load_retriever()
+    retriever = load_retriever('approved-aliases-20261120')
     st.sidebar.success("系統已就緒")
 except Exception as e:
     st.error(f"初始化失敗：{e}")
